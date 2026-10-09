@@ -1,0 +1,42 @@
+---
+title: "Cursos Integrados de Vigilância em Saúde"
+page-layout: full
+description: "Análises de dados para a vigilância em saúde."
+body-classes: landing-page
+---
+
+::: {.hero-shell}
+::: {.hero-copy}
+
+# Faça parte do grupo de mais de 40 mil profissionais de saúde que já se inscreveram nos 10 cursos de análise de dados para a vigilância em saúde
+
+Os cursos são direcionados a profissionais do SUS que atuam na vigilância, mas podem ser feitos por qualquer pessoa. Todos os cursos foram produzidos por quem atua na vigilância em saúde no SUS e direcionados à prática do dia a dia. A oferta é da Universidade Federal de Santa Catarina, Instituto Todos pela Saúde e Associação Brasileira de Saúde Coletiva.
+
+::: {.hero-actions}
+[Conhecer cursos](servicos.qmd){.btn .btn-primary}
+
+:::
+
+::: {.proof-row}
+[XXX]{.proof-pill}
+[XXX]{.proof-pill}
+[XXX]{.proof-pill}
+:::
+:::
+
+::: {.hero-panel}
+### Como os cursos podem ajudar
+
+- 
+-
+-
+:::
+:::
+
+## Cursos disponíveis
+
+::: {.card-grid}
+::: {.feature-card}
+### XXX
+XXXX
+:::
