@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="36" fill="#F7F5EF"/>
+  <rect x="40" y="40" width="1120" height="550" rx="32" fill="#FFFDF9" stroke="#D7E8E5"/>
+  <circle cx="1040" cy="138" r="88" fill="#D8F0ED"/>
+  <circle cx="1120" cy="84" r="44" fill="#FFE2D6"/>
+  <rect x="84" y="86" width="244" height="32" rx="16" fill="#D8F0ED"/>
+  <text x="84" y="218" fill="#102A33" font-size="64" font-family="IBM Plex Sans, Arial, sans-serif" font-weight="700">
+    Guilherme Bruckmann
+  </text>
+  <text x="84" y="286" fill="#44606A" font-size="30" font-family="IBM Plex Sans, Arial, sans-serif">
+    Escrita acadêmica, revisão crítica
+  </text>
+  <text x="84" y="328" fill="#44606A" font-size="30" font-family="IBM Plex Sans, Arial, sans-serif">
+    e análise quantitativa em R.
+  </text>
+  <rect x="84" y="402" width="428" height="118" rx="24" fill="#12343B"/>
+  <rect x="564" y="402" width="552" height="118" rx="24" fill="#FFFFFF" stroke="#E6EEEC"/>
+  <rect x="610" y="438" width="132" height="18" rx="9" fill="#D8F0ED"/>
+  <rect x="610" y="472" width="212" height="18" rx="9" fill="#F0B39B"/>
+  <rect x="872" y="430" width="54" height="60" rx="12" fill="#D8F0ED"/>
+  <rect x="940" y="446" width="54" height="44" rx="12" fill="#EF7E56"/>
+  <rect x="1008" y="418" width="54" height="72" rx="12" fill="#12343B"/>
+  <rect x="1076" y="454" width="20" height="36" rx="10" fill="#D8F0ED"/>
+  <text x="126" y="460" fill="#FFFFFF" font-size="20" font-family="IBM Plex Mono, monospace">
+    Pesquisa, método, clareza
+  </text>
+  <path d="M132 492H464" stroke="#7FD0C9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M132 462L204 430L280 446L340 416L412 442" stroke="#7FD0C9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
