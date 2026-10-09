@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Cursos Integrados de Vigilância em Saúde"
+  description: "Análises de dados para a vigilância em saúde."
+  google-analytics: "G-D3PZ1BSKVJ"
+  search: false
+  favicon: assets/images/favicon.svg
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Cursos Disponíveis 
+    right:
+      - href: contato.qmd
+        text: Contato
+  page-footer:
+    left: "Site desenvolvido e publicado por Guilherme Bruckmann Flores."
+    right:
+      - text: Email
+        href: mailto:guilhermebruckmann@hotmail.com
+      - text: Lattes
+        href: https://lattes.cnpq.br/1513906674716932
+      - text: ORCID
+        href: https://orcid.org/0000-0001-9848-0361
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/styles.css
+    toc: false
+    smooth-scroll: true
+    include-in-header: includes/head.html
+    anchor-sections: false
+    title-block-style: none
+
+metadata-files:
+  - includes/metadata.yml
+
+execute:
+  freeze: auto
