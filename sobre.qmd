@@ -1,0 +1,128 @@
+---
+title: "Sobre a Iniciativa"
+subtitle: "Uma cooperação técnica nacional para qualificar a inteligência em dados do Sistema Único de Saúde (SUS)"
+---
+
+## Contexto e Missão
+
+O Sistema Único de Saúde (SUS) produz diariamente um volume monumental de dados por meio de sistemas consolidados como o SINAN (doenças de notificação), SIM (mortalidade), SINASC (nascimentos), SIH (internações) e SI-PNI (imunizações). No entanto, o cotidiano dos profissionais que atuam na ponta — em municípios, regionais de saúde e secretarias estaduais — é frequentemente marcado pela sobrecarga de rotinas manuais de cópia de planilhas e escassez de capacitação continuada em ferramentas modernas e reprodutíveis.
+
+A iniciativa dos **Cursos Integrados em Vigilância em Saúde** nasceu para transformar esse cenário. Os cursos são **100% gratuitos, online, autoinstrucionais e elaborados por quem vive a prática da vigilância epidemiológica no SUS**.
+
+Com o apoio da linguagem de programação R e tecnologias abertas de análise de dados, os cursos capacitam os alunos a automatizar boletins, criar mapas temáticos, monitorar desigualdades sociais, relacionar bancos de dados e construir painéis interativos em minutos.
+
+---
+
+## Números da Iniciativa
+
+::: {.hero-stats style="border: none; margin: 2rem 0; padding: 0;"}
+::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
+::: {.stat-number style="color: #0e4877;"}
++40.000
+:::
+::: {.stat-label style="color: #475569;"}
+Profissionais de saúde já inscritos em todo o Brasil
+:::
+:::
+
+::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
+::: {.stat-number style="color: #0e4877;"}
+10 Cursos
+:::
+::: {.stat-label style="color: #475569;"}
+Módulos independentes e articulados entre si
+:::
+:::
+
+::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
+::: {.stat-number style="color: #0e4877;"}
+100% Gratuito
+:::
+::: {.stat-label style="color: #475569;"}
+Sem cobrança de taxa de matrícula ou certificado
+:::
+:::
+
+::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
+::: {.stat-number style="color: #0e4877;"}
+Certificação UFSC
+:::
+::: {.stat-label style="color: #475569;"}
+Certificado oficial de extensão universitária
+:::
+:::
+:::
+
+---
+
+## Instituições Parceiras
+
+A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da articulação de grandes instituições de referência nacional:
+
+::: {.partners-badges style="margin-top: 1.5rem;"}
+::: {.partner-card}
+<i class="bi bi-mortarboard-fill text-primary" style="font-size: 1.3rem;"></i>
+<div>
+  <strong>UFSC</strong> — Universidade Federal de Santa Catarina
+  <div class="small text-muted font-weight-normal">Coordenação pedagógica e emissão de certificados oficiais de extensão universitária</div>
+</div>
+:::
+
+::: {.partner-card}
+<i class="bi bi-heart-pulse-fill text-danger" style="font-size: 1.3rem;"></i>
+<div>
+  <strong>ABRASCO</strong> — Associação Brasileira de Saúde Coletiva
+  <div class="small text-muted font-weight-normal">Articulação técnico-política, apoio institucional e disseminação nacional</div>
+</div>
+:::
+
+::: {.partner-card}
+<i class="bi bi-shield-check text-info" style="font-size: 1.3rem;"></i>
+<div>
+  <strong>ITpS</strong> — Instituto Todos pela Saúde
+  <div class="small text-muted font-weight-normal">Apoio técnico e fomento à inovação em vigilância genômica e epidemiológica</div>
+</div>
+:::
+
+::: {.partner-card}
+<i class="bi bi-building-check text-success" style="font-size: 1.3rem;"></i>
+<div>
+  <strong>Fiocruz</strong> — Fundação Oswaldo Cruz
+  <div class="small text-muted font-weight-normal">Parceria em conteúdos de investigação de surtos e vigilância laboratorial</div>
+</div>
+:::
+
+::: {.partner-card}
+<i class="bi bi-journal-medical text-primary" style="font-size: 1.3rem;"></i>
+<div>
+  <strong>UFPel</strong> — Universidade Federal de Pelotas
+  <div class="small text-muted font-weight-normal">Colaboração em epidemiologia de campo e planos de contingência</div>
+</div>
+:::
+
+::: {.partner-card}
+<i class="bi bi-broadcast-pin text-warning" style="font-size: 1.3rem;"></i>
+<div>
+  <strong>UNA-SUS</strong> — Universidade Aberta do SUS
+  <div class="small text-muted font-weight-normal">Difusão de trilhas formativas na rede de educação permanente em saúde</div>
+</div>
+:::
+:::
+
+---
+
+## Modelo Pedagógico e Autonomia do Aluno
+
+Cada curso foi desenhado no formato **autoinstrucional**, respeitando o tempo de cada profissional. O ambiente virtual de aprendizagem (Moodle UFSC) conta com:
+
+1. **Aulas práticas em vídeo:** Demonstrações passo a passo na interface do RStudio.
+2. **Textos didáticos e roteiros em PDF:** Conteúdos densos, claros e em português, ricamente ilustrados.
+3. **Scripts e dados reais do SUS:** Bancos de dados anonimizados para replicar todas as etapas de análise do mundo real.
+4. **Tutoria e suporte comunitário:** Fóruns de dúvidas e suporte por inteligência artificial para apoio na escrita de código em R.
+5. **Avaliação formativa:** Questionários com questões práticas para consolidar os conhecimentos adquiridos.
+
+::: {.callout-tip}
+### Conheça também os Cursos Parceiros Abrasco
+Além dos 10 cursos em análise de dados com R, a parceria oferece qualificações em *Investigação de Surtos e Epidemias*, *Planos de Contingência* e *Vigilância Laboratorial e Genômica*.
+[Acesse a página da iniciativa no portal da Abrasco &rarr;](https://abrasco.org.br/iniciativas/cursosvigilancia/){target="_blank"}
+:::
