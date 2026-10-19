@@ -69,35 +69,35 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 
 ::: {.partner-card}
 <div>
-  <strong>ABRASCO</strong> — Associação Brasileira de Saúde Coletiva
+  Associação Brasileira de Saúde Coletiva — <strong>ABRASCO</strong>
   <div class="small text-muted font-weight-normal">Articulação técnico-política, apoio institucional e disseminação nacional</div>
 </div>
 :::
 
 ::: {.partner-card}
 <div>
-  <strong>ITpS</strong> — Instituto Todos pela Saúde
+  Instituto Todos pela Saúde — <strong>ITpS</strong>
   <div class="small text-muted font-weight-normal">Apoio técnico e fomento à inovação em vigilância genômica e epidemiológica</div>
 </div>
 :::
 
 ::: {.partner-card}
 <div>
-  <strong>Fiocruz</strong> — Fundação Oswaldo Cruz
+  Fundação Oswaldo Cruz — <strong>Fiocruz</strong>
   <div class="small text-muted font-weight-normal">Parceria em conteúdos de investigação de surtos e vigilância laboratorial</div>
 </div>
 :::
 
 ::: {.partner-card}
 <div>
-  <strong>UFPel</strong> — Universidade Federal de Pelotas
+  Universidade Federal de Pelotas — <strong>UFPel</strong>
   <div class="small text-muted font-weight-normal">Colaboração em epidemiologia de campo e planos de contingência</div>
 </div>
 :::
 
 ::: {.partner-card}
 <div>
-  <strong>UNASUS</strong> — Universidade Aberta do SUS
+  Universidade Aberta do SUS — <strong>UNASUS</strong>
   <div class="small text-muted font-weight-normal">Difusão de trilhas formativas na rede de educação permanente em saúde</div>
 </div>
 :::
