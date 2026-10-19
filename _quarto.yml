@@ -5,7 +5,7 @@ project:
     - assets/images/
 
 website:
-  title: "Cursos de Vigilância em Saúde"
+  title: "Cursos Integrados de Vigilância em Saúde"
   description: "Cursos abertos e gratuitos de análise de dados para a vigilância em saúde no SUS"
   site-url: "https://guilhermebruckmann.github.io/site_cursos_abrasco"
   repo-url: "https://github.com/guilhermebruckmann/site_cursos_abrasco"
@@ -67,10 +67,8 @@ website:
   page-footer:
     background: light
     left: |
-      **Cursos Integrados de Vigilância em Saúde**<br>
-      Parceria entre **UFSC**, **ABRASCO** e **ITpS** com apoio da **Fiocruz**, **UFPel** e **UNA-SUS**.
+      Site desenvolvido por Guilherme Bruckmann Flores.
     right: |
-      Cursos 100% gratuitos e autoinstrucionais para o SUS.<br>
       Construído com [Quarto](https://quarto.org).
 
 format:
