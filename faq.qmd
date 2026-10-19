@@ -1,0 +1,92 @@
+---
+title: "Perguntas Frequentes (FAQ)"
+subtitle: "Tire suas dúvidas sobre modalidades de inscrição, prazos, emissão de certificados e requisitos de acesso"
+---
+
+::: {.callout-custom}
+::: {.callout-custom-title}
+<i class="bi bi-info-circle-fill"></i> Informação Importante sobre Gratuidade:
+:::
+Todos os 10 cursos são **100% gratuitos** e abertos a qualquer pessoa interessada, sem custos de matrícula ou para a emissão do certificado universitário oficial pela UFSC.
+:::
+
+::: {.faq-container}
+
+<details class="faq-item" open>
+  <summary class="faq-question">
+    <span>Qual a diferença entre "Inscrever-se com Certificado" e "Acessar Moodle Livre"?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p><strong>Inscrição no Sistema da UFSC (<code>inscricoes.ufsc.br</code>):</strong> É o cadastro formal de extensão universitária. Ao se inscrever por esta via e atingir o aproveitamento mínimo exigido nas avaliações do curso (nota igual ou superior a 7,0), você terá direito ao <strong>certificado oficial emitido pela Universidade Federal de Santa Catarina (UFSC)</strong>, com código de autenticação digital e carga horária válida para progressão funcional, concursos e currículo Lattes.</p>
+    <p><strong>Acesso Livre ao Moodle (<code>grupos.moodle.ufsc.br</code>):</strong> Permite navegar imediatamente por todas as videoaulas, textos e scripts do curso como ouvinte, sem a necessidade de formalização prévia de inscrição no portal institucional. Esta modalidade <em>não</em> emite certificado de extensão.</p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">
+    <span>Quem pode fazer os cursos? Há exigência de graduação específica?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p>Qualquer pessoa interessada pode se inscrever! Embora os cursos tenham sido concebidos prioritariamente para técnicos, gestores e trabalhadores do SUS (vigilância epidemiológica, sanitária, ambiental e saúde do trabalhador), estudantes de graduação, pós-graduação, pesquisadores e profissionais de outras áreas também são muito bem-vindos. Não há exigência de diploma de nível superior específico.</p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">
+    <span>Preciso pagar alguma taxa para emissão de certificado?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p><strong>Não.</strong> Todos os 10 cursos são integralmente gratuitos, financiados por cooperação pública e filantropia científica. Não há cobrança de taxas em nenhuma etapa, inclusive para a emissão do certificado de extensão da UFSC.</p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">
+    <span>Qual a ordem recomendada para fazer os cursos?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p>Se você nunca programou em R, recomendamos fortemente começar pelo <a href="cursos/curso-basico.html"><strong>Análise de Dados para a Vigilância em Saúde – Curso Básico (45h)</strong></a>. Ele ensina a instalar os programas, a sintaxe da linguagem, manipulação de dados com o <code>tidyverse</code> e cálculo de indicadores epidemiológicos essenciais.</p>
+    <p>Após dominar a base, você tem total autonomia para cursar os módulos temáticos conforme a sua necessidade de trabalho: <em>Visualização de Dados</em> para boletins gráficos, <em>Relatórios Automatizados</em> para eliminar rotinas manuais, <em>Análise Espacial</em> para mapas, ou <em>Séries Temporais</em> para modelagem preditiva.</p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">
+    <span>Há data fixa de início ou prazo limite para conclusão?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p>Os cursos são <strong>autoinstrucionais</strong> e têm <strong>inscrições contínuas</strong>. Você pode se matricular em qualquer dia do ano e organizar sua rotina de estudos nos horários que forem mais convenientes para você.</p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">
+    <span>Quais softwares preciso ter instalados no meu computador?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p>Você precisará de dois programas gratuitos e de código aberto:</p>
+    <ul>
+      <li><strong>R:</strong> A linguagem de programação (<a href="https://cran.r-project.org" target="_blank">cran.r-project.org</a>).</li>
+      <li><strong>RStudio Desktop:</strong> O ambiente de desenvolvimento (<a href="https://posit.co/download/rstudio-desktop/" target="_blank">posit.co/download/rstudio-desktop</a>).</li>
+    </ul>
+    <p>O <a href="cursos/curso-basico.html">Curso Básico</a> traz uma videoaula detalhada demonstrando passo a passo a instalação em sistemas Windows, Mac e Linux.</p>
+  </div>
+</details>
+
+<details class="faq-item">
+  <summary class="faq-question">
+    <span>Como recebo meu certificado após concluir o curso?</span>
+    <i class="bi bi-chevron-down faq-icon"></i>
+  </summary>
+  <div class="faq-answer">
+    <p>Após atingir o aproveitamento mínimo exigido nos questionários avaliativos no Moodle, a coordenação da UFSC valida os registros e o certificado é liberado para download em formato PDF diretamente no portal <a href="https://inscricoes.ufsc.br" target="_blank">inscricoes.ufsc.br</a> com código de autenticidade verificável.</p>
+  </div>
+</details>
+
+:::
