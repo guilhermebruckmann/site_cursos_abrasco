@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Perguntas Frequentes (FAQ)",
+    "section": "",
+    "text": "Informação Importante sobre Gratuidade:\n\nTodos os 10 cursos são 100% gratuitos e abertos a qualquer pessoa interessada, sem custos de matrícula ou para a emissão do certificado universitário oficial pela UFSC.\n\n\n\n\nQual a diferença entre “Inscrever-se com Certificado” e “Acessar Moodle Livre”? \n\n\n&lt;p&gt;&lt;strong&gt;Inscrição no Sistema da UFSC (&lt;code&gt;inscricoes.ufsc.br&lt;/code&gt;):&lt;/strong&gt; É o cadastro formal de extensão universitária. Ao se inscrever por esta via e atingir o aproveitamento mínimo exigido nas avaliações do curso (nota igual ou superior a 7,0), você terá direito ao &lt;strong&gt;certificado oficial emitido pela Universidade Federal de Santa Catarina (UFSC)&lt;/strong&gt;, com código de autenticação digital e carga horária válida para progressão funcional, concursos e currículo Lattes.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Acesso Livre ao Moodle (&lt;code&gt;grupos.moodle.ufsc.br&lt;/code&gt;):&lt;/strong&gt; Permite navegar imediatamente por todas as videoaulas, textos e scripts do curso como ouvinte, sem a necessidade de formalização prévia de inscrição no portal institucional. Esta modalidade &lt;em&gt;não&lt;/em&gt; emite certificado de extensão.&lt;/p&gt;\n\n\n\n\nQuem pode fazer os cursos? Há exigência de graduação específica? \n\n\n&lt;p&gt;Qualquer pessoa interessada pode se inscrever! Embora os cursos tenham sido concebidos prioritariamente para técnicos, gestores e trabalhadores do SUS (vigilância epidemiológica, sanitária, ambiental e saúde do trabalhador), estudantes de graduação, pós-graduação, pesquisadores e profissionais de outras áreas também são muito bem-vindos. Não há exigência de diploma de nível superior específico.&lt;/p&gt;\n\n\n\n\nPreciso pagar alguma taxa para emissão de certificado? \n\n\n&lt;p&gt;&lt;strong&gt;Não.&lt;/strong&gt; Todos os 10 cursos são integralmente gratuitos, financiados por cooperação pública e filantropia científica. Não há cobrança de taxas em nenhuma etapa, inclusive para a emissão do certificado de extensão da UFSC.&lt;/p&gt;\n\n\n\n\nQual a ordem recomendada para fazer os cursos? \n\n\n&lt;p&gt;Se você nunca programou em R, recomendamos fortemente começar pelo &lt;a href=\"cursos/curso-basico.html\"&gt;&lt;strong&gt;Análise de Dados para a Vigilância em Saúde – Curso Básico (45h)&lt;/strong&gt;&lt;/a&gt;. Ele ensina a instalar os programas, a sintaxe da linguagem, manipulação de dados com o &lt;code&gt;tidyverse&lt;/code&gt; e cálculo de indicadores epidemiológicos essenciais.&lt;/p&gt;\n&lt;p&gt;Após dominar a base, você tem total autonomia para cursar os módulos temáticos conforme a sua necessidade de trabalho: &lt;em&gt;Visualização de Dados&lt;/em&gt; para boletins gráficos, &lt;em&gt;Relatórios Automatizados&lt;/em&gt; para eliminar rotinas manuais, &lt;em&gt;Análise Espacial&lt;/em&gt; para mapas, ou &lt;em&gt;Séries Temporais&lt;/em&gt; para modelagem preditiva.&lt;/p&gt;\n\n\n\n\nHá data fixa de início ou prazo limite para conclusão? \n\n\n&lt;p&gt;Os cursos são &lt;strong&gt;autoinstrucionais&lt;/strong&gt; e têm &lt;strong&gt;inscrições contínuas&lt;/strong&gt;. Você pode se matricular em qualquer dia do ano e organizar sua rotina de estudos nos horários que forem mais convenientes para você.&lt;/p&gt;\n\n\n\n\nQuais softwares preciso ter instalados no meu computador? \n\n\n&lt;p&gt;Você precisará de dois programas gratuitos e de código aberto:&lt;/p&gt;\n&lt;ul&gt;\n  &lt;li&gt;&lt;strong&gt;R:&lt;/strong&gt; A linguagem de programação (&lt;a href=\"https://cran.r-project.org\" target=\"_blank\"&gt;cran.r-project.org&lt;/a&gt;).&lt;/li&gt;\n  &lt;li&gt;&lt;strong&gt;RStudio Desktop:&lt;/strong&gt; O ambiente de desenvolvimento (&lt;a href=\"https://posit.co/download/rstudio-desktop/\" target=\"_blank\"&gt;posit.co/download/rstudio-desktop&lt;/a&gt;).&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;O &lt;a href=\"cursos/curso-basico.html\"&gt;Curso Básico&lt;/a&gt; traz uma videoaula detalhada demonstrando passo a passo a instalação em sistemas Windows, Mac e Linux.&lt;/p&gt;\n\n\n\n\nComo recebo meu certificado após concluir o curso? \n\n\n&lt;p&gt;Após atingir o aproveitamento mínimo exigido nos questionários avaliativos no Moodle, a coordenação da UFSC valida os registros e o certificado é liberado para download em formato PDF diretamente no portal &lt;a href=\"https://inscricoes.ufsc.br\" target=\"_blank\"&gt;inscricoes.ufsc.br&lt;/a&gt; com código de autenticidade verificável.&lt;/p&gt;"
+  },
+  {
+    "objectID": "sobre.html",
+    "href": "sobre.html",
+    "title": "Sobre a Iniciativa",
+    "section": "",
+    "text": "O Sistema Único de Saúde (SUS) produz diariamente um volume monumental de dados por meio de sistemas consolidados como o SINAN (doenças de notificação), SIM (mortalidade), SINASC (nascimentos), SIH (internações) e SI-PNI (imunizações). No entanto, o cotidiano dos profissionais que atuam na ponta — em municípios, regionais de saúde e secretarias estaduais — é frequentemente marcado pela sobrecarga de rotinas manuais de cópia de planilhas e escassez de capacitação continuada em ferramentas modernas e reprodutíveis.\nA iniciativa dos Cursos Integrados em Vigilância em Saúde nasceu para transformar esse cenário. Os cursos são 100% gratuitos, online, autoinstrucionais e elaborados por quem vive a prática da vigilância epidemiológica no SUS.\nCom o apoio da linguagem de programação R e tecnologias abertas de análise de dados, os cursos capacitam os alunos a automatizar boletins, criar mapas temáticos, monitorar desigualdades sociais, relacionar bancos de dados e construir painéis interativos em minutos."
+  },
+  {
+    "objectID": "sobre.html#contexto-e-missão",
+    "href": "sobre.html#contexto-e-missão",
+    "title": "Sobre a Iniciativa",
+    "section": "",
+    "text": "O Sistema Único de Saúde (SUS) produz diariamente um volume monumental de dados por meio de sistemas consolidados como o SINAN (doenças de notificação), SIM (mortalidade), SINASC (nascimentos), SIH (internações) e SI-PNI (imunizações). No entanto, o cotidiano dos profissionais que atuam na ponta — em municípios, regionais de saúde e secretarias estaduais — é frequentemente marcado pela sobrecarga de rotinas manuais de cópia de planilhas e escassez de capacitação continuada em ferramentas modernas e reprodutíveis.\nA iniciativa dos Cursos Integrados em Vigilância em Saúde nasceu para transformar esse cenário. Os cursos são 100% gratuitos, online, autoinstrucionais e elaborados por quem vive a prática da vigilância epidemiológica no SUS.\nCom o apoio da linguagem de programação R e tecnologias abertas de análise de dados, os cursos capacitam os alunos a automatizar boletins, criar mapas temáticos, monitorar desigualdades sociais, relacionar bancos de dados e construir painéis interativos em minutos."
+  },
+  {
+    "objectID": "sobre.html#números-da-iniciativa",
+    "href": "sobre.html#números-da-iniciativa",
+    "title": "Sobre a Iniciativa",
+    "section": "Números da Iniciativa",
+    "text": "Números da Iniciativa\n\n\n\n+40.000\n\n\nProfissionais de saúde já inscritos em todo o Brasil\n\n\n\n\n10 Cursos\n\n\nMódulos independentes e articulados entre si\n\n\n\n\n100% Gratuito\n\n\nSem cobrança de taxa de matrícula ou certificado\n\n\n\n\nCertificação UFSC\n\n\nCertificado oficial de extensão universitária"
+  },
+  {
+    "objectID": "sobre.html#instituições-parceiras",
+    "href": "sobre.html#instituições-parceiras",
+    "title": "Sobre a Iniciativa",
+    "section": "Instituições Parceiras",
+    "text": "Instituições Parceiras\nA elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da articulação de grandes instituições de referência nacional:\n\n\n\n\nUFSC — Universidade Federal de Santa Catarina\n\nCoordenação pedagógica e emissão de certificados oficiais de extensão universitária\n\n\n\n\n\n\nABRASCO — Associação Brasileira de Saúde Coletiva\n\nArticulação técnico-política, apoio institucional e disseminação nacional\n\n\n\n\n\n\nITpS — Instituto Todos pela Saúde\n\nApoio técnico e fomento à inovação em vigilância genômica e epidemiológica\n\n\n\n\n\n\nFiocruz — Fundação Oswaldo Cruz\n\nParceria em conteúdos de investigação de surtos e vigilância laboratorial\n\n\n\n\n\n\nUFPel — Universidade Federal de Pelotas\n\nColaboração em epidemiologia de campo e planos de contingência\n\n\n\n\n\n\nUNA-SUS — Universidade Aberta do SUS\n\nDifusão de trilhas formativas na rede de educação permanente em saúde"
+  },
+  {
+    "objectID": "sobre.html#modelo-pedagógico-e-autonomia-do-aluno",
+    "href": "sobre.html#modelo-pedagógico-e-autonomia-do-aluno",
+    "title": "Sobre a Iniciativa",
+    "section": "Modelo Pedagógico e Autonomia do Aluno",
+    "text": "Modelo Pedagógico e Autonomia do Aluno\nCada curso foi desenhado no formato autoinstrucional, respeitando o tempo de cada profissional. O ambiente virtual de aprendizagem (Moodle UFSC) conta com:\n\nAulas práticas em vídeo: Demonstrações passo a passo na interface do RStudio.\nTextos didáticos e roteiros em PDF: Conteúdos densos, claros e em português, ricamente ilustrados.\nScripts e dados reais do SUS: Bancos de dados anonimizados para replicar todas as etapas de análise do mundo real.\nTutoria e suporte comunitário: Fóruns de dúvidas e suporte por inteligência artificial para apoio na escrita de código em R.\nAvaliação formativa: Questionários com questões práticas para consolidar os conhecimentos adquiridos.\n\n\n\n\n\n\n\nDicaConheça também os Cursos Parceiros Abrasco\n\n\n\nAlém dos 10 cursos em análise de dados com R, a parceria oferece qualificações em Investigação de Surtos e Epidemias, Planos de Contingência e Vigilância Laboratorial e Genômica. Acesse a página da iniciativa no portal da Abrasco →"
+  },
+  {
+    "objectID": "cursos/estatistica-espacial.html",
+    "href": "cursos/estatistica-espacial.html",
+    "title": "Estatística Espacial aplicada à Vigilância em Saúde",
+    "section": "",
+    "text": "Status\n\n\nNovo Lançamento\n\n\n\n\nCarga Horária\n\n\n 45 horas\n\n\n\n\nDedicação Sugerida\n\n\n 6 semanas\n\n\n\n\nNível\n\n\n Avançado\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/estatistica-espacial.html#apresentação-do-curso",
+    "href": "cursos/estatistica-espacial.html#apresentação-do-curso",
+    "title": "Estatística Espacial aplicada à Vigilância em Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nMapas temáticos coropléticos simples são excelentes para comunicação visual, mas frequentemente sofrem de limitações estatísticas conhecidas na epidemiologia — especialmente a instabilidade de taxas brutas em municípios com pequenas populações (onde um único óbito eleva artificialmente a taxa a patamares alarmantes).\nO curso avançado Estatística Espacial aplicada à Vigilância em Saúde leva o profissional do SUS para o próximo nível analítico. Você aprenderá a formular hipóteses sobre dependência espacial, corrigir flutuações amostrais usando suavização bayesiana empírica, quantificar a autocorrelação espacial global e local (identificando áreas de alta transmissão rodeadas por áreas de alta transmissão - hotspots) e modelar fatores de risco territoriais com apoio do ecossistema R."
+  },
+  {
+    "objectID": "cursos/estatistica-espacial.html#o-que-você-vai-aprender",
+    "href": "cursos/estatistica-espacial.html#o-que-você-vai-aprender",
+    "title": "Estatística Espacial aplicada à Vigilância em Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Conceitos de dependência espacial: Primeira Lei da Geografia de Tobler e seus desdobramentos na dinâmica de transmissão de doenças.\n Matrizes de vizinhança espacial: Construir matrizes de contiguidade (critério rainha e torre) e matrizes baseadas em distância e k-vizinhos mais próximos com o pacote spdep.\n Índice Global de Moran (\\(I\\)): Testar a hipótese de aleatoriedade espacial versus agregação em todo o território.\n Indicadores Locais de Associação Espacial (LISA): Gerar mapas de clusters espaciais (Alto-Alto, Baixo-Baixo, Alto-Baixo e Baixo-Alto) para priorização territorial de intervenções.\n Suavização Bayesiana Empírica (Local e Global): Corrigir a instabilidade de taxas em pequenas áreas através do encolhimento bayesiano (shrinkage).\n Detecção de aglomerados pontuais (Point Pattern Analysis): Estimação de densidade de Kernel (Kernel Density Estimation) e detecção de conglomerados com estatística scan.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se conhecimento prévio de R e conceitos fundamentais de análise espacial (ou conclusão prévia dos cursos Análise de Dados em R e Análise Espacial Básica).\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/series-temporais.html",
+    "href": "cursos/series-temporais.html",
+    "title": "Análises de Séries Temporais aplicadas à Vigilância em Saúde",
+    "section": "",
+    "text": "Status\n\n\nNovo Lançamento\n\n\n\n\nCarga Horária\n\n\n 45 horas\n\n\n\n\nDedicação Sugerida\n\n\n 6 semanas\n\n\n\n\nNível\n\n\n Avançado\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/series-temporais.html#apresentação-do-curso",
+    "href": "cursos/series-temporais.html#apresentação-do-curso",
+    "title": "Análises de Séries Temporais aplicadas à Vigilância em Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nA dimensão temporal é o coração da vigilância epidemiológica. Todos os dias, profissionais de saúde lidam com contagens semanais e mensais de casos e óbitos, perguntando-se: a doença está subindo ou caindo? Essa alta faz parte do comportamento sazonal esperado ou indica uma emergência sanitária? Quais intervenções surtiram efeito na queda das internações?\nO curso Análises de Séries Temporais aplicadas à Vigilância em Saúde oferece uma formação aprofundada em métodos estatísticos modernos para o estudo de dados longitudinais agregados no tempo. Você aprenderá a modelar séries epidemiológicas no software R, indo desde a decomposição clássica até métodos avançados de previsão (forecasting) e modelos de séries temporais interrompidas para avaliação de políticas de saúde."
+  },
+  {
+    "objectID": "cursos/series-temporais.html#o-que-você-vai-aprender",
+    "href": "cursos/series-temporais.html#o-que-você-vai-aprender",
+    "title": "Análises de Séries Temporais aplicadas à Vigilância em Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Estruturação de objetos temporais no R: Manipular séries diárias, semanais (semanas epidemiológicas padrão SINAN) e mensais com pacotes como tsibble, zoo e lubridate.\n Decomposição clássica e moderna: Separar uma série em componente de tendência, componente sazonal e resíduo aleatório (STL - Seasonal and Trend decomposition using Loess).\n Avaliação de autocorrelação: Calcular e interpretar a Função de Autocorrelação (FAC/ACF) e Função de Autocorrelação Parcial (FACP/PACF) para identificar dependência temporal.\n Modelos ARIMA e SARIMA: Ajustar modelos autorregressivos integrados de médias móveis com componentes sazonais para previsão de incidência.\n Séries Temporais Interrompidas (ITS): Avaliar o impacto pontual de campanhas de vacinação, mudanças em protocolos clínicos ou medidas restritivas na trajetória de indicadores de saúde.\n Visualização e relatórios de previsão: Gerar gráficos com intervalos de predição a 80% e 95% para embasar planos de contingência de leitos e insumos.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se sólida compreensão de R e noções de bioestatística básica (ou ter realizado o Curso Básico em R).\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/linkage.html",
+    "href": "cursos/linkage.html",
+    "title": "Linkage de Bases de Dados de Saúde",
+    "section": "",
+    "text": "Categoria\n\n\nIntegração de Dados\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário / Avançado\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/linkage.html#apresentação-do-curso",
+    "href": "cursos/linkage.html#apresentação-do-curso",
+    "title": "Linkage de Bases de Dados de Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nVocê já se deparou com situações como estas?\n\nDurante uma investigação de óbito, precisou acessar vários sistemas distintos para consultar informações complementares do paciente?\nPara avaliar fatores de risco em um surto, precisou juntar prontuários, planilhas de Excel e fichas de notificação caso a caso?\nPrecisou verificar se óbitos ocorridos por determinada doença estavam notificados no SINAN ou cadastrados em sistemas vacinais como o SI-PNI?\n\nEssas situações são parte da realidade da vigilância em saúde no Brasil. O SUS conta com sistemas consagrados internacionalmente — como SINAN (notificação compulsória), SIM (mortalidade), SINASC (nascidos vivos) e SIH (internações hospitalares). Contudo, esses sistemas muitas vezes operam de forma isolada, sem um identificador unívoco nacional perfeitamente padronizado.\nÉ neste cenário que o record linkage (relacionamento de registros) se torna uma habilidade essencial para epidemiologistas e técnicos da saúde. Com o apoio de rotinas programadas no R, você aprenderá a vincular bases de dados com alto rigor metodológico e conformidade com as normas de proteção de dados."
+  },
+  {
+    "objectID": "cursos/linkage.html#o-que-você-vai-aprender",
+    "href": "cursos/linkage.html#o-que-você-vai-aprender",
+    "title": "Linkage de Bases de Dados de Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Conceituar record linkage: Diferenciar relacionamento exato (determinístico) e relacionamento probabilístico baseado em escores de semelhança.\n Padronização e higienização de chaves: Limpar nomes próprios (remoção de acentos, pontuações, títulos e padronização fonética com Soundex/Metaphone), datas de nascimento e códigos de município.\n Estratégias de blocagem (blocking): Otimizar o processamento computacional reduzindo pares improváveis em grandes bancos de dados.\n Avaliação de acurácia: Identificar verdadeiros positivos, falsos positivos e falsos negativos, calculando sensibilidade e especificidade do pareamento.\n Anonimização e LGPD: Aplicar funções de hashing (como SHA-256) e pseudoanonimização para garantir o cumprimento da Lei Geral de Proteção de Dados e diretrizes de comitês de ética em pesquisa (CEP/CONEP).\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se ter familiaridade com manipulação de dados no R ou ter concluído o Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/visualizacao.html",
+    "href": "cursos/visualizacao.html",
+    "title": "Visualização de Dados de Interesse para a Vigilância em Saúde",
+    "section": "",
+    "text": "Categoria\n\n\nComunicação Visual\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/visualizacao.html#apresentação-do-curso",
+    "href": "cursos/visualizacao.html#apresentação-do-curso",
+    "title": "Visualização de Dados de Interesse para a Vigilância em Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nFazer uma boa apresentação que valorize sua análise de dados e a torne simples e compreensível para seu interlocutor pode ser desafiador, não é mesmo?! Na vigilância em saúde, comunicar análises é uma etapa indispensável do trabalho técnico, e para isso podemos utilizar diversas estratégias de visualização.\nO profissional de vigilância em saúde produz slides, tabelas, boletins, informes e relatórios diariamente. Estes materiais organizam dados e revelam informações valiosas que apoiam a tomada de decisão de profissionais de saúde e gestores do SUS. Neste contexto, a comunicação visual é a chave para informar, e os gráficos dão forma às análises da vigilância.\n\nPerguntas que o curso responde:\n\nQual a melhor maneira de produzir visualizações de dados em saúde pública?\nQual tipo de gráfico utilizar para cada pergunta epidemiológica?\nExistem gráficos específicos para informar a dinâmica de um agravo ou surto?\nComo automatizar a geração de gráficos para nunca mais refazer tudo manualmente?\n\nNeste curso, você desenvolverá diversas visualizações de forma rápida com poucos comandos no R e o pacote ggplot2. Você aprenderá a utilizar paletas de cores acessíveis, escalas temporais e a escolher as geometrias corretas para as suas análises."
+  },
+  {
+    "objectID": "cursos/visualizacao.html#o-que-você-vai-aprender",
+    "href": "cursos/visualizacao.html#o-que-você-vai-aprender",
+    "title": "Visualização de Dados de Interesse para a Vigilância em Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Gráficos de barras e colunas: Construir comparações entre grupos e categorias populacionais com ordenação e rótulos automáticos.\n Gráficos de linhas e curvas epidêmicas: Representar tendências temporais, séries mensais e semanas epidemiológicas.\n Histogramas e Boxplots: Avaliar a distribuição de variáveis contínuas (idade, tempo de internação, dias até o óbito) identificando assimetrias e dispersão.\n Pirâmides etárias: Estruturar visualmente a distribuição de agravos e eventos vitais por faixa etária e sexo biológico.\n Mapas de calor temporais (Calendar Heatmaps): Identificar padrões sazonais e concentrações diárias ou semanais de ocorrências.\n Customização e Exportação: Padronizar temas institucionais e exportar figuras em alta resolução (.png, .pdf) para publicações e boletins.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se ter conhecimentos básicos de R e RStudio ou ter concluído o Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/analise-espacial.html",
+    "href": "cursos/analise-espacial.html",
+    "title": "Análise Espacial de Dados para a Vigilância em Saúde",
+    "section": "",
+    "text": "Categoria\n\n\nGeoprocessamento\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/analise-espacial.html#apresentação-do-curso",
+    "href": "cursos/analise-espacial.html#apresentação-do-curso",
+    "title": "Análise Espacial de Dados para a Vigilância em Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nNeste curso aprofundaremos as análises de bancos de dados de saúde construindo mapas de interesse epidemiológico. Na Vigilância em Saúde utilizamos o geoprocessamento como uma ferramenta fundamental que permite a análise da distribuição espacial de determinadas doenças, eventos e agravos relacionados à saúde.\nAo produzir mapas temáticos que colorem ou sombreiam um conjunto de áreas territoriais de acordo com seus valores, taxas ou coeficientes, estamos construindo um mapa epidemiológico. Com ele você poderá identificar, localizar, acompanhar e monitorar populações de maneira a direcionar as ações de Vigilância em Saúde para que sejam executadas com maior efetividade, equidade e assertividade!"
+  },
+  {
+    "objectID": "cursos/analise-espacial.html#o-que-você-vai-aprender",
+    "href": "cursos/analise-espacial.html#o-que-você-vai-aprender",
+    "title": "Análise Espacial de Dados para a Vigilância em Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Conceitos fundamentais de cartografia e geoprocessamento: Sistemas de coordenadas, projeções cartográficas e tipos de feições (pontos, linhas, polígonos).\n Manipulação de dados espaciais no R: Utilizar pacotes modernos como sf (simple features) e geobr para download de malhas oficiais do IBGE.\n Cruzamento de dados epidemiológicos com malhas territoriais: Associar bancos do DATASUS às geometrias municipais e de bairros por meio do código IBGE.\n Mapas coropléticos: Configurar quebras de classe (quantis, intervalos iguais, desvios), paletas de cores perceptualmente uniformes e legendas informativas.\n Mapas de pontos: Plotar casos georreferenciados ou estabelecimentos de saúde no território.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se conhecimento básico da linguagem R ou ter cursado o Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/curso-basico.html",
+    "href": "cursos/curso-basico.html",
+    "title": "Análise de Dados para a Vigilância em Saúde – Curso Básico",
+    "section": "",
+    "text": "Categoria\n\n\nFundamental\n\n\n\n\nCarga Horária\n\n\n 45 horas\n\n\n\n\nDedicação Sugerida\n\n\n 6 semanas\n\n\n\n\nNível\n\n\n Introdutório / Básico\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/curso-basico.html#apresentação-do-curso",
+    "href": "cursos/curso-basico.html#apresentação-do-curso",
+    "title": "Análise de Dados para a Vigilância em Saúde – Curso Básico",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nNos últimos anos, a sociedade vem acumulando importantes desafios em saúde que evidenciam e reforçam a importância da vigilância em saúde e de suas ações de investigação e nas medidas de prevenção e controle de doenças. As respostas sanitárias baseadas em informações qualificadas e oportunas são essenciais para o controle das doenças, para a comunicação transparente com a sociedade e para se obter melhores desfechos em saúde.\nAo mesmo tempo, sabemos como é agitada a rotina de trabalho na vigilância e como é complexo o gerenciamento de todos os dados em saúde. Assim, pensando em ajudar na produção da informação em saúde de forma qualificada e ágil, este curso foi estruturado para você!\n\nPor que aprender R na Vigilância em Saúde?\n\nRotinas com um clique: Já imaginou ter todas as suas rotinas de análise de vigilância em saúde prontas com apenas um clique?\nAcesso direto a dados públicos: Já se perguntou como pegar informações diretamente do DATASUS e transformá-las em gráficos, tabelas ou séries históricas de forma 100% automatizada?\nInformes ágeis: Já pensou em produzir relatórios epidemiológicos de todos os agravos de notificação compulsória em menos de 2 minutos?\nAnálise reprodutível: Adeus ao retrabalho mensal de copiar e colar planilhas.\n\nSim, você precisará dedicar um pouco de tempo para instalar o programa e aprender comandos básicos. Mas a recompensa a esse esforço será imensurável, poupando-lhe muitas horas de trabalho a partir de agora e habilitando-o a produzir análises de alto impacto na sua instituição."
+  },
+  {
+    "objectID": "cursos/curso-basico.html#o-que-você-vai-aprender",
+    "href": "cursos/curso-basico.html#o-que-você-vai-aprender",
+    "title": "Análise de Dados para a Vigilância em Saúde – Curso Básico",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Conceituar a linguagem R: Entender sua filosofia, ecossistema e vantagens na epidemiologia.\n Instalar e configurar: Preparar o R e a interface gráfica RStudio em seu computador de trabalho ou pessoal.\n Executar comandos básicos: Dominar a sintaxe inicial, tipos de objetos (vetores, fatores, data frames).\n Criar e salvar scripts: Adotar boas práticas de organização de pastas, projetos (.Rproj) e reprodutibilidade científica.\n Gerenciar pacotes: Instalar e carregar bibliotecas do CRAN (tidyverse, etc.).\n Importação de bases de dados: Carregar planilhas de Excel, arquivos .csv e bases de sistemas de informação do SUS (SINAN, SIM, SINASC).\n Tratamento e transformação: Filtrar registros, selecionar variáveis, criar colunas calculadas e recodificar categorias com agilidade.\n Cálculos epidemiológicos: Calcular frequências absolutas e relativas, taxas de incidência, prevalência, mortalidade e letalidade.\n Tabelas de contingência: Construir tabelas 2x2 e tabelas descritivas para cruzamento de agravos de saúde com fatores sociodemográficos."
+  },
+  {
+    "objectID": "cursos/curso-basico.html#estrutura-e-metodologia",
+    "href": "cursos/curso-basico.html#estrutura-e-metodologia",
+    "title": "Análise de Dados para a Vigilância em Saúde – Curso Básico",
+    "section": "Estrutura e Metodologia",
+    "text": "Estrutura e Metodologia\n\nModalidade: Educação a Distância (EaD), 100% online e autoinstrucional.\nFlexibilidade: Faça no horário mais conveniente para a sua rotina no serviço de saúde.\nRecursos Didáticos: Videoaulas práticas gravadas, material didático em PDF, scripts comentados passo a passo, bases de dados de exemplo higienizadas e exercícios avaliativos com feedback imediato.\nAvaliação e Certificado: Obtenha aproveitamento mínimo nas atividades para emissão imediata e gratuita do certificado de extensão universitária pela Universidade Federal de Santa Catarina (UFSC).\n\n\n\n\n\n\n\nNotaCurso Base para a Trilha\n\n\n\nEste é o curso introdutório e recomendado como ponto de partida antes de realizar os módulos temáticos (como Visualização, Relatórios, Análise Espacial, Dashboards e Linkage).\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/desigualdades.html",
+    "href": "cursos/desigualdades.html",
+    "title": "Monitoramento das Desigualdades em Saúde na Vigilância",
+    "section": "",
+    "text": "Status\n\n\nNovo Lançamento\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/desigualdades.html#apresentação-do-curso",
+    "href": "cursos/desigualdades.html#apresentação-do-curso",
+    "title": "Monitoramento das Desigualdades em Saúde na Vigilância",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nA equidade é um dos princípios doutrinários fundamentais do Sistema Único de Saúde (SUS). No entanto, para que as ações de vigilância e atenção cheguem onde são mais necessárias, é indispensável que a análise de dados seja capaz de evidenciar quem são as populações mais atingidas por agravos evitáveis e onde residem as maiores barreiras de acesso.\nO curso Monitoramento das Desigualdades em Saúde na Vigilância foi desenvolvido para instrumentalizar profissionais do SUS na mensuração de disparidades sociodemográficas e econômicas. Você aprenderá a sair das médias globais populacionais (que frequentemente mascaram disparidades graves) e a calcular indicadores estratificados com métodos estatísticos consolidados pela epidemiologia social e pela Organização Mundial da Saúde (OMS)."
+  },
+  {
+    "objectID": "cursos/desigualdades.html#o-que-você-vai-aprender",
+    "href": "cursos/desigualdades.html#o-que-você-vai-aprender",
+    "title": "Monitoramento das Desigualdades em Saúde na Vigilância",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Fundamentos de determinantes sociais da saúde: Compreender conceitos de igualdade, desigualdade e iniquidade em saúde.\n Estratificadores de equidade no SUS: Manipular variáveis sociodemográficas clássicas (raça/cor da pele, escolaridade, sexo, zona de residência, quintis de renda e vulnerabilidade territorial).\n Medidas simples de desigualdade: Calcular razões de taxas e diferenças absolutas de taxas entre grupos extremos.\n Medidas complexas de gradiente social: Compreender e calcular índices de gradiente, tais como o Índice de Declive de Desigualdade (Slope Index of Inequality - SII) e o Índice Relativo de Desigualdade (Relative Index of Inequality - RII).\n Visualização de desigualdades: Construir gráficos de equidade (gráficos equiplot, curvas de Lorenz, gradientes de concentração) no R com o ggplot2.\n Elaboração de recomendações para a gestão: Traduzir achados de disparidade em propostas de intervenção e priorização de recursos para a Atenção Primária e Vigilância.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nConhecimento básico do ambiente R e RStudio ou conclusão prévia do Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/diagramas.html",
+    "href": "cursos/diagramas.html",
+    "title": "Construção de Diagramas de Controle na Vigilância em Saúde",
+    "section": "",
+    "text": "Categoria\n\n\nEpidemiologia\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/diagramas.html#apresentação-do-curso",
+    "href": "cursos/diagramas.html#apresentação-do-curso",
+    "title": "Construção de Diagramas de Controle na Vigilância em Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nNeste curso aprofundaremos as análises para a vigilância em saúde construindo diagramas de controle (canais endêmicos). Em epidemiologia, este termo se refere ao conjunto de métodos quantitativos utilizados para estabelecer a faixa esperada de ocorrência de um determinado agravo ou doença, permitindo avaliar em tempo real se o comportamento observado é endêmico (esperado) ou se sinaliza uma epidemia.\nEm poucas palavras: construir um diagrama de controle é avaliar graficamente a faixa de oscilação estatística de casos e verificar se os valores notificados na última semana epidemiológica ultrapassaram o limiar de alarme. Essa ferramenta é crucial para doenças de padrão sazonal e epidêmico frequente, como dengue, chikungunya, zika, influenza, covid-19, meningites e diarreias.\nCom a linguagem R, você aprenderá a automatizar todo esse cálculo a partir dos dados do SINAN, sem depender de cálculos manuais propensos a erros."
+  },
+  {
+    "objectID": "cursos/diagramas.html#o-que-você-vai-aprender",
+    "href": "cursos/diagramas.html#o-que-você-vai-aprender",
+    "title": "Construção de Diagramas de Controle na Vigilância em Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Fundamentação epidemiológica: Compreender os conceitos de endemia, surto, epidemia, sazonalidade e ciclicidade.\n Seleção de série histórica: Identificar anos epidêmicos atípicos e aprender a tratá-los ou excluí-los do cálculo da faixa endêmica padrão.\n Métodos de cálculo de limites: Calcular média histórica, mediana, desvios-padrão (\\(\\mu \\pm 1.96\\sigma\\)), quartis e intervalos de confiança por semana epidemiológica.\n Construção de gráficos de canal endêmico no R: Plotar áreas sombreadas (faixa endêmica), linha média e a curva de casos do ano corrente em destaque com o pacote ggplot2.\n Regras de decisão e gatilhos de alerta: Interpretar quando um agravo aciona o alerta de investigação de campo e reforço das equipes da vigilância.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se noções básicas de R ou ter concluído o Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/dashboards.html",
+    "href": "cursos/dashboards.html",
+    "title": "Construção de Painéis (Dashboards) para Monitoramento de Indicadores de Saúde",
+    "section": "",
+    "text": "Categoria\n\n\nPainéis Interativos\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/dashboards.html#apresentação-do-curso",
+    "href": "cursos/dashboards.html#apresentação-do-curso",
+    "title": "Construção de Painéis (Dashboards) para Monitoramento de Indicadores de Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nVocê já imaginou ter parte dos seus dados de vigilância em saúde visualizados de forma interativa em um painel online? Agora imagine acessá-lo remotamente em uma reunião técnica com a Atenção Primária à Saúde da sua região e realizar análises comparativas instantâneas com filtros na tela. Ou ainda apresentar essas análises sem se preocupar em salvar um PowerPoint estático ou imprimir pilhas de relatórios para leitura conjunta.\nSeria perfeito, não é mesmo?! A área da saúde está se transformando digitalmente! Neste curso, você aprenderá a organizar suas análises e transformar seus relatórios personalizados em painéis interativos que podem ser utilizados entre a equipe da vigilância ou para a prestação de contas transparente à sociedade.\nCom o apoio da linguagem de programação R você colocará em prática um dos pilares mais importantes da Vigilância: fornecer acesso oportuno, intuitivo e com análises confiáveis para a tomada de decisão rápida."
+  },
+  {
+    "objectID": "cursos/dashboards.html#o-que-você-vai-aprender",
+    "href": "cursos/dashboards.html#o-que-você-vai-aprender",
+    "title": "Construção de Painéis (Dashboards) para Monitoramento de Indicadores de Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Conceituar dashboards: Entender princípios de arquitetura de informação, usabilidade, cards de valor e hierarquia visual de indicadores de saúde.\n Utilizar o pacote flexdashboard: Organizar páginas, linhas, colunas e abas estruturadas com facilidade usando sintaxe R Markdown.\n Integrar gráficos interativos com plotly: Adicionar recursos de zoom, seleção de séries temporais e caixas de texto com informações ao passar o cursor (tooltips).\n Tabelas dinâmicas com DT (DataTables): Permitir busca rápida, filtros por coluna e paginação de casos e estabelecimentos.\n Publicação e Compartilhamento: Gerar arquivos HTML autocontidos que funcionam offline no navegador ou podem ser hospedados em servidores institucionais gratuitos.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se ter conhecimentos básicos de R e RStudio ou ter cursado o Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "cursos/relatorios.html",
+    "href": "cursos/relatorios.html",
+    "title": "Produção Automatizada de Relatórios na Vigilância em Saúde",
+    "section": "",
+    "text": "Categoria\n\n\nAutomação\n\n\n\n\nCarga Horária\n\n\n 15 horas\n\n\n\n\nDedicação Sugerida\n\n\n 4 semanas\n\n\n\n\nNível\n\n\n Intermediário\n\n\n\n\nCertificação\n\n\n UFSC (Gratuito)"
+  },
+  {
+    "objectID": "cursos/relatorios.html#apresentação-do-curso",
+    "href": "cursos/relatorios.html#apresentação-do-curso",
+    "title": "Produção Automatizada de Relatórios na Vigilância em Saúde",
+    "section": "Apresentação do Curso",
+    "text": "Apresentação do Curso\nJá imaginou ter os informes epidemiológicos do seu município ou estado prontos em menos de 2 minutos? Se você está cansado de retrabalhos periódicos, este curso foi feito sob medida para você!\nNeste curso vamos colocar em prática um dos pilares mais importantes para a vigilância em saúde: a transparência e a oportunidade da informação. Publicar a análise da situação de saúde no tempo oportuno torna-a acessível para subsidiar gestores, profissionais de saúde e a população em geral, eliminando rotinas cansativas de formatação manual.\nUtilizando a linguagem de programação R e o ecossistema R Markdown / Quarto, você aprenderá a unir texto explicativo, código analítico, tabelas formatadas e gráficos dinâmicos em um único documento reprodutível. Ao atualizar a base de dados de entrada, todo o relatório é recalculado e renderizado automaticamente!"
+  },
+  {
+    "objectID": "cursos/relatorios.html#o-que-você-vai-aprender",
+    "href": "cursos/relatorios.html#o-que-você-vai-aprender",
+    "title": "Produção Automatizada de Relatórios na Vigilância em Saúde",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\nAo final deste curso, você será capaz de:\n\n Conceituar documentos dinâmicos e computação reprodutível: Compreender como funcionam blocos de código (code chunks), sintaxe Markdown e cabeçalho YAML.\n Automatizar a produção de boletins epidemiológicos: Inserir métricas calculadas em linha (inline code) que se atualizam sozinhas.\n Inserir tabelas formatadas para publicação: Usar pacotes como knitr::kable, kableExtra ou gt com estilos profissionais.\n Exportar para múltiplos formatos: Gerar documentos prontos em .html interativo, .pdf para impressão ou .docx para edição corporativa.\n Parametrização de relatórios: Gerar relatórios específicos por município, distrito sanitário ou agravo com um único script.\n\n\n\n\n\n\n\n\nAvisoPré-requisitos Recomendados\n\n\n\nRecomenda-se ter noções básicas de R ou ter realizado o Curso Básico em R.\n\n\n\n  Inscreva-se com Certificado UFSC    Entrar no Moodle Livre"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nCursos Integrados de Vigilância em Saúde\n",
+    "section": "",
+    "text": "Faça parte do grupo de mais de 40 mil profissionais de saúde que já se inscreveram nos 10 cursos de análise de dados para a vigilância em saúde.\n\n\n  Explorar os 10 Cursos    Conhecer a Iniciativa \n\n\n\n\n+40.000\n\n\nProfissionais Inscritos\n\n\n\n\n10 Cursos\n\n\nMódulos Temáticos em R\n\n\n\n\n100% Gratuito\n\n\nCursos Abertos e Online\n\n\n\n\nCertificação UFSC\n\n\nUniversidade Federal de Santa Catarina (UFSC)"
+  },
+  {
+    "objectID": "index.html#catalogo",
+    "href": "index.html#catalogo",
+    "title": "\nCursos Integrados de Vigilância em Saúde\n",
+    "section": "Catálogo de Cursos",
+    "text": "Catálogo de Cursos\n\nExplore os cursos disponíveis abaixo. Todos os módulos utilizam a linguagem de programação R e foram desenvolvidos por quem atua diretamente na vigilância em saúde no SUS.\n\n\n Novos Lançamentos\n\n\n\n\n\nNovo Lançamento  15 horas\n\n\nMonitoramento das Desigualdades em Saúde na Vigilância\n\n\nO curso discute a importância do monitoramento das desigualdades sociais nas atividades de vigilância em saúde no SUS. Também apresenta como calcular indicadores de desigualdades utilizando-se a linguagem R com exemplos práticos da vigilância.\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nNovo Lançamento  45 horas\n\n\nAnálises de Séries Temporais aplicadas à Vigilância em Saúde\n\n\nConceitos, classificações e aplicações de séries temporais no monitoramento de problemas de saúde ao longo do tempo, com especial aplicação na vigilância em saúde no SUS.\n\n\n  Inscrição com Certificado (45h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nNovo Lançamento  45 horas\n\n\nEstatística Espacial aplicada à Vigilância em Saúde\n\n\nConceitos, classificações e aplicações de métodos estatísticos na análise de dados georreferenciados, com foco em vigilância em saúde no SUS.\n\n\n  Inscrição com Certificado (45h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n Trilha Fundamental de Formação em R\n\n\n\n\n\nCurso Introdutório  45 horas\n\n\nAnálise de Dados para a Vigilância em Saúde – Curso Básico\n\n\nCurso introdutório sobre análise de dados para a vigilância em saúde. No curso serão apresentadas técnicas para gerenciamento de dados na vigilância, análise básica de dados, cálculo de indicadores e sua apresentação gráfica.\n\n\n  Inscrição com Certificado (45h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nComunicação Visual  15 horas\n\n\nVisualização de Dados de Interesse para a Vigilância em Saúde\n\n\nCapacitar profissionais da área da saúde a produzir gráficos que são de interesse para a vigilância em saúde. Serão trabalhados desde gráficos de barras e de linhas até boxplots, pirâmides etárias e gráficos temporais de calor (calendar heatmaps).\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nAutomação  15 horas\n\n\nProdução Automatizada de Relatórios na Vigilância em Saúde\n\n\nO curso objetiva ensinar profissionais da vigilância e demais interessados a automatizar a produção de relatórios técnicos, organizando suas rotinas de análises em relatórios dinâmicos (interativos) e criando relatórios com análises complexas.\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n Módulos Temáticos Aplicados\n\n\n\n\n\nGeoprocessamento  15 horas\n\n\nAnálise Espacial de Dados para a Vigilância em Saúde\n\n\nO objetivo do curso é mostrar os conceitos básicos para a elaboração de mapas, ensinar a reconhecer dados espaciais em bancos de dados da saúde, transformar e visualizar os principais tipos de dados espaciais e gerar mapas de interesse para a vigilância em saúde.\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nPainéis Interativos  15 horas\n\n\nConstrução de Painéis (Dashboards) para Monitoramento\n\n\nO curso irá conceituar o que são dashboards, apresentar as técnicas para se gerar gráficos e tabelas interativas e ensinar a se construir um painel (dashboard) com indicadores de saúde.\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nIntegração de Dados  15 horas\n\n\nLinkage de Bases de Dados de Saúde\n\n\nO curso objetiva capacitar os profissionais das vigilâncias em saúde de estados e municípios no linkage de bases de dados em saúde.\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nDetecção de Surtos  15 horas\n\n\nConstrução de Diagramas de Controle na Vigilância em Saúde\n\n\nEsse curso objetiva instruir profissionais a realizar análise exploratória para determinar anos epidêmicos e não epidêmicos e a construir diagramas de controle com dados cotidianos da vigilância em saúde.\n\n\n  Inscrição com Certificado (15h)    Acessar Moodle Livre   Ver detalhes do curso  \n\n\n\n\n\nRealização e Parcerias Institucionais\n\n\nOs cursos integram a política de formação continuada em saúde pública resultante da cooperação técnica de instituições de excelência no Brasil.\n\n\n\n&lt;div class=\"partner-logo-img\"&gt;\n  &lt;img src=\"assets/images/brasao_UFSC.png\" alt=\"UFSC - Universidade Federal de Santa Catarina\"&gt;\n&lt;/div&gt;\n&lt;div class=\"partner-name\"&gt;Universidade Federal de Santa Catarina (UFSC)&lt;/div&gt;\n\n\n&lt;div class=\"partner-logo-img\"&gt;\n  &lt;img src=\"assets/images/cropped-abrasco-logo-ico.webp\" alt=\"ABRASCO - Associação Brasileira de Saúde Coletiva\"&gt;\n&lt;/div&gt;\n&lt;div class=\"partner-name\"&gt;Associação Brasileira de Saúde Coletiva (ABRASCO)&lt;/div&gt;\n\n\n&lt;div class=\"partner-logo-img\"&gt;\n  &lt;img src=\"assets/images/itps-logo.png\" alt=\"ITpS - Instituto Todos pela Saúde\"&gt;\n&lt;/div&gt;\n&lt;div class=\"partner-name\"&gt;Instituto Todos pela Saúde (ITpS)&lt;/div&gt;\n\n\n&lt;div class=\"partner-logo-img\"&gt;\n  &lt;img src=\"assets/images/marcafiocruz_horizontal_POSITIVA_24052024-scaled.jpg\" alt=\"Fiocruz - Fundação Oswaldo Cruz\"&gt;\n&lt;/div&gt;\n&lt;div class=\"partner-name\"&gt;Fundação Oswaldo Cruz (Fiocruz)&lt;/div&gt;\n\n\n&lt;div class=\"partner-logo-img\"&gt;\n  &lt;img src=\"assets/images/Escudo-Colorido-UFPEL.png\" alt=\"UFPel - Universidade Federal de Pelotas\"&gt;\n&lt;/div&gt;\n&lt;div class=\"partner-name\"&gt;Universidade Federal de Pelotas (UFPel)&lt;/div&gt;\n\n\n&lt;div class=\"partner-logo-img\"&gt;\n  &lt;img src=\"assets/images/una-sus-logo.png\" alt=\"UNA-SUS - Universidade Aberta do SUS\"&gt;\n&lt;/div&gt;\n&lt;div class=\"partner-name\"&gt;Universidade Aberta do SUS (UNA-SUS)&lt;/div&gt;\n\n\n\n  Conheça outras iniciativas de formação da Abrasco"
+  }
+]

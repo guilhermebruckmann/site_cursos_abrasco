@@ -1,0 +1,18 @@
+<svg width="960" height="680" viewBox="0 0 960 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="680" rx="36" fill="#FFFDF9"/>
+  <rect x="44" y="44" width="872" height="592" rx="28" fill="#12343B"/>
+  <rect x="86" y="96" width="320" height="26" rx="13" fill="#FFE2D6"/>
+  <text x="86" y="214" fill="#FFFFFF" font-size="54" font-family="IBM Plex Sans, Arial, sans-serif" font-weight="700">Análise estatística</text>
+  <text x="86" y="266" fill="#BFD7D3" font-size="27" font-family="IBM Plex Sans, Arial, sans-serif">Método útil começa pela pergunta</text>
+  <text x="86" y="304" fill="#BFD7D3" font-size="27" font-family="IBM Plex Sans, Arial, sans-serif">e não pelo teste.</text>
+  <rect x="86" y="344" width="788" height="208" rx="26" fill="#FFFFFF"/>
+  <rect x="148" y="454" width="66" height="66" rx="16" fill="#D8F0ED"/>
+  <rect x="230" y="398" width="66" height="122" rx="16" fill="#EF7E56"/>
+  <rect x="312" y="430" width="66" height="90" rx="16" fill="#0F5C5C"/>
+  <rect x="394" y="372" width="66" height="148" rx="16" fill="#D8F0ED"/>
+  <rect x="148" y="520" width="312" height="5" rx="2" fill="#E2EAE8"/>
+  <circle cx="690" cy="448" r="94" fill="#D8F0ED"/>
+  <circle cx="690" cy="448" r="78" fill="none" stroke="#EF7E56" stroke-width="26" stroke-dasharray="168 600" transform="rotate(-118 690 448)"/>
+  <circle cx="690" cy="448" r="50" fill="#FFFFFF"/>
+  <circle cx="690" cy="448" r="14" fill="#12343B"/>
+</svg>

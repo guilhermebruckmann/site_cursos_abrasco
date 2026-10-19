@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.35">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cursos de Vigilância em Saúde</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./assets/images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-63473983ee9156ba515370313d2d11f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.scss">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./assets/images/favicon.svg" alt="" class="navbar-logo light-content">
+    <img src="./assets/images/favicon.svg" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Cursos de Vigilância em Saúde</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-catálogo-de-cursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Catálogo de Cursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-catálogo-de-cursos">    
+        <li>
+    <a class="dropdown-item" href="./index.html#catalogo">
+ <span class="dropdown-text">Todos os 10 Cursos</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Novos Lançamentos</li>
+        <li>
+    <a class="dropdown-item" href="./cursos/desigualdades.html">
+ <span class="dropdown-text">1. Desigualdades em Saúde</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/series-temporais.html">
+ <span class="dropdown-text">2. Séries Temporais em Saúde</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/estatistica-espacial.html">
+ <span class="dropdown-text">3. Estatística Espacial Avançada</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Trilha Fundamental</li>
+        <li>
+    <a class="dropdown-item" href="./cursos/curso-basico.html">
+ <span class="dropdown-text">4. Curso Básico em R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/visualizacao.html">
+ <span class="dropdown-text">5. Visualização de Dados</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/relatorios.html">
+ <span class="dropdown-text">6. Relatórios Automatizados</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li class="dropdown-header">Módulos Aplicados</li>
+        <li>
+    <a class="dropdown-item" href="./cursos/analise-espacial.html">
+ <span class="dropdown-text">7. Análise Espacial Básica</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/dashboards.html">
+ <span class="dropdown-text">8. Construção de Dashboards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/linkage.html">
+ <span class="dropdown-text">9. Linkage de Bases de Dados</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./cursos/diagramas.html">
+ <span class="dropdown-text">10. Diagramas de Controle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./sobre.html"> 
+<span class="menu-text">Sobre a Iniciativa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faq.html"> 
+<span class="menu-text">Dúvidas Frequentes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://abrasco.org.br/iniciativas/cursosvigilancia/" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
+</i> 
+<span class="menu-text">Iniciativas Abrasco</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/guilhermebruckmann/site_cursos_abrasco" target="_blank"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="hero-title title display-7">
+Cursos Integrados de Vigilância em Saúde
+</h1></header>
+
+
+
+
+<div class="hero-wrapper">
+<div class="hero-content">
+
+<div class="hero-subtitle">
+<p>Faça parte do grupo de mais de 40 mil profissionais de saúde que já se inscreveram nos 10 cursos de análise de dados para a vigilância em saúde.</p>
+</div>
+<div class="hero-actions">
+<p><a href="#catalogo" class="btn btn-primary-hero"> <i class="bi bi-grid-3x3-gap-fill"></i> Explorar os 10 Cursos </a> <a href="./sobre.html" class="btn btn-secondary-hero"> <i class="bi bi-info-circle"></i> Conhecer a Iniciativa </a></p>
+</div>
+<div class="hero-stats">
+<div class="stat-item">
+<div class="stat-number">
+<p>+40.000</p>
+</div>
+<div class="stat-label">
+<p>Profissionais Inscritos</p>
+</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">
+<p>10 Cursos</p>
+</div>
+<div class="stat-label">
+<p>Módulos Temáticos em R</p>
+</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">
+<p>100% Gratuito</p>
+</div>
+<div class="stat-label">
+<p>Cursos Abertos e Online</p>
+</div>
+</div>
+<div class="stat-item">
+<div class="stat-number">
+<p>Certificação UFSC</p>
+</div>
+<div class="stat-label">
+<p>Universidade Federal de Santa Catarina (UFSC)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+<div class="callout-access">
+<div class="callout-access-title">
+<pre><code>&lt;i class="bi bi-info-circle-fill"&gt;&lt;/i&gt; Todos os cursos possuem dois modos de acesso:</code></pre>
+</div>
+<p class="callout-access-text">
+Você pode escolher entre se inscrever no curso por meio do moodle da Universidade Federal de Santa Catarina para realizar as atividades avaliativas e emitir certificado de extensão universitária oficial ou acessar o Moodle como visitante utilizando o seu usuário e senha do GOV.br para ter acesso a todos os conteúdos de forma gratuita.
+</p>
+</div>
+<section id="catalogo" class="level2 mb-3" style="font-weight: 800; color: #0e4877; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.6rem;">
+<h2 class="mb-3 anchored" style="font-weight: 800; color: #0e4877; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.6rem;" data-anchor-id="catalogo">Catálogo de Cursos</h2>
+<p class="text-muted mb-4" style="font-size: 1.05rem;">
+Explore os cursos disponíveis abaixo. Todos os módulos utilizam a linguagem de programação R e foram desenvolvidos por quem atua diretamente na vigilância em saúde no SUS.
+</p>
+<div class="category-header" style="color: #047857;">
+<p><i class="bi bi-stars category-icon"></i> <span>Novos Lançamentos</span></p>
+</div>
+<div class="courses-grid">
+<!-- CURSO 1: Desigualdades -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-new">Novo Lançamento</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/desigualdades.html">Monitoramento das Desigualdades em Saúde na Vigilância</a>
+</h3>
+<p class="course-description">
+O curso discute a importância do monitoramento das desigualdades sociais nas atividades de vigilância em saúde no SUS. Também apresenta como calcular indicadores de desigualdades utilizando-se a linguagem R com exemplos práticos da vigilância.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/12556" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4877" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/desigualdades.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 2: Séries Temporais -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-new">Novo Lançamento</span> <span class="badge-hours"><i class="bi bi-clock"></i> 45 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/series-temporais.html">Análises de Séries Temporais aplicadas à Vigilância em Saúde</a>
+</h3>
+<p class="course-description">
+Conceitos, classificações e aplicações de séries temporais no monitoramento de problemas de saúde ao longo do tempo, com especial aplicação na vigilância em saúde no SUS.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/12029" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (45h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4350" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/series-temporais.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 3: Estatística Espacial -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-new">Novo Lançamento</span> <span class="badge-hours"><i class="bi bi-clock"></i> 45 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/estatistica-espacial.html">Estatística Espacial aplicada à Vigilância em Saúde</a>
+</h3>
+<p class="course-description">
+Conceitos, classificações e aplicações de métodos estatísticos na análise de dados georreferenciados, com foco em vigilância em saúde no SUS.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/12030" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (45h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4714" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/estatistica-espacial.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+</div>
+<div class="category-header" style="color: #1d4ed8;">
+<p><i class="bi bi-journal-code category-icon"></i> <span>Trilha Fundamental de Formação em R</span></p>
+</div>
+<div class="courses-grid">
+<!-- CURSO 4: Curso Básico -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-core">Curso Introdutório</span> <span class="badge-hours"><i class="bi bi-clock"></i> 45 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/curso-basico.html">Análise de Dados para a Vigilância em Saúde – Curso Básico</a>
+</h3>
+<p class="course-description">
+Curso introdutório sobre análise de dados para a vigilância em saúde. No curso serão apresentadas técnicas para gerenciamento de dados na vigilância, análise básica de dados, cálculo de indicadores e sua apresentação gráfica.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9897" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (45h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3900" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/curso-basico.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 5: Visualização -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-core">Comunicação Visual</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/visualizacao.html">Visualização de Dados de Interesse para a Vigilância em Saúde</a>
+</h3>
+<p class="course-description">
+Capacitar profissionais da área da saúde a produzir gráficos que são de interesse para a vigilância em saúde. Serão trabalhados desde gráficos de barras e de linhas até boxplots, pirâmides etárias e gráficos temporais de calor (calendar heatmaps).
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9899" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3901" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/visualizacao.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 6: Relatórios -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-core">Automação</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/relatorios.html">Produção Automatizada de Relatórios na Vigilância em Saúde</a>
+</h3>
+<p class="course-description">
+O curso objetiva ensinar profissionais da vigilância e demais interessados a automatizar a produção de relatórios técnicos, organizando suas rotinas de análises em relatórios dinâmicos (interativos) e criando relatórios com análises complexas.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9900" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3902" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/relatorios.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+</div>
+<div class="category-header" style="color: #6d28d9;">
+<p><i class="bi bi-tools category-icon"></i> <span>Módulos Temáticos Aplicados</span></p>
+</div>
+<div class="courses-grid">
+<!-- CURSO 7: Análise Espacial Básica -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-intermediate">Geoprocessamento</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/analise-espacial.html">Análise Espacial de Dados para a Vigilância em Saúde</a>
+</h3>
+<p class="course-description">
+O objetivo do curso é mostrar os conceitos básicos para a elaboração de mapas, ensinar a reconhecer dados espaciais em bancos de dados da saúde, transformar e visualizar os principais tipos de dados espaciais e gerar mapas de interesse para a vigilância em saúde.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9903" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3905" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/analise-espacial.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 8: Dashboards -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-intermediate">Painéis Interativos</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/dashboards.html">Construção de Painéis (Dashboards) para Monitoramento</a>
+</h3>
+<p class="course-description">
+O curso irá conceituar o que são dashboards, apresentar as técnicas para se gerar gráficos e tabelas interativas e ensinar a se construir um painel (dashboard) com indicadores de saúde.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9901" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3906" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/dashboards.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 9: Linkage -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-intermediate">Integração de Dados</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/linkage.html">Linkage de Bases de Dados de Saúde</a>
+</h3>
+<p class="course-description">
+O curso objetiva capacitar os profissionais das vigilâncias em saúde de estados e municípios no linkage de bases de dados em saúde.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9884" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3904" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/linkage.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+<!-- CURSO 10: Diagramas de Controle -->
+<div class="course-card">
+<div class="course-card-header">
+<p><span class="badge-tag badge-intermediate">Detecção de Surtos</span> <span class="badge-hours"><i class="bi bi-clock"></i> 15 horas</span></p>
+</div>
+<h3 class="course-title anchored">
+<a href="./cursos/diagramas.html">Construção de Diagramas de Controle na Vigilância em Saúde</a>
+</h3>
+<p class="course-description">
+Esse curso objetiva instruir profissionais a realizar análise exploratória para determinar anos epidêmicos e não epidêmicos e a construir diagramas de controle com dados cotidianos da vigilância em saúde.
+</p>
+<div class="course-card-actions">
+<p><a href="https://inscricoes.ufsc.br/activities/9898" target="_blank" class="btn-action-cert"> <i class="bi bi-award-fill"></i> Inscrição com Certificado (15h) </a> <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3903" target="_blank" class="btn-action-moodle"> <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre </a> <a href="./cursos/diagramas.html" class="btn-action-details"> Ver detalhes do curso <i class="bi bi-arrow-right"></i> </a></p>
+</div>
+</div>
+</div>
+<div class="partners-section">
+<h3 class="partners-title anchored">
+Realização e Parcerias Institucionais
+</h3>
+<p class="partners-desc">
+Os cursos integram a política de formação continuada em saúde pública resultante da cooperação técnica de instituições de excelência no Brasil.
+</p>
+<div class="partners-grid">
+<div class="partner-logo-card">
+<pre><code>&lt;div class="partner-logo-img"&gt;
+  &lt;img src="assets/images/brasao_UFSC.png" alt="UFSC - Universidade Federal de Santa Catarina"&gt;
+&lt;/div&gt;
+&lt;div class="partner-name"&gt;Universidade Federal de Santa Catarina (UFSC)&lt;/div&gt;</code></pre>
+</div>
+<div class="partner-logo-card">
+<pre><code>&lt;div class="partner-logo-img"&gt;
+  &lt;img src="assets/images/cropped-abrasco-logo-ico.webp" alt="ABRASCO - Associação Brasileira de Saúde Coletiva"&gt;
+&lt;/div&gt;
+&lt;div class="partner-name"&gt;Associação Brasileira de Saúde Coletiva (ABRASCO)&lt;/div&gt;</code></pre>
+</div>
+<div class="partner-logo-card">
+<pre><code>&lt;div class="partner-logo-img"&gt;
+  &lt;img src="assets/images/itps-logo.png" alt="ITpS - Instituto Todos pela Saúde"&gt;
+&lt;/div&gt;
+&lt;div class="partner-name"&gt;Instituto Todos pela Saúde (ITpS)&lt;/div&gt;</code></pre>
+</div>
+<div class="partner-logo-card">
+<pre><code>&lt;div class="partner-logo-img"&gt;
+  &lt;img src="assets/images/marcafiocruz_horizontal_POSITIVA_24052024-scaled.jpg" alt="Fiocruz - Fundação Oswaldo Cruz"&gt;
+&lt;/div&gt;
+&lt;div class="partner-name"&gt;Fundação Oswaldo Cruz (Fiocruz)&lt;/div&gt;</code></pre>
+</div>
+<div class="partner-logo-card">
+<pre><code>&lt;div class="partner-logo-img"&gt;
+  &lt;img src="assets/images/Escudo-Colorido-UFPEL.png" alt="UFPel - Universidade Federal de Pelotas"&gt;
+&lt;/div&gt;
+&lt;div class="partner-name"&gt;Universidade Federal de Pelotas (UFPel)&lt;/div&gt;</code></pre>
+</div>
+<div class="partner-logo-card">
+<pre><code>&lt;div class="partner-logo-img"&gt;
+  &lt;img src="assets/images/una-sus-logo.png" alt="UNA-SUS - Universidade Aberta do SUS"&gt;
+&lt;/div&gt;
+&lt;div class="partner-name"&gt;Universidade Aberta do SUS (UNA-SUS)&lt;/div&gt;</code></pre>
+</div>
+</div>
+<div class="mt-4">
+<p><a href="https://abrasco.org.br/iniciativas/cursosvigilancia/" target="_blank" class="btn btn-outline-primary px-4 py-2" style="font-weight: 600; border-radius: 8px;"> <i class="bi bi-box-arrow-up-right"></i> Conheça outras iniciativas de formação da Abrasco </a></p>
+</div>
+</div>
+</section>
+</div>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/guilhermebruckmann\.github\.io\/site_cursos_abrasco");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>Cursos Integrados de Vigilância em Saúde</strong><br> Parceria entre <strong>UFSC</strong>, <strong>ABRASCO</strong> e <strong>ITpS</strong> com apoio da <strong>Fiocruz</strong>, <strong>UFPel</strong> e <strong>UNA-SUS</strong>.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions"><ul><li><a href="https://github.com/guilhermebruckmann/site_cursos_abrasco/issues/new" class="toc-action"><i class="bi bi-github"></i>Criar uma issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Cursos 100% gratuitos e autoinstrucionais para o SUS.<br> Construído com <a href="https://quarto.org">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -1,0 +1,24 @@
+<svg width="960" height="680" viewBox="0 0 960 680" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="680" rx="36" fill="#FFFDF9"/>
+  <rect x="44" y="44" width="872" height="592" rx="28" fill="#F7F5EF"/>
+  <rect x="86" y="86" width="294" height="28" rx="14" fill="#FFE2D6"/>
+  <text x="86" y="200" fill="#102A33" font-size="56" font-family="IBM Plex Sans, Arial, sans-serif" font-weight="700">
+    Visualização de dados
+  </text>
+  <text x="86" y="256" fill="#55656B" font-size="28" font-family="IBM Plex Sans, Arial, sans-serif">
+    Clareza, hierarquia e contexto
+  </text>
+  <text x="86" y="294" fill="#55656B" font-size="28" font-family="IBM Plex Sans, Arial, sans-serif">
+    para gráficos que ajudam a decidir.
+  </text>
+  <rect x="86" y="362" width="788" height="212" rx="28" fill="#FFFFFF" stroke="#E2EAE8"/>
+  <path d="M156 510L248 446L340 464L432 386L524 412L616 340L708 372L800 298" stroke="#0F5C5C" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="156" cy="510" r="10" fill="#EF7E56"/>
+  <circle cx="248" cy="446" r="10" fill="#EF7E56"/>
+  <circle cx="340" cy="464" r="10" fill="#EF7E56"/>
+  <circle cx="432" cy="386" r="10" fill="#EF7E56"/>
+  <circle cx="524" cy="412" r="10" fill="#EF7E56"/>
+  <circle cx="616" cy="340" r="10" fill="#EF7E56"/>
+  <circle cx="708" cy="372" r="10" fill="#EF7E56"/>
+  <circle cx="800" cy="298" r="10" fill="#EF7E56"/>
+</svg>
