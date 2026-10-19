@@ -1,0 +1,102 @@
+---
+title: "Produção Automatizada de Relatórios na Vigilância em Saúde"
+subtitle: "Automatize a elaboração de informes, boletins e notas técnicas em minutos com R Markdown e Quarto"
+---
+
+::: {.course-meta-box}
+::: {.meta-item}
+::: {.meta-item-title}
+Categoria
+:::
+::: {.meta-item-val}
+<span class="badge-tag badge-core">Automação</span>
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Carga Horária
+:::
+::: {.meta-item-val}
+<i class="bi bi-clock-fill text-primary"></i> 15 horas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Dedicação Sugerida
+:::
+::: {.meta-item-val}
+<i class="bi bi-calendar3 text-primary"></i> 4 semanas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Nível
+:::
+::: {.meta-item-val}
+<i class="bi bi-bar-chart-fill text-primary"></i> Intermediário
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Certificação
+:::
+::: {.meta-item-val}
+<i class="bi bi-patch-check-fill text-success"></i> UFSC (Gratuito)
+:::
+:::
+:::
+
+::: {.cta-banner}
+<div>
+  <h4 class="mb-1" style="color: #0c4a6e; font-weight: 700;">Chega de retrabalho com cópia e cola de planilhas!</h4>
+  <p class="mb-0 text-muted">Aprenda a gerar boletins semanais atualizados automaticamente a partir da sua base de dados.</p>
+</div>
+<div class="cta-buttons">
+  <a href="https://inscricoes.ufsc.br/activities/9900" target="_blank" class="btn btn-action-cert">
+    <i class="bi bi-award-fill"></i> Inscrição com Certificado (UFSC)
+  </a>
+  <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3902" target="_blank" class="btn btn-action-moodle">
+    <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre
+  </a>
+</div>
+:::
+
+## Apresentação do Curso
+
+Já imaginou ter os informes epidemiológicos do seu município ou estado prontos em menos de 2 minutos? Se você está cansado de retrabalhos periódicos, este curso foi feito sob medida para você!
+
+Neste curso vamos colocar em prática um dos pilares mais importantes para a vigilância em saúde: a **transparência e a oportunidade da informação**. Publicar a análise da situação de saúde no tempo oportuno torna-a acessível para subsidiar gestores, profissionais de saúde e a população em geral, eliminando rotinas cansativas de formatação manual.
+
+Utilizando a linguagem de programação R e o ecossistema R Markdown / Quarto, você aprenderá a unir texto explicativo, código analítico, tabelas formatadas e gráficos dinâmicos em um único documento reprodutível. Ao atualizar a base de dados de entrada, todo o relatório é recalculado e renderizado automaticamente!
+
+---
+
+## O que você vai aprender
+
+Ao final deste curso, você será capaz de:
+
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar documentos dinâmicos e computação reprodutível:** Compreender como funcionam blocos de código (*code chunks*), sintaxe Markdown e cabeçalho YAML.
+* <i class="bi bi-check2-circle text-success"></i> **Automatizar a produção de boletins epidemiológicos:** Inserir métricas calculadas em linha (*inline code*) que se atualizam sozinhas.
+* <i class="bi bi-check2-circle text-success"></i> **Inserir tabelas formatadas para publicação:** Usar pacotes como `knitr::kable`, `kableExtra` ou `gt` com estilos profissionais.
+* <i class="bi bi-check2-circle text-success"></i> **Exportar para múltiplos formatos:** Gerar documentos prontos em `.html` interativo, `.pdf` para impressão ou `.docx` para edição corporativa.
+* <i class="bi bi-check2-circle text-success"></i> **Parametrização de relatórios:** Gerar relatórios específicos por município, distrito sanitário ou agravo com um único script.
+
+---
+
+::: {.callout-warning}
+### Pré-requisitos Recomendados
+Recomenda-se ter noções básicas de R ou ter realizado o [Curso Básico em R](curso-basico.qmd).
+:::
+
+::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}
+<a href="https://inscricoes.ufsc.br/activities/9900" target="_blank" class="btn btn-action-cert px-4 py-2">
+  <i class="bi bi-award-fill"></i> Inscreva-se com Certificado UFSC
+</a>
+<a href="https://grupos.moodle.ufsc.br/course/view.php?id=3902" target="_blank" class="btn btn-action-moodle px-4 py-2">
+  <i class="bi bi-unlock-fill"></i> Entrar no Moodle Livre
+</a>
+:::

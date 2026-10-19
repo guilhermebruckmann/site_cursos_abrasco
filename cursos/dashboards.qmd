@@ -1,0 +1,102 @@
+---
+title: "Construção de Painéis (Dashboards) para Monitoramento de Indicadores de Saúde"
+subtitle: "Crie dashboards interativos no R com flexdashboard e plotly para vigilância e gestão em tempo real"
+---
+
+::: {.course-meta-box}
+::: {.meta-item}
+::: {.meta-item-title}
+Categoria
+:::
+::: {.meta-item-val}
+<span class="badge-tag badge-intermediate">Painéis Interativos</span>
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Carga Horária
+:::
+::: {.meta-item-val}
+<i class="bi bi-clock-fill text-primary"></i> 15 horas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Dedicação Sugerida
+:::
+::: {.meta-item-val}
+<i class="bi bi-calendar3 text-primary"></i> 4 semanas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Nível
+:::
+::: {.meta-item-val}
+<i class="bi bi-bar-chart-fill text-primary"></i> Intermediário
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Certificação
+:::
+::: {.meta-item-val}
+<i class="bi bi-patch-check-fill text-success"></i> UFSC (Gratuito)
+:::
+:::
+:::
+
+::: {.cta-banner}
+<div>
+  <h4 class="mb-1" style="color: #0c4a6e; font-weight: 700;">Apresente seus dados de forma moderna e intuitiva</h4>
+  <p class="mb-0 text-muted">Construa painéis interativos para reuniões com a Atenção Primária e sala de situação.</p>
+</div>
+<div class="cta-buttons">
+  <a href="https://inscricoes.ufsc.br/activities/9901" target="_blank" class="btn btn-action-cert">
+    <i class="bi bi-award-fill"></i> Inscrição com Certificado (UFSC)
+  </a>
+  <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3906" target="_blank" class="btn btn-action-moodle">
+    <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre
+  </a>
+</div>
+:::
+
+## Apresentação do Curso
+
+Você já imaginou ter parte dos seus dados de vigilância em saúde visualizados de forma interativa em um painel online? Agora imagine acessá-lo remotamente em uma reunião técnica com a Atenção Primária à Saúde da sua região e realizar análises comparativas instantâneas com filtros na tela. Ou ainda apresentar essas análises sem se preocupar em salvar um PowerPoint estático ou imprimir pilhas de relatórios para leitura conjunta.
+
+Seria perfeito, não é mesmo?! A área da saúde está se transformando digitalmente! Neste curso, você aprenderá a organizar suas análises e transformar seus relatórios personalizados em painéis interativos que podem ser utilizados entre a equipe da vigilância ou para a prestação de contas transparente à sociedade.
+
+Com o apoio da linguagem de programação R você colocará em prática um dos pilares mais importantes da Vigilância: fornecer acesso oportuno, intuitivo e com análises confiáveis para a tomada de decisão rápida.
+
+---
+
+## O que você vai aprender
+
+Ao final deste curso, você será capaz de:
+
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar dashboards:** Entender princípios de arquitetura de informação, usabilidade, *cards* de valor e hierarquia visual de indicadores de saúde.
+* <i class="bi bi-check2-circle text-success"></i> **Utilizar o pacote `flexdashboard`:** Organizar páginas, linhas, colunas e abas estruturadas com facilidade usando sintaxe R Markdown.
+* <i class="bi bi-check2-circle text-success"></i> **Integrar gráficos interativos com `plotly`:** Adicionar recursos de zoom, seleção de séries temporais e caixas de texto com informações ao passar o cursor (*tooltips*).
+* <i class="bi bi-check2-circle text-success"></i> **Tabelas dinâmicas com `DT` (DataTables):** Permitir busca rápida, filtros por coluna e paginação de casos e estabelecimentos.
+* <i class="bi bi-check2-circle text-success"></i> **Publicação e Compartilhamento:** Gerar arquivos HTML autocontidos que funcionam offline no navegador ou podem ser hospedados em servidores institucionais gratuitos.
+
+---
+
+::: {.callout-warning}
+### Pré-requisitos Recomendados
+Recomenda-se ter conhecimentos básicos de R e RStudio ou ter cursado o [Curso Básico em R](curso-basico.qmd).
+:::
+
+::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}
+<a href="https://inscricoes.ufsc.br/activities/9901" target="_blank" class="btn btn-action-cert px-4 py-2">
+  <i class="bi bi-award-fill"></i> Inscreva-se com Certificado UFSC
+</a>
+<a href="https://grupos.moodle.ufsc.br/course/view.php?id=3906" target="_blank" class="btn btn-action-moodle px-4 py-2">
+  <i class="bi bi-unlock-fill"></i> Entrar no Moodle Livre
+</a>
+:::

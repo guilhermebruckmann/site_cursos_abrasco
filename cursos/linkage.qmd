@@ -1,0 +1,106 @@
+---
+title: "Linkage de Bases de Dados de Saúde"
+subtitle: "Aprenda a integrar e relacionar bancos de dados em saúde com técnicas determinísticas e probabilísticas em R"
+---
+
+::: {.course-meta-box}
+::: {.meta-item}
+::: {.meta-item-title}
+Categoria
+:::
+::: {.meta-item-val}
+<span class="badge-tag badge-intermediate">Integração de Dados</span>
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Carga Horária
+:::
+::: {.meta-item-val}
+<i class="bi bi-clock-fill text-primary"></i> 15 horas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Dedicação Sugerida
+:::
+::: {.meta-item-val}
+<i class="bi bi-calendar3 text-primary"></i> 4 semanas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Nível
+:::
+::: {.meta-item-val}
+<i class="bi bi-bar-chart-fill text-primary"></i> Intermediário / Avançado
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Certificação
+:::
+::: {.meta-item-val}
+<i class="bi bi-patch-check-fill text-success"></i> UFSC (Gratuito)
+:::
+:::
+:::
+
+::: {.cta-banner}
+<div>
+  <h4 class="mb-1" style="color: #0c4a6e; font-weight: 700;">Conecte informações e revele a trajetória do usuário no SUS</h4>
+  <p class="mb-0 text-muted">Aprenda a aplicar relacionamento de bancos de dados com rotinas reprodutíveis em R.</p>
+</div>
+<div class="cta-buttons">
+  <a href="https://inscricoes.ufsc.br/activities/9884" target="_blank" class="btn btn-action-cert">
+    <i class="bi bi-award-fill"></i> Inscrição com Certificado (UFSC)
+  </a>
+  <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3904" target="_blank" class="btn btn-action-moodle">
+    <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre
+  </a>
+</div>
+:::
+
+## Apresentação do Curso
+
+Você já se deparou com situações como estas?
+
+* Durante uma investigação de óbito, precisou acessar vários sistemas distintos para consultar informações complementares do paciente?
+* Para avaliar fatores de risco em um surto, precisou juntar prontuários, planilhas de Excel e fichas de notificação caso a caso?
+* Precisou verificar se óbitos ocorridos por determinada doença estavam notificados no SINAN ou cadastrados em sistemas vacinais como o SI-PNI?
+
+Essas situações são parte da realidade da vigilância em saúde no Brasil. O SUS conta com sistemas consagrados internacionalmente — como SINAN (notificação compulsória), SIM (mortalidade), SINASC (nascidos vivos) e SIH (internações hospitalares). Contudo, esses sistemas muitas vezes operam de forma isolada, sem um identificador unívoco nacional perfeitamente padronizado.
+
+É neste cenário que o **record linkage** (relacionamento de registros) se torna uma habilidade essencial para epidemiologistas e técnicos da saúde. Com o apoio de rotinas programadas no R, você aprenderá a vincular bases de dados com alto rigor metodológico e conformidade com as normas de proteção de dados.
+
+---
+
+## O que você vai aprender
+
+Ao final deste curso, você será capaz de:
+
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar record linkage:** Diferenciar relacionamento exato (determinístico) e relacionamento probabilístico baseado em escores de semelhança.
+* <i class="bi bi-check2-circle text-success"></i> **Padronização e higienização de chaves:** Limpar nomes próprios (remoção de acentos, pontuações, títulos e padronização fonética com Soundex/Metaphone), datas de nascimento e códigos de município.
+* <i class="bi bi-check2-circle text-success"></i> **Estratégias de blocagem (*blocking*):** Otimizar o processamento computacional reduzindo pares improváveis em grandes bancos de dados.
+* <i class="bi bi-check2-circle text-success"></i> **Avaliação de acurácia:** Identificar verdadeiros positivos, falsos positivos e falsos negativos, calculando sensibilidade e especificidade do pareamento.
+* <i class="bi bi-check2-circle text-success"></i> **Anonimização e LGPD:** Aplicar funções de hashing (como SHA-256) e pseudoanonimização para garantir o cumprimento da Lei Geral de Proteção de Dados e diretrizes de comitês de ética em pesquisa (CEP/CONEP).
+
+---
+
+::: {.callout-warning}
+### Pré-requisitos Recomendados
+Recomenda-se ter familiaridade com manipulação de dados no R ou ter concluído o [Curso Básico em R](curso-basico.qmd).
+:::
+
+::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}
+<a href="https://inscricoes.ufsc.br/activities/9884" target="_blank" class="btn btn-action-cert px-4 py-2">
+  <i class="bi bi-award-fill"></i> Inscreva-se com Certificado UFSC
+</a>
+<a href="https://grupos.moodle.ufsc.br/course/view.php?id=3904" target="_blank" class="btn btn-action-moodle px-4 py-2">
+  <i class="bi bi-unlock-fill"></i> Entrar no Moodle Livre
+</a>
+:::

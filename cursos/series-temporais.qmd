@@ -1,0 +1,101 @@
+---
+title: "Análises de Séries Temporais aplicadas à Vigilância em Saúde"
+subtitle: "Compreenda tendências, ciclos, sazonalidades e modelos de previsão epidemiológica no R"
+---
+
+::: {.course-meta-box}
+::: {.meta-item}
+::: {.meta-item-title}
+Status
+:::
+::: {.meta-item-val}
+<span class="badge-tag badge-new">Novo Lançamento</span>
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Carga Horária
+:::
+::: {.meta-item-val}
+<i class="bi bi-clock-fill text-primary"></i> 45 horas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Dedicação Sugerida
+:::
+::: {.meta-item-val}
+<i class="bi bi-calendar3 text-primary"></i> 6 semanas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Nível
+:::
+::: {.meta-item-val}
+<i class="bi bi-bar-chart-fill text-primary"></i> Avançado
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Certificação
+:::
+::: {.meta-item-val}
+<i class="bi bi-patch-check-fill text-success"></i> UFSC (Gratuito)
+:::
+:::
+:::
+
+::: {.cta-banner}
+<div>
+  <h4 class="mb-1" style="color: #0c4a6e; font-weight: 700;">Domine a dimensão temporal dos dados em saúde pública</h4>
+  <p class="mb-0 text-muted">Aprenda a aplicar métodos de decomposição, regressão com erros correlacionados e modelos ARIMA.</p>
+</div>
+<div class="cta-buttons">
+  <a href="https://inscricoes.ufsc.br/activities/12029" target="_blank" class="btn btn-action-cert">
+    <i class="bi bi-award-fill"></i> Inscrição com Certificado (UFSC)
+  </a>
+  <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4350" target="_blank" class="btn btn-action-moodle">
+    <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre
+  </a>
+</div>
+:::
+
+## Apresentação do Curso
+
+A dimensão temporal é o coração da vigilância epidemiológica. Todos os dias, profissionais de saúde lidam com contagens semanais e mensais de casos e óbitos, perguntando-se: *a doença está subindo ou caindo? Essa alta faz parte do comportamento sazonal esperado ou indica uma emergência sanitária? Quais intervenções surtiram efeito na queda das internações?*
+
+O curso **Análises de Séries Temporais aplicadas à Vigilância em Saúde** oferece uma formação aprofundada em métodos estatísticos modernos para o estudo de dados longitudinais agregados no tempo. Você aprenderá a modelar séries epidemiológicas no software R, indo desde a decomposição clássica até métodos avançados de previsão (*forecasting*) e modelos de séries temporais interrompidas para avaliação de políticas de saúde.
+
+---
+
+## O que você vai aprender
+
+Ao final deste curso, você será capaz de:
+
+* <i class="bi bi-check2-circle text-success"></i> **Estruturação de objetos temporais no R:** Manipular séries diárias, semanais (semanas epidemiológicas padrão SINAN) e mensais com pacotes como `tsibble`, `zoo` e `lubridate`.
+* <i class="bi bi-check2-circle text-success"></i> **Decomposição clássica e moderna:** Separar uma série em componente de tendência, componente sazonal e resíduo aleatório (STL - *Seasonal and Trend decomposition using Loess*).
+* <i class="bi bi-check2-circle text-success"></i> **Avaliação de autocorrelação:** Calcular e interpretar a Função de Autocorrelação (FAC/ACF) e Função de Autocorrelação Parcial (FACP/PACF) para identificar dependência temporal.
+* <i class="bi bi-check2-circle text-success"></i> **Modelos ARIMA e SARIMA:** Ajustar modelos autorregressivos integrados de médias móveis com componentes sazonais para previsão de incidência.
+* <i class="bi bi-check2-circle text-success"></i> **Séries Temporais Interrompidas (ITS):** Avaliar o impacto pontual de campanhas de vacinação, mudanças em protocolos clínicos ou medidas restritivas na trajetória de indicadores de saúde.
+* <i class="bi bi-check2-circle text-success"></i> **Visualização e relatórios de previsão:** Gerar gráficos com intervalos de predição a 80% e 95% para embasar planos de contingência de leitos e insumos.
+
+---
+
+::: {.callout-warning}
+### Pré-requisitos Recomendados
+Recomenda-se sólida compreensão de R e noções de bioestatística básica (ou ter realizado o [Curso Básico em R](curso-basico.qmd)).
+:::
+
+::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}
+<a href="https://inscricoes.ufsc.br/activities/12029" target="_blank" class="btn btn-action-cert px-4 py-2">
+  <i class="bi bi-award-fill"></i> Inscreva-se com Certificado UFSC
+</a>
+<a href="https://grupos.moodle.ufsc.br/course/view.php?id=4350" target="_blank" class="btn btn-action-moodle px-4 py-2">
+  <i class="bi bi-unlock-fill"></i> Entrar no Moodle Livre
+</a>
+:::

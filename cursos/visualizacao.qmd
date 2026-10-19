@@ -1,0 +1,109 @@
+---
+title: "Visualização de Dados de Interesse para a Vigilância em Saúde"
+subtitle: "Aprenda a comunicar achados epidemiológicos com gráficos claros, atraentes e metodologicamente adequados"
+---
+
+::: {.course-meta-box}
+::: {.meta-item}
+::: {.meta-item-title}
+Categoria
+:::
+::: {.meta-item-val}
+<span class="badge-tag badge-core">Comunicação Visual</span>
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Carga Horária
+:::
+::: {.meta-item-val}
+<i class="bi bi-clock-fill text-primary"></i> 15 horas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Dedicação Sugerida
+:::
+::: {.meta-item-val}
+<i class="bi bi-calendar3 text-primary"></i> 4 semanas
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Nível
+:::
+::: {.meta-item-val}
+<i class="bi bi-bar-chart-fill text-primary"></i> Intermediário
+:::
+:::
+
+::: {.meta-item}
+::: {.meta-item-title}
+Certificação
+:::
+::: {.meta-item-val}
+<i class="bi bi-patch-check-fill text-success"></i> UFSC (Gratuito)
+:::
+:::
+:::
+
+::: {.cta-banner}
+<div>
+  <h4 class="mb-1" style="color: #0c4a6e; font-weight: 700;">Pronto para transformar seus gráficos?</h4>
+  <p class="mb-0 text-muted">Acesso gratuito a todas as videoaulas, scripts em R e certificação pela UFSC.</p>
+</div>
+<div class="cta-buttons">
+  <a href="https://inscricoes.ufsc.br/activities/9899" target="_blank" class="btn btn-action-cert">
+    <i class="bi bi-award-fill"></i> Inscrição com Certificado (UFSC)
+  </a>
+  <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3901" target="_blank" class="btn btn-action-moodle">
+    <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre
+  </a>
+</div>
+:::
+
+## Apresentação do Curso
+
+Fazer uma boa apresentação que valorize sua análise de dados e a torne simples e compreensível para seu interlocutor pode ser desafiador, não é mesmo?! Na vigilância em saúde, comunicar análises é uma etapa indispensável do trabalho técnico, e para isso podemos utilizar diversas estratégias de visualização.
+
+O profissional de vigilância em saúde produz slides, tabelas, boletins, informes e relatórios diariamente. Estes materiais organizam dados e revelam informações valiosas que apoiam a tomada de decisão de profissionais de saúde e gestores do SUS. Neste contexto, a comunicação visual é a chave para informar, e os gráficos dão forma às análises da vigilância.
+
+### Perguntas que o curso responde:
+* Qual a melhor maneira de produzir visualizações de dados em saúde pública?
+* Qual tipo de gráfico utilizar para cada pergunta epidemiológica?
+* Existem gráficos específicos para informar a dinâmica de um agravo ou surto?
+* Como automatizar a geração de gráficos para nunca mais refazer tudo manualmente?
+
+Neste curso, você desenvolverá diversas visualizações de forma rápida com poucos comandos no R e o pacote `ggplot2`. Você aprenderá a utilizar paletas de cores acessíveis, escalas temporais e a escolher as geometrias corretas para as suas análises.
+
+---
+
+## O que você vai aprender
+
+Ao final deste curso, você será capaz de:
+
+* <i class="bi bi-check2-circle text-success"></i> **Gráficos de barras e colunas:** Construir comparações entre grupos e categorias populacionais com ordenação e rótulos automáticos.
+* <i class="bi bi-check2-circle text-success"></i> **Gráficos de linhas e curvas epidêmicas:** Representar tendências temporais, séries mensais e semanas epidemiológicas.
+* <i class="bi bi-check2-circle text-success"></i> **Histogramas e Boxplots:** Avaliar a distribuição de variáveis contínuas (idade, tempo de internação, dias até o óbito) identificando assimetrias e dispersão.
+* <i class="bi bi-check2-circle text-success"></i> **Pirâmides etárias:** Estruturar visualmente a distribuição de agravos e eventos vitais por faixa etária e sexo biológico.
+* <i class="bi bi-check2-circle text-success"></i> **Mapas de calor temporais (Calendar Heatmaps):** Identificar padrões sazonais e concentrações diárias ou semanais de ocorrências.
+* <i class="bi bi-check2-circle text-success"></i> **Customização e Exportação:** Padronizar temas institucionais e exportar figuras em alta resolução (`.png`, `.pdf`) para publicações e boletins.
+
+---
+
+::: {.callout-warning}
+### Pré-requisitos Recomendados
+Recomenda-se ter conhecimentos básicos de R e RStudio ou ter concluído o [Curso Básico em R](curso-basico.qmd).
+:::
+
+::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}
+<a href="https://inscricoes.ufsc.br/activities/9899" target="_blank" class="btn btn-action-cert px-4 py-2">
+  <i class="bi bi-award-fill"></i> Inscreva-se com Certificado UFSC
+</a>
+<a href="https://grupos.moodle.ufsc.br/course/view.php?id=3901" target="_blank" class="btn btn-action-moodle px-4 py-2">
+  <i class="bi bi-unlock-fill"></i> Entrar no Moodle Livre
+</a>
+:::
