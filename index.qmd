@@ -11,10 +11,10 @@ page-layout: full
 </div>
 <div class="hero-actions">
   <a href="#catalogo" class="btn btn-primary-hero">
-    <i class="bi bi-grid-3x3-gap-fill"></i> Explorar os 10 Cursos
+    <i class="bi bi-grid-3x3-gap-fill"></i> Explorar os cursos disponíveis
   </a>
   <a href="sobre.qmd" class="btn btn-secondary-hero">
-    <i class="bi bi-info-circle"></i> Conhecer a Iniciativa
+    <i class="bi bi-info-circle"></i> Conhecer a iniciativa
   </a>
 </div>
 
@@ -29,10 +29,10 @@ Profissionais Inscritos
 :::
 ::: {.stat-item}
 ::: {.stat-number}
-10
+10 Cursos
 :::
 ::: {.stat-label}
-Cursos de Análise de Dados em R
+Incluindo análise de dados, monitoramento e mais. Todos para você desenvolver seus conhecimentos e aprender programar em R
 :::
 :::
 ::: {.stat-item}
@@ -45,10 +45,10 @@ Online e Autoinstrucional
 :::
 ::: {.stat-item}
 ::: {.stat-number}
-Certificado
+Certificação
 :::
 ::: {.stat-label}
-Extensão Universitária — Universidade Federal de Santa Catarina (UFSC)
+Todos os cursos possuem certificação de extensão universitária, emitidos pela Universidade Federal de Santa Catarina (UFSC)
 :::
 :::
 :::
