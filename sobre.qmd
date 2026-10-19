@@ -61,7 +61,6 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 
 ::: {.partners-badges style="margin-top: 1.5rem;"}
 ::: {.partner-card}
-<i class="bi bi-mortarboard-fill text-primary" style="font-size: 1.3rem;"></i>
 <div>
   <strong>UFSC</strong> — Universidade Federal de Santa Catarina
   <div class="small text-muted font-weight-normal">Coordenação pedagógica e emissão de certificados oficiais de extensão universitária</div>
@@ -69,7 +68,6 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 :::
 
 ::: {.partner-card}
-<i class="bi bi-heart-pulse-fill text-danger" style="font-size: 1.3rem;"></i>
 <div>
   <strong>ABRASCO</strong> — Associação Brasileira de Saúde Coletiva
   <div class="small text-muted font-weight-normal">Articulação técnico-política, apoio institucional e disseminação nacional</div>
@@ -77,7 +75,6 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 :::
 
 ::: {.partner-card}
-<i class="bi bi-shield-check text-info" style="font-size: 1.3rem;"></i>
 <div>
   <strong>ITpS</strong> — Instituto Todos pela Saúde
   <div class="small text-muted font-weight-normal">Apoio técnico e fomento à inovação em vigilância genômica e epidemiológica</div>
@@ -85,7 +82,6 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 :::
 
 ::: {.partner-card}
-<i class="bi bi-building-check text-success" style="font-size: 1.3rem;"></i>
 <div>
   <strong>Fiocruz</strong> — Fundação Oswaldo Cruz
   <div class="small text-muted font-weight-normal">Parceria em conteúdos de investigação de surtos e vigilância laboratorial</div>
@@ -93,7 +89,6 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 :::
 
 ::: {.partner-card}
-<i class="bi bi-journal-medical text-primary" style="font-size: 1.3rem;"></i>
 <div>
   <strong>UFPel</strong> — Universidade Federal de Pelotas
   <div class="small text-muted font-weight-normal">Colaboração em epidemiologia de campo e planos de contingência</div>
@@ -101,9 +96,8 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 :::
 
 ::: {.partner-card}
-<i class="bi bi-broadcast-pin text-warning" style="font-size: 1.3rem;"></i>
 <div>
-  <strong>UNA-SUS</strong> — Universidade Aberta do SUS
+  <strong>UNASUS</strong> — Universidade Aberta do SUS
   <div class="small text-muted font-weight-normal">Difusão de trilhas formativas na rede de educação permanente em saúde</div>
 </div>
 :::
