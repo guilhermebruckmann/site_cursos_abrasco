@@ -295,8 +295,7 @@ Esse curso objetiva instruir profissionais a realizar análise exploratória par
   <h3 class="partners-title">Realização e Parcerias Institucionais</h3>
 
   <p class="partners-desc">
-    Os cursos integram a política de formação continuada em saúde pública
-    resultante da cooperação técnica de instituições de excelência no Brasil.
+    Os cursos integram uma iniciativa para formação em saúde pública voltada para Vigilância em Saúde, e são resultado da cooperação técnica de instituições de excelência no Brasil.
   </p>
 
   <div class="partners-grid">
