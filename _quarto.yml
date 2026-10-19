@@ -55,7 +55,7 @@ website:
         href: sobre.qmd
       - text: "Dúvidas Frequentes"
         href: faq.qmd
-      - text: "Iniciativas Abrasco"
+      - text: "Outros cursos da Abrasco"
         icon: box-arrow-up-right
         href: "https://abrasco.org.br/iniciativas/cursosvigilancia/"
         target: "_blank"
