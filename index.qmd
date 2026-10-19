@@ -59,7 +59,7 @@ Extensão Universitária — Universidade Federal de Santa Catarina (UFSC)
 
 <div class="callout-access">
   <div class="callout-access-title">
-    <i class="bi bi-info-circle-fill"></i> Todos os cursos possuem dois modos de acesso:
+    Todos os cursos possuem dois modos de acesso:
   </div>
   <p class="callout-access-text">
     Você pode escolher entre se inscrever no curso por meio do moodle da Universidade Federal de Santa Catarina para realizar as atividades avaliativas e emitir certificado de extensão universitária oficial ou acessar o Moodle como visitante utilizando o seu usuário e senha do GOV.br para ter acesso a todos os conteúdos de forma gratuita.
