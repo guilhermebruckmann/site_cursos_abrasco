@@ -62,7 +62,7 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 ::: {.partners-badges style="margin-top: 1.5rem;"}
 ::: {.partner-card}
 <div>
-  <strong>UFSC</strong> — Universidade Federal de Santa Catarina
+  Universidade Federal de Santa Catarina — <strong>UFSC</strong>
   <div class="small text-muted font-weight-normal">Coordenação pedagógica e emissão de certificados oficiais de extensão universitária</div>
 </div>
 :::
