@@ -1,43 +1,85 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
+  resources:
+    - assets/images/
 
 website:
-  title: "Cursos Integrados de Vigilância em Saúde"
-  description: "Análises de dados para a vigilância em saúde."
-  google-analytics: "G-D3PZ1BSKVJ"
+  title: "Cursos de Vigilância em Saúde"
+  description: "Cursos abertos e gratuitos de análise de dados para a vigilância em saúde no SUS"
+  site-url: "https://guilhermebruckmann.github.io/site_cursos_abrasco"
+  repo-url: "https://github.com/guilhermebruckmann/site_cursos_abrasco"
+  repo-actions: [issue]
+  favicon: "assets/images/favicon.svg"
   search: false
-  favicon: assets/images/favicon.svg
+  
   navbar:
-    pinned: true
+    background: primary
+    logo: "assets/images/favicon.svg"
+    search: false
+    collapse-below: lg
     left:
-      - href: index.qmd
-        text: Cursos Disponíveis 
+      - text: "Início"
+        href: index.qmd
+      - text: "Catálogo de Cursos"
+        menu:
+          - text: "Todos os 10 Cursos"
+            href: index.qmd#catalogo
+          - text: "---"
+          - text: "Novos Lançamentos"
+          - text: "1. Desigualdades em Saúde"
+            href: cursos/desigualdades.qmd
+          - text: "2. Séries Temporais em Saúde"
+            href: cursos/series-temporais.qmd
+          - text: "3. Estatística Espacial Avançada"
+            href: cursos/estatistica-espacial.qmd
+          - text: "---"
+          - text: "Trilha Fundamental"
+          - text: "4. Curso Básico em R"
+            href: cursos/curso-basico.qmd
+          - text: "5. Visualização de Dados"
+            href: cursos/visualizacao.qmd
+          - text: "6. Relatórios Automatizados"
+            href: cursos/relatorios.qmd
+          - text: "---"
+          - text: "Módulos Aplicados"
+          - text: "7. Análise Espacial Básica"
+            href: cursos/analise-espacial.qmd
+          - text: "8. Construção de Dashboards"
+            href: cursos/dashboards.qmd
+          - text: "9. Linkage de Bases de Dados"
+            href: cursos/linkage.qmd
+          - text: "10. Diagramas de Controle"
+            href: cursos/diagramas.qmd
+      - text: "Sobre a Iniciativa"
+        href: sobre.qmd
+      - text: "Dúvidas Frequentes"
+        href: faq.qmd
+      - text: "Iniciativas Abrasco"
+        icon: box-arrow-up-right
+        href: "https://abrasco.org.br/iniciativas/cursosvigilancia/"
+        target: "_blank"
     right:
-      - href: contato.qmd
-        text: Contato
+      - icon: github
+        href: "https://github.com/guilhermebruckmann/site_cursos_abrasco"
+        target: "_blank"
+
   page-footer:
-    left: "Site desenvolvido e publicado por Guilherme Bruckmann Flores."
-    right:
-      - text: Email
-        href: mailto:guilhermebruckmann@hotmail.com
-      - text: Lattes
-        href: https://lattes.cnpq.br/1513906674716932
-      - text: ORCID
-        href: https://orcid.org/0000-0001-9848-0361
+    background: light
+    left: |
+      **Cursos Integrados de Vigilância em Saúde**<br>
+      Parceria entre **UFSC**, **ABRASCO** e **ITpS** com apoio da **Fiocruz**, **UFPel** e **UNA-SUS**.
+    right: |
+      Cursos 100% gratuitos e autoinstrucionais para o SUS.<br>
+      Construído com [Quarto](https://quarto.org).
 
 format:
   html:
-    theme: cosmo
-    css: assets/css/styles.css
-    toc: false
+    theme:
+      light: [cosmo, styles.scss]
+    css: styles.scss
+    toc: true
+    toc-title: "Nesta página"
+    toc-depth: 3
     smooth-scroll: true
-    include-in-header: includes/head.html
-    anchor-sections: false
-    title-block-style: none
-
-metadata-files:
-  - includes/metadata.yml
-
-execute:
-  freeze: auto
+    lang: pt-BR
