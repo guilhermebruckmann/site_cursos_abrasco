@@ -289,56 +289,80 @@ Esse curso objetiva instruir profissionais a realizar análise exploratória par
 
 :::
 
-::: {.partners-section}
-<h3 class="partners-title">Realização e Parcerias Institucionais</h3>
-<p class="partners-desc">
-Os cursos integram a política de formação continuada em saúde pública resultante da cooperação técnica de instituições de excelência no Brasil.
-</p>
 
-<div class="partners-grid">
-  <div class="partner-logo-card">
-    <div class="partner-logo-img">
-      <img src="assets/images/brasao_UFSC.png" alt="UFSC - Universidade Federal de Santa Catarina">
+```{=html}
+<section class="partners-section">
+  <h3 class="partners-title">Realização e Parcerias Institucionais</h3>
+
+  <p class="partners-desc">
+    Os cursos integram a política de formação continuada em saúde pública
+    resultante da cooperação técnica de instituições de excelência no Brasil.
+  </p>
+
+  <div class="partners-grid">
+
+    <div class="partner-logo-card">
+      <div class="partner-logo-img">
+        <img src="assets/images/brasao_UFSC.png"
+             alt="UFSC - Universidade Federal de Santa Catarina">
+      </div>
+      <div class="partner-name">
+        Universidade Federal de Santa Catarina (UFSC)
+      </div>
     </div>
-    <div class="partner-name">Universidade Federal de Santa Catarina (UFSC)</div>
-  </div>
 
-  <div class="partner-logo-card">
-    <div class="partner-logo-img">
-      <img src="assets/images/cropped-abrasco-logo-ico.webp" alt="ABRASCO - Associação Brasileira de Saúde Coletiva">
+    <div class="partner-logo-card">
+      <div class="partner-logo-img">
+        <img src="assets/images/cropped-abrasco-logo-ico.webp"
+             alt="ABRASCO - Associação Brasileira de Saúde Coletiva">
+      </div>
+      <div class="partner-name">
+        Associação Brasileira de Saúde Coletiva (ABRASCO)
+      </div>
     </div>
-    <div class="partner-name">Associação Brasileira de Saúde Coletiva (ABRASCO)</div>
-  </div>
 
-  <div class="partner-logo-card">
-    <div class="partner-logo-img">
-      <img src="assets/images/itps-logo.png" alt="ITpS - Instituto Todos pela Saúde">
+    <div class="partner-logo-card">
+      <div class="partner-logo-img">
+        <img src="assets/images/itps-logo.png"
+             alt="ITpS - Instituto Todos pela Saúde">
+      </div>
+      <div class="partner-name">
+        Instituto Todos pela Saúde (ITpS)
+      </div>
     </div>
-    <div class="partner-name">Instituto Todos pela Saúde (ITpS)</div>
-  </div>
 
-  <div class="partner-logo-card">
-    <div class="partner-logo-img">
-      <img src="assets/images/marcafiocruz_horizontal_POSITIVA_24052024-scaled.jpg" alt="Fiocruz - Fundação Oswaldo Cruz">
+    <div class="partner-logo-card">
+      <div class="partner-logo-img">
+        <img src="assets/images/marcafiocruz_horizontal_POSITIVA_24052024-scaled.jpg"
+             alt="Fiocruz - Fundação Oswaldo Cruz">
+      </div>
+      <div class="partner-name">
+        Fundação Oswaldo Cruz (Fiocruz)
+      </div>
     </div>
-    <div class="partner-name">Fundação Oswaldo Cruz (Fiocruz)</div>
-  </div>
 
-  <div class="partner-logo-card">
-    <div class="partner-logo-img">
-      <img src="assets/images/Escudo-Colorido-UFPEL.png" alt="UFPel - Universidade Federal de Pelotas">
+    <div class="partner-logo-card">
+      <div class="partner-logo-img">
+        <img src="assets/images/Escudo-Colorido-UFPEL.png"
+             alt="UFPel - Universidade Federal de Pelotas">
+      </div>
+      <div class="partner-name">
+        Universidade Federal de Pelotas (UFPel)
+      </div>
     </div>
-    <div class="partner-name">Universidade Federal de Pelotas (UFPel)</div>
-  </div>
 
-  <div class="partner-logo-card">
-    <div class="partner-logo-img">
-      <img src="assets/images/una-sus-logo.png" alt="UNA-SUS - Universidade Aberta do SUS">
+    <div class="partner-logo-card">
+      <div class="partner-logo-img">
+        <img src="assets/images/una-sus-logo.png"
+             alt="UNA-SUS - Universidade Aberta do SUS">
+      </div>
+      <div class="partner-name">
+        Universidade Aberta do SUS (UNA-SUS)
+      </div>
     </div>
-    <div class="partner-name">Universidade Aberta do SUS (UNA-SUS)</div>
-  </div>
-</div>
 
-:::
+  </div>
+</section>
+```
 
 :::
