@@ -28,8 +28,8 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 .env
-# pkgdown site
-docs/
+# pkgdown site / Quarto docs (commented out to enable GitHub Pages /docs deployment)
+# docs/
 # translation temp files
 po/*~
 # RStudio Connect folder
