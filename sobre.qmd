@@ -17,6 +17,7 @@ Com o apoio da linguagem de programação R e tecnologias abertas de análise de
 
 Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da iniciativa:
 
+```{=html}
 <div class="quality-grid" style="margin: 2rem 0;">
   <div class="quality-card">
     <i class="bi bi-people-fill quality-icon"></i>
@@ -66,6 +67,7 @@ Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da
     </div>
   </div>
 </div>
+```
 
 ---
 
@@ -73,6 +75,7 @@ Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da
 
 A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da articulação de grandes instituições de referência nacional:
 
+```{=html}
 <div class="partners-single-row-section" style="margin: 2rem 0;">
   <div class="partners-row-logos">
     <div class="partner-single-item">
@@ -101,6 +104,7 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
     </div>
   </div>
 </div>
+```
 
 ---
 

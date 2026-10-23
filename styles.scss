@@ -729,18 +729,18 @@ body {
 /* Course Banner on Detail Pages */
 .course-hero-banner {
   width: 100%;
-  max-width: 820px;
-  margin: 0 0 1.75rem 0;
+  max-width: 520px;
+  margin: 0 auto 2rem auto;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.09);
   border: 1px solid #e2e8f0;
 
   img {
     width: 100%;
     height: auto;
     display: block;
-    aspect-ratio: 16 / 8;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
   }
 }
