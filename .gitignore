@@ -37,3 +37,7 @@ rsconnect/
 /.quarto/
 **/*.quarto_ipynb
 .DS_Store
+
+# Dados internos de monitoramento e relatórios (proteção LGPD)
+/data/
+relatorio_principal.html

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad_analise-espacial" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <pattern id="grid_analise-espacial" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="560" height="280" fill="url(#grad_analise-espacial)" />
+  <rect width="560" height="280" fill="url(#grid_analise-espacial)" />
+
+  <!-- Visual element -->
+  
+            <rect x="300" y="80" width="240" height="150" rx="8" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" />
+            <path d="M 320 180 L 370 120 L 430 150 L 490 100 L 520 140 L 480 200 Z" fill="rgba(52, 211, 153, 0.25)" stroke="#34d399" stroke-width="2" />
+            <circle cx="370" cy="120" r="6" fill="#f59e0b" stroke="#ffffff" stroke-width="1.5" />
+            <circle cx="430" cy="150" r="8" fill="#ef4444" stroke="#ffffff" stroke-width="1.5" />
+            <circle cx="490" cy="100" r="5" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5" />
+            <circle cx="410" cy="180" r="7" fill="#fbbf24" stroke="#ffffff" stroke-width="1.5" />
+        
+
+  <!-- Left Content -->
+  <g transform="translate(30, 45)">
+    <rect x="0" y="0" width="144" height="24" rx="4" fill="rgba(255,255,255,0.2)" stroke="rgba(255,255,255,0.4)" stroke-width="1" />
+    <text x="9" y="16" fill="#ffffff" font-size="10" font-weight="800" letter-spacing="1" font-family="Inter, system-ui, sans-serif">ESPECIALIZAÇÃO</text>
+
+    <text x="0" y="65" fill="#ffffff" font-size="22" font-weight="800" font-family="Inter, system-ui, sans-serif" width="250">
+      Análise Espacial de Dados
+    </text>
+
+    <text x="0" y="95" fill="rgba(255,255,255,0.85)" font-size="13" font-family="Inter, system-ui, sans-serif">
+      Mapeamento e Geoprocessamento
+    </text>
+
+    <g transform="translate(0, 150)">
+      <rect x="0" y="0" width="120" height="26" rx="13" fill="rgba(0,0,0,0.25)" />
+      <circle cx="13" cy="13" r="5" fill="#34d399" />
+      <text x="26" y="17" fill="#ffffff" font-size="11" font-weight="600" font-family="Inter, system-ui, sans-serif">Certificado UFSC</text>
+    </g>
+  </g>
+</svg>

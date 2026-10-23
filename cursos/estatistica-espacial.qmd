@@ -1,7 +1,12 @@
 ---
 title: "Estatística Espacial aplicada à Vigilância em Saúde"
 subtitle: "Vá além da confecção de mapas: aprenda modelagem espacial, autocorrelação, suavização bayesiana e clusters no R"
+toc: false
 ---
+
+<div class="course-hero-banner">
+  <img src="../assets/images/courses/estatistica-espacial.svg" alt="Capa do Curso">
+</div>
 
 ::: {.course-meta-box}
 ::: {.meta-item}
@@ -86,9 +91,11 @@ Ao final deste curso, você será capaz de:
 
 ---
 
-::: {.callout-warning}
-### Pré-requisitos Recomendados
-Recomenda-se conhecimento prévio de R e conceitos fundamentais de análise espacial (ou conclusão prévia dos cursos [Análise de Dados em R](curso-basico.qmd) e [Análise Espacial Básica](analise-espacial.qmd)).
+
+
+::: {.callout-note appearance="simple"}
+### Preparação Recomendada
+Para seguir com este curso você deve conhecer as ferramentas básicas para uso da linguagem R e do RStudio, além de possuir conhecimentos básicos de rotinas de análises de dados. Caso você ainda não tenha contato prévio com o R, recomendamos iniciar pelo [Análise de Dados para a Vigilância em Saúde – Curso Básico](curso-basico.qmd), que é 100% gratuito e apresenta todo o passo a passo inicial.
 :::
 
 ::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}

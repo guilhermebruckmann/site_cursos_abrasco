@@ -1,7 +1,12 @@
 ---
 title: "Análise Espacial de Dados para a Vigilância em Saúde"
 subtitle: "Aprenda a mapear eventos epidemiológicos e identificar a distribuição territorial da saúde no SUS com R"
+toc: false
 ---
+
+<div class="course-hero-banner">
+  <img src="../assets/images/courses/analise-espacial.svg" alt="Capa do Curso">
+</div>
 
 ::: {.course-meta-box}
 ::: {.meta-item}
@@ -85,9 +90,11 @@ Ao final deste curso, você será capaz de:
 
 ---
 
-::: {.callout-warning}
-### Pré-requisitos Recomendados
-Recomenda-se conhecimento básico da linguagem R ou ter cursado o [Curso Básico em R](curso-basico.qmd).
+
+
+::: {.callout-note appearance="simple"}
+### Preparação Recomendada
+Para seguir com este curso você deve conhecer as ferramentas básicas para uso da linguagem R e do RStudio, além de possuir conhecimentos básicos de rotinas de análises de dados. Caso você ainda não tenha contato prévio com o R, recomendamos iniciar pelo [Análise de Dados para a Vigilância em Saúde – Curso Básico](curso-basico.qmd), que é 100% gratuito e apresenta todo o passo a passo inicial.
 :::
 
 ::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}

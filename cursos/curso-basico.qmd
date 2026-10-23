@@ -1,7 +1,12 @@
 ---
 title: "Análise de Dados para a Vigilância em Saúde – Curso Básico"
 subtitle: "Aprenda a linguagem R e o RStudio do zero com foco na prática diária da vigilância em saúde no SUS"
+toc: false
 ---
+
+<div class="course-hero-banner">
+  <img src="../assets/images/courses/curso-basico.svg" alt="Capa do Curso">
+</div>
 
 ::: {.course-meta-box}
 ::: {.meta-item}
@@ -98,6 +103,8 @@ Ao final deste curso, você será capaz de:
 
 ---
 
+
+
 ## Estrutura e Metodologia
 
 * **Modalidade:** Educação a Distância (EaD), 100% online e autoinstrucional.
@@ -105,9 +112,9 @@ Ao final deste curso, você será capaz de:
 * **Recursos Didáticos:** Videoaulas práticas gravadas, material didático em PDF, scripts comentados passo a passo, bases de dados de exemplo higienizadas e exercícios avaliativos com feedback imediato.
 * **Avaliação e Certificado:** Obtenha aproveitamento mínimo nas atividades para emissão imediata e gratuita do certificado de extensão universitária pela Universidade Federal de Santa Catarina (UFSC).
 
-::: {.callout-note}
-### Curso Base para a Trilha
-Este é o curso introdutório e recomendado como ponto de partida antes de realizar os módulos temáticos (como Visualização, Relatórios, Análise Espacial, Dashboards e Linkage).
+::: {.callout-note appearance="simple"}
+### Sem Pré-Requisitos Necessários
+Este é o curso introdutório da formação, desenhado do absoluto zero para profissionais da saúde. Não é necessário ter qualquer experiência anterior com programação ou com a linguagem R.
 :::
 
 ::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}

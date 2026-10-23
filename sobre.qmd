@@ -13,45 +13,59 @@ Com o apoio da linguagem de programação R e tecnologias abertas de análise de
 
 ---
 
-## Números da Iniciativa
+## Números e Impacto Comprovado no SUS
 
-::: {.hero-stats style="border: none; margin: 2rem 0; padding: 0;"}
-::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
-::: {.stat-number style="color: #0e4877;"}
-+40.000
-:::
-::: {.stat-label style="color: #475569;"}
-Profissionais de saúde já inscritos em todo o Brasil
-:::
-:::
+Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da iniciativa:
 
-::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
-::: {.stat-number style="color: #0e4877;"}
-10 Cursos
-:::
-::: {.stat-label style="color: #475569;"}
-Módulos independentes e articulados entre si
-:::
-:::
+<div class="quality-grid" style="margin: 2rem 0;">
+  <div class="quality-card">
+    <i class="bi bi-people-fill quality-icon"></i>
+    <div>
+      <div class="quality-val">+40.000</div>
+      <div class="quality-desc">Profissionais de saúde inscritos em todo o território nacional.</div>
+    </div>
+  </div>
 
-::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
-::: {.stat-number style="color: #0e4877;"}
-100% Gratuito
-:::
-::: {.stat-label style="color: #475569;"}
-Sem cobrança de taxa de matrícula ou certificado
-:::
-:::
+  <div class="quality-card">
+    <i class="bi bi-hospital quality-icon"></i>
+    <div>
+      <div class="quality-val">90,4%</div>
+      <div class="quality-desc">dos concluintes vinculados ao SUS atuam diretamente na linha de frente da Vigilância em Saúde (CIEVS, Vigilância Epidemiológica, Sanitária e Ambiental).</div>
+    </div>
+  </div>
 
-::: {.stat-item style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-align: center; padding: 1.5rem;"}
-::: {.stat-number style="color: #0e4877;"}
-Certificação UFSC
-:::
-::: {.stat-label style="color: #475569;"}
-Certificado oficial de extensão universitária
-:::
-:::
-:::
+  <div class="quality-card">
+    <i class="bi bi-geo-alt-fill quality-icon"></i>
+    <div>
+      <div class="quality-val">2.978</div>
+      <div class="quality-desc">Municípios brasileiros e 100% dos estados (27 UFs) com cobertura da formação.</div>
+    </div>
+  </div>
+
+  <div class="quality-card">
+    <i class="bi bi-award-fill quality-icon"></i>
+    <div>
+      <div class="quality-val">+6.050</div>
+      <div class="quality-desc">Certificados oficiais de extensão universitária emitidos gratuitamente pela UFSC.</div>
+    </div>
+  </div>
+
+  <div class="quality-card">
+    <i class="bi bi-arrow-repeat quality-icon"></i>
+    <div>
+      <div class="quality-val">36,8%</div>
+      <div class="quality-desc">dos alunos certificados concluem mais de um curso, demonstrando alta taxa de fidelização e utilidade prática.</div>
+    </div>
+  </div>
+
+  <div class="quality-card">
+    <i class="bi bi-book-fill quality-icon"></i>
+    <div>
+      <div class="quality-val">10 Cursos</div>
+      <div class="quality-desc">Módulos independentes e articulados, do nível introdutório à modelagem estatística avançada.</div>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -59,49 +73,34 @@ Certificado oficial de extensão universitária
 
 A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da articulação de grandes instituições de referência nacional:
 
-::: {.partners-badges style="margin-top: 1.5rem;"}
-::: {.partner-card}
-<div>
-  Universidade Federal de Santa Catarina — <strong>UFSC</strong>
-  <div class="small text-muted font-weight-normal">Coordenação pedagógica e emissão de certificados oficiais de extensão universitária</div>
+<div class="partners-single-row-section" style="margin: 2rem 0;">
+  <div class="partners-row-logos">
+    <div class="partner-single-item">
+      <img src="assets/images/brasao_UFSC.png" alt="UFSC - Universidade Federal de Santa Catarina">
+      <span><strong>UFSC</strong><br>Coordenação pedagógica e certificação</span>
+    </div>
+    <div class="partner-single-item">
+      <img src="assets/images/cropped-abrasco-logo-ico.webp" alt="ABRASCO - Associação Brasileira de Saúde Coletiva">
+      <span><strong>ABRASCO</strong><br>Articulação institucional e política</span>
+    </div>
+    <div class="partner-single-item">
+      <img src="assets/images/itps-logo.png" alt="ITpS - Instituto Todos pela Saúde">
+      <span><strong>ITpS</strong><br>Apoio técnico e fomento à inovação</span>
+    </div>
+    <div class="partner-single-item">
+      <img src="assets/images/marcafiocruz_horizontal_POSITIVA_24052024-scaled.jpg" alt="Fiocruz - Fundação Oswaldo Cruz">
+      <span><strong>Fiocruz</strong><br>Vigilância laboratorial e surtos</span>
+    </div>
+    <div class="partner-single-item">
+      <img src="assets/images/Escudo-Colorido-UFPEL.png" alt="UFPel - Universidade Federal de Pelotas">
+      <span><strong>UFPel</strong><br>Epidemiologia e contingência</span>
+    </div>
+    <div class="partner-single-item">
+      <img src="assets/images/una-sus-logo.png" alt="UNA-SUS - Universidade Aberta do SUS">
+      <span><strong>UNA-SUS</strong><br>Rede de educação permanente</span>
+    </div>
+  </div>
 </div>
-:::
-
-::: {.partner-card}
-<div>
-  Associação Brasileira de Saúde Coletiva — <strong>ABRASCO</strong>
-  <div class="small text-muted font-weight-normal">Articulação técnico-política, apoio institucional e disseminação nacional</div>
-</div>
-:::
-
-::: {.partner-card}
-<div>
-  Instituto Todos pela Saúde — <strong>ITpS</strong>
-  <div class="small text-muted font-weight-normal">Apoio técnico e fomento à inovação em vigilância genômica e epidemiológica</div>
-</div>
-:::
-
-::: {.partner-card}
-<div>
-  Fundação Oswaldo Cruz — <strong>Fiocruz</strong>
-  <div class="small text-muted font-weight-normal">Parceria em conteúdos de investigação de surtos e vigilância laboratorial</div>
-</div>
-:::
-
-::: {.partner-card}
-<div>
-  Universidade Federal de Pelotas — <strong>UFPel</strong>
-  <div class="small text-muted font-weight-normal">Colaboração em epidemiologia de campo e planos de contingência</div>
-</div>
-:::
-
-::: {.partner-card}
-<div>
-  Universidade Aberta do SUS — <strong>UNASUS</strong>
-  <div class="small text-muted font-weight-normal">Difusão de trilhas formativas na rede de educação permanente em saúde</div>
-</div>
-:::
-:::
 
 ---
 
