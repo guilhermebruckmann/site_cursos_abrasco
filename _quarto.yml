@@ -76,6 +76,7 @@ format:
     theme:
       light: [cosmo, styles.scss]
     css: styles.scss
+    include-after-body: includes/footer-partners.html
     toc: true
     toc-title: "Nesta página"
     toc-depth: 3

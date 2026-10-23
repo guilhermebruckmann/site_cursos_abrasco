@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e7895f10117c4594d624a1ac5538d5ee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1c36edadef2ada4257ac45a44cf4f6df.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -304,6 +304,68 @@ Acesso gratuito a todas as videoaulas, scripts em R e certificação pela UFSC.
 </section>
 
 </main> <!-- /main -->
+<div id="footer-partners-container" class="footer-partners-band">
+  <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 2rem 1rem 1.25rem 1rem;">
+    <h3 class="partners-single-title">Realização e Parcerias Institucionais</h3>
+    <p class="partners-single-desc">
+      Cooperação técnica nacional de instituições de excelência em saúde pública, epidemiologia e educação permanente para o SUS.
+    </p>
+
+    <div class="partners-row-logos">
+      <div class="partner-single-item">
+        <img class="footer-partner-img" data-src="assets/images/brasao_UFSC.png" alt="UFSC - Universidade Federal de Santa Catarina">
+        <span>UFSC</span>
+      </div>
+      <div class="partner-single-item">
+        <img class="footer-partner-img" data-src="assets/images/cropped-abrasco-logo-ico.webp" alt="ABRASCO - Associação Brasileira de Saúde Coletiva">
+        <span>ABRASCO</span>
+      </div>
+      <div class="partner-single-item">
+        <img class="footer-partner-img" data-src="assets/images/itps-logo.png" alt="ITpS - Instituto Todos pela Saúde">
+        <span>ITpS</span>
+      </div>
+      <div class="partner-single-item">
+        <img class="footer-partner-img" data-src="assets/images/marcafiocruz_horizontal_POSITIVA_24052024-scaled.jpg" alt="Fiocruz - Fundação Oswaldo Cruz">
+        <span>Fiocruz</span>
+      </div>
+      <div class="partner-single-item">
+        <img class="footer-partner-img" data-src="assets/images/Escudo-Colorido-UFPEL.png" alt="UFPel - Universidade Federal de Pelotas">
+        <span>UFPel</span>
+      </div>
+      <div class="partner-single-item">
+        <img class="footer-partner-img" data-src="assets/images/una-sus-logo.png" alt="UNA-SUS - Universidade Aberta do SUS">
+        <span>UNA-SUS</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    function initFooterPartners() {
+      var partners = document.getElementById("footer-partners-container");
+      var footer = document.querySelector("footer.footer");
+      if (partners && footer && partners.parentNode !== footer) {
+        footer.insertBefore(partners, footer.firstChild);
+      }
+      
+      var inSubdir = window.location.pathname.indexOf("/cursos/") !== -1;
+      var base = inSubdir ? "../" : "./";
+      document.querySelectorAll(".footer-partner-img").forEach(function(img) {
+        var src = img.getAttribute("data-src");
+        if (src) {
+          img.src = base + src;
+        }
+      });
+    }
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initFooterPartners);
+    } else {
+      initFooterPartners();
+    }
+  })();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
