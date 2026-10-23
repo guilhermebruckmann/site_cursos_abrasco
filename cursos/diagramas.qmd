@@ -5,7 +5,7 @@ toc: false
 ---
 
 <div class="course-hero-banner">
-  <img src="../assets/images/courses/diagramas.svg" alt="Capa do Curso">
+  <img src="../assets/images/courses/diagramas.jpg" alt="Capa do Curso">
 </div>
 
 ::: {.course-meta-box}

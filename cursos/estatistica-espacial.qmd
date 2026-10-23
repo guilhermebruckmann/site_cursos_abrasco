@@ -5,7 +5,7 @@ toc: false
 ---
 
 <div class="course-hero-banner">
-  <img src="../assets/images/courses/estatistica-espacial.svg" alt="Capa do Curso">
+  <img src="../assets/images/courses/estatistica-espacial.jpg" alt="Capa do Curso">
 </div>
 
 ::: {.course-meta-box}
