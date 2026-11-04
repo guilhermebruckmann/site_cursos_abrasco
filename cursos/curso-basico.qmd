@@ -113,7 +113,7 @@ Ao final deste curso, você será capaz de:
 * **Avaliação e Certificado:** Obtenha aproveitamento mínimo nas atividades para emissão imediata e gratuita do certificado de extensão universitária pela Universidade Federal de Santa Catarina (UFSC).
 
 ::: {.callout-note appearance="simple"}
-### Sem Pré-Requisitos Necessários
+### Preparação Recomendada
 Este é o curso introdutório da formação, desenhado do absoluto zero para profissionais da saúde. Não é necessário ter qualquer experiência anterior com programação ou com a linguagem R.
 :::
 

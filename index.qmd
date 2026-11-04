@@ -34,10 +34,6 @@ page-layout: full
         <div class="stat-label">Módulos Práticos em Linguagem R</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">90% no SUS</div>
-        <div class="stat-label">Atuação Direta na Vigilância em Saúde</div>
-      </div>
-      <div class="stat-item">
         <div class="stat-number">Certificado UFSC</div>
         <div class="stat-label">Extensão Universitária Oficial Gratuita</div>
       </div>

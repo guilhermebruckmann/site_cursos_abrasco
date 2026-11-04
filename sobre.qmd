@@ -23,15 +23,7 @@ Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da
     <i class="bi bi-people-fill quality-icon"></i>
     <div>
       <div class="quality-val">+40.000</div>
-      <div class="quality-desc">Profissionais de saúde inscritos em todo o território nacional.</div>
-    </div>
-  </div>
-
-  <div class="quality-card">
-    <i class="bi bi-hospital quality-icon"></i>
-    <div>
-      <div class="quality-val">90,4%</div>
-      <div class="quality-desc">dos concluintes vinculados ao SUS atuam diretamente na linha de frente da Vigilância em Saúde (CIEVS, Vigilância Epidemiológica, Sanitária e Ambiental).</div>
+      <div class="quality-desc">Profissionais de saúde inscritos e capacitados em todo o território nacional.</div>
     </div>
   </div>
 
@@ -39,7 +31,7 @@ Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da
     <i class="bi bi-geo-alt-fill quality-icon"></i>
     <div>
       <div class="quality-val">2.978</div>
-      <div class="quality-desc">Municípios brasileiros e 100% dos estados (27 UFs) com cobertura da formação.</div>
+      <div class="quality-desc">Municípios brasileiros e 100% dos estados (27 UFs) com cobertura direta da formação.</div>
     </div>
   </div>
 
@@ -55,15 +47,23 @@ Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da
     <i class="bi bi-arrow-repeat quality-icon"></i>
     <div>
       <div class="quality-val">36,8%</div>
-      <div class="quality-desc">dos alunos certificados concluem mais de um curso, demonstrando alta taxa de fidelização e utilidade prática.</div>
+      <div class="quality-desc">Dos alunos certificados concluem mais de um curso, demonstrando alta retenção e utilidade prática.</div>
     </div>
   </div>
 
   <div class="quality-card">
-    <i class="bi bi-book-fill quality-icon"></i>
+    <i class="bi bi-activity quality-icon"></i>
+    <div>
+      <div class="quality-val">+587.000</div>
+      <div class="quality-desc">Interações e atividades práticas registradas no ambiente virtual de aprendizagem.</div>
+    </div>
+  </div>
+
+  <div class="quality-card">
+    <i class="bi bi-mortarboard-fill quality-icon"></i>
     <div>
       <div class="quality-val">10 Cursos</div>
-      <div class="quality-desc">Módulos independentes e articulados, do nível introdutório à modelagem estatística avançada.</div>
+      <div class="quality-desc">Trilha completa em linguagem R, do básico à modelagem estatística avançada.</div>
     </div>
   </div>
 </div>
