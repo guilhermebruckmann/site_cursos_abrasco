@@ -36,6 +36,16 @@
 
 <script>
   (function() {
+    function refineNavbarLogo() {
+      var titleSpan = document.querySelector(".navbar-title");
+      if (titleSpan && !titleSpan.getAttribute("data-refined")) {
+        titleSpan.setAttribute("data-refined", "true");
+        titleSpan.innerHTML = '<span class="brand-top">Cursos Integrados</span>' +
+                              '<span class="brand-mid">de</span>' +
+                              '<span class="brand-bottom">Vigilância em Saúde</span>';
+      }
+    }
+
     function initFooterPartners() {
       var partners = document.getElementById("footer-partners-container");
       var footer = document.querySelector("footer.footer");
@@ -51,6 +61,8 @@
           img.src = base + src;
         }
       });
+      
+      refineNavbarLogo();
     }
 
     if (document.readyState === "loading") {

@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8fcfd4ac148e2f4f35ade445c8f3b709.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-033c2b4fc846cc938f210225cf9e38d6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -330,6 +330,16 @@ Aprenda a criar mapas epidemiológicos no R com dados oficiais do SUS e malhas d
 
 <script>
   (function() {
+    function refineNavbarLogo() {
+      var titleSpan = document.querySelector(".navbar-title");
+      if (titleSpan && !titleSpan.getAttribute("data-refined")) {
+        titleSpan.setAttribute("data-refined", "true");
+        titleSpan.innerHTML = '<span class="brand-top">Cursos Integrados</span>' +
+                              '<span class="brand-mid">de</span>' +
+                              '<span class="brand-bottom">Vigilância em Saúde</span>';
+      }
+    }
+
     function initFooterPartners() {
       var partners = document.getElementById("footer-partners-container");
       var footer = document.querySelector("footer.footer");
@@ -345,6 +355,8 @@ Aprenda a criar mapas epidemiológicos no R com dados oficiais do SUS e malhas d
           img.src = base + src;
         }
       });
+      
+      refineNavbarLogo();
     }
 
     if (document.readyState === "loading") {
