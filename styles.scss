@@ -138,29 +138,9 @@ img.navbar-logo,
           letter-spacing: 0.15em;
           color: #38bdf8;
           text-transform: lowercase;
-          margin: 0.1rem 0;
-          position: relative;
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          gap: 0.5rem;
-
-          &::before,
-          &::after {
-            content: "";
-            display: inline-block;
-            width: 28px;
-            height: 1px;
-            background: linear-gradient(90deg, rgba(56, 189, 248, 0.1), rgba(56, 189, 248, 0.7));
-          }
-
-          &::before {
-            background: linear-gradient(90deg, rgba(56, 189, 248, 0.1), rgba(56, 189, 248, 0.7));
-          }
-
-          &::after {
-            background: linear-gradient(90deg, rgba(56, 189, 248, 0.7), rgba(56, 189, 248, 0.1));
-          }
+          margin: 0.05rem 0;
+          display: block;
+          text-align: center;
         }
 
         .brand-bottom {
