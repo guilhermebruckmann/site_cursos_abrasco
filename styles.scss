@@ -24,6 +24,41 @@ body {
 /* ==========================================================
    Two-Tier Stacked Header (Title on Top, Navigation Below)
    ========================================================== */
+.navbar-brand-logo,
+a.navbar-brand.navbar-brand-logo {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
+  flex: 0 0 44px !important;
+  margin: 0 0.85rem 0 0 !important;
+  padding: 0 !important;
+}
+
+.navbar-logo,
+img.navbar-logo,
+.navbar-brand-logo img {
+  display: inline-block !important;
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
+  min-width: 44px !important;
+  min-height: 44px !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35));
+  transition: transform 0.2s ease;
+}
+
+.navbar-brand-logo:hover img,
+.navbar-brand:hover .navbar-logo {
+  transform: scale(1.06);
+}
+
 .navbar {
   background: linear-gradient(135deg, #062238 0%, #0e4877 100%) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
@@ -66,8 +101,11 @@ body {
       text-decoration: none;
 
       .navbar-logo {
-        max-height: 48px;
-        width: auto;
+        width: 44px;
+        height: 44px;
+        max-height: 44px;
+        max-width: 44px;
+        object-fit: contain;
         filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35));
         transition: transform 0.2s ease;
       }
