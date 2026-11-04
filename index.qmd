@@ -9,7 +9,6 @@ page-layout: full
   <div class="hero-content">
     <div class="hero-top-row">
       <div class="hero-title-group">
-        <h1 class="hero-title">Cursos Integrados de Vigilância em Saúde</h1>
         <p class="hero-subtitle">
           Qualificação profissional em análise de dados com R para o SUS. 100% gratuito, autoinstrucional e com certificação universitária oficial da UFSC.
         </p>
