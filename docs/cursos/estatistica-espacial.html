@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-367144600cb87a4f834aebb6c24f9961.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8fcfd4ac148e2f4f35ade445c8f3b709.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -286,20 +286,19 @@ Aprenda a lidar com o problema das pequenas áreas e a detectar aglomerados de r
 </div>
 <section id="apresentação-do-curso" class="level2">
 <h2 class="anchored" data-anchor-id="apresentação-do-curso">Apresentação do Curso</h2>
-<p>Mapas temáticos coropléticos simples são excelentes para comunicação visual, mas frequentemente sofrem de limitações estatísticas conhecidas na epidemiologia — especialmente a instabilidade de taxas brutas em municípios com pequenas populações (onde um único óbito eleva artificialmente a taxa a patamares alarmantes).</p>
-<p>O curso avançado <strong>Estatística Espacial aplicada à Vigilância em Saúde</strong> leva o profissional do SUS para o próximo nível analítico. Você aprenderá a formular hipóteses sobre dependência espacial, corrigir flutuações amostrais usando suavização bayesiana empírica, quantificar a autocorrelação espacial global e local (identificando áreas de alta transmissão rodeadas por áreas de alta transmissão - <em>hotspots</em>) e modelar fatores de risco territoriais com apoio do ecossistema R.</p>
+<p>Mapas temáticos coropléticos simples são excelentes para comunicação visual, mas frequentemente sofrem de limitações estatísticas severas na epidemiologia — em especial a instabilidade das taxas brutas em áreas com pequenas populações (onde um único caso ou óbito eleva artificialmente o indicador a patamares alarmantes).</p>
+<p>O curso <strong>Estatística Espacial aplicada à Vigilância em Saúde</strong> aprofunda os métodos quantitativos para além da simples confecção de mapas descritivos. Você aprenderá a modelar a dependência espacial de agravos no R, aplicar métodos de padrões pontuais e de dados de área, suavizar flutuações amostrais com estimadores bayesianos e identificar conglomerados espaciais (<em>clusters</em>) para direcionar com precisão as ações e os recursos de saúde pública no SUS.</p>
 <hr>
 </section>
 <section id="o-que-você-vai-aprender" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-você-vai-aprender">O que você vai aprender</h2>
-<p>Ao final deste curso, você será capaz de:</p>
+<p>O curso está organizado em <strong>5 módulos densos e práticos</strong>, abordando as três grandes vertentes da análise espacial em saúde (padrões pontuais, dados de área e geoestatística):</p>
 <ul>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Conceitos de dependência espacial:</strong> compreensão da Primeira Lei da Geografia de Tobler e seus desdobramentos na dinâmica de transmissão de doenças.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Matrizes de vizinhança espacial:</strong> construir matrizes de contiguidade (critério rainha e torre) e matrizes baseadas em distância e k-vizinhos mais próximos com o pacote <code>spdep</code>.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Índice Global de Moran (<span class="math inline">\(I\)</span>):</strong> testar a hipótese de aleatoriedade espacial versus agregação em todo o território.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Indicadores Locais de Associação Espacial (LISA):</strong> gerar mapas de clusters espaciais (Alto-Alto, Baixo-Baixo, Alto-Baixo e Baixo-Alto) para priorização territorial de intervenções.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Suavização Bayesiana Empírica (Local e Global):</strong> corrigir a instabilidade de taxas em pequenas áreas por meio do encolhimento bayesiano (<em>shrinkage</em>).</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Detecção de aglomerados pontuais (<em>Point Pattern Analysis</em>):</strong> estimação de densidade de Kernel (<em>Kernel Density Estimation</em>) e detecção de conglomerados com estatística scan.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Fundamentos da estatística espacial em saúde (Módulo 1):</strong> compreender a origem e a evolução histórica da análise espacial, as hipóteses de dependência territorial (Primeira Lei da Geografia de Tobler) e os critérios para escolha do método adequado a cada pergunta epidemiológica.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Análise de padrões pontuais (Módulo 2):</strong> investigar a distribuição de eventos pontuais no território, testando aleatoriedade espacial completa (CSR), estimando densidades com funções de Kernel com diferentes raios de busca (<em>bandwidth</em>) e identificando fontes de contaminação e fatores de exposição.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Dados de área e autocorrelação espacial (Módulo 3):</strong> construir matrizes de vizinhança espacial (critérios de contiguidade torre, rainha e k-vizinhos), calcular o Índice Global de Moran (<span class="math inline">\(I\)</span>), mapear agrupamentos locais com os Indicadores LISA e aplicar suavização bayesiana empírica para estabilização de taxas em pequenas áreas.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Geoestatística e superfícies contínuas (Módulo 4):</strong> modelar variáveis regionalizadas contínuas (como fatores ambientais, climáticos e de poluição), modelando semivariogramas experimentais e teóricos e interpolando superfícies preditivas por krigagem.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Dados espaço-temporais na vigilância (Módulo 5):</strong> integrar as dimensões espacial e temporal em análises conjuntas, identificando trajetórias de expansão territorial e persistência de focos de transmissão ao longo das semanas epidemiológicas.</li>
 </ul>
 <hr>
 <div class="callout callout-style-simple callout-note callout-titled">

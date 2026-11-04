@@ -72,22 +72,20 @@ Certificação
 
 ## Apresentação do Curso
 
-A equidade é um dos princípios doutrinários fundamentais do Sistema Único de Saúde (SUS). No entanto, para que as ações de vigilância e atenção cheguem onde são mais necessárias, é indispensável que a análise de dados seja capaz de evidenciar quem são as populações mais atingidas por agravos evitáveis e onde residem as maiores barreiras de acesso.
+A equidade é um dos princípios doutrinários fundamentais do Sistema Único de Saúde (SUS). No entanto, na rotina dos serviços de vigilância em saúde, médias municipais ou estaduais isoladas frequentemente funcionam como uma cortina que esconde desigualdades profundas entre bairros, grupos raciais ou estratos de renda.
 
-O curso **Monitoramento das Desigualdades em Saúde na Vigilância** foi desenvolvido para instrumentalizar profissionais do SUS na mensuração de disparidades sociodemográficas e econômicas. Você aprenderá a sair das médias globais populacionais (que frequentemente mascaram disparidades graves) e a calcular indicadores estratificados com métodos estatísticos consolidados pela epidemiologia social e pela Organização Mundial da Saúde (OMS).
+O curso **Monitoramento das Desigualdades em Saúde na Vigilância** capacita o profissional a desagregações analíticas rigorosas. Com o apoio da linguagem R, você aprenderá a calcular métricas simples e complexas de desigualdade recomendadas pela Organização Mundial da Saúde (OMS), contrastando medidas absolutas e relativas e quantificando o gradiente social de agravos e da oferta de serviços em nível local.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está dividido em **4 módulos temáticos e práticos**, estruturados para aplicação direta no planejamento em saúde:
 
-* <i class="bi bi-check2-circle text-success"></i> **Fundamentos de determinantes sociais da saúde:** compreender conceitos de igualdade, desigualdade e iniquidade em saúde.
-* <i class="bi bi-check2-circle text-success"></i> **Estratificadores de equidade no SUS:** manipular variáveis sociodemográficas clássicas (raça/cor da pele, escolaridade, sexo, zona de residência, quintis de renda e vulnerabilidade territorial).
-* <i class="bi bi-check2-circle text-success"></i> **Medidas simples de desigualdade:** calcular razões de taxas e diferenças absolutas de taxas entre grupos extremos.
-* <i class="bi bi-check2-circle text-success"></i> **Medidas complexas de gradiente social:** compreender e calcular índices de gradiente, tais como o Índice de Declive de Desigualdade (*Slope Index of Inequality* - SII) e o Índice Relativo de Desigualdade (*Relative Index of Inequality* - RII).
-* <i class="bi bi-check2-circle text-success"></i> **Visualização de desigualdades:** construir gráficos de equidade (gráficos equiplot, curvas de Lorenz, gradientes de concentração) no R com o `ggplot2`.
-* <i class="bi bi-check2-circle text-success"></i> **Elaboração de recomendações para a gestão:** traduzir achados de disparidade em propostas de intervenção e priorização de recursos para a Atenção Primária e Vigilância.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentos e estratificadores de equidade no SUS (Módulo 1):** compreender os conceitos de desigualdade e iniquidade em saúde e manipular estratificadores sociodemográficos nos sistemas oficiais (raça/cor, escolaridade, sexo e território).
+* <i class="bi bi-check2-circle text-success"></i> **Distâncias entre as pontas — medidas simples de desigualdade (Módulo 2):** calcular e interpretar a razão e a diferença absoluta entre grupos extremos, entendendo por que ambas as medidas devem ser analisadas simultaneamente para evitar conclusões equivocadas na vigilância.
+* <i class="bi bi-check2-circle text-success"></i> **O gradiente social — medidas complexas de desigualdade (Módulo 3):** calcular e modelar indicadores de gradiente populacional com apoio do R, incluindo o Índice de Declive de Desigualdade (*Slope Index of Inequality* — SII), o Índice Relativo de Desigualdade (*Relative Index of Inequality* — RII) e o Índice Absoluto de Concentração (*Absolute Concentration Index* — ACI).
+* <i class="bi bi-check2-circle text-success"></i> **Desigualdades na distribuição de recursos e serviços (Módulo 4):** construir e interpretar a Curva de Lorenz e calcular o Índice de Gini e o Índice de Theil para diagnosticar assimetrias na distribuição de leitos, profissionais, exames e ações de saúde.
 
 ---
 

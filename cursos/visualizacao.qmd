@@ -72,30 +72,28 @@ Certificação
 
 ## Apresentação do Curso
 
-Fazer uma boa apresentação que valorize sua análise de dados e a torne simples e compreensível para seu interlocutor pode ser desafiador, não é mesmo?! Na vigilância em saúde, comunicar análises é uma etapa indispensável do trabalho técnico, e para isso podemos utilizar diversas estratégias de visualização.
+Fazer uma boa apresentação que valorize sua análise de dados e a torne clara para o gestor ou para a população é um desafio constante. Na vigilância em saúde, comunicar evidências de forma visualmente eficaz é tão importante quanto calculá-las com precisão técnica.
 
-O profissional de vigilância em saúde produz slides, tabelas, boletins, informes e relatórios diariamente. Estes materiais organizam dados e revelam informações valiosas que apoiam a tomada de decisão de profissionais de saúde e gestores do SUS. Neste contexto, a comunicação visual é a chave para informar, e os gráficos dão forma às análises da vigilância.
+O profissional do SUS elabora boletins, informes epidemiológicos, apresentações para comitês e painéis de situação. Os gráficos dão forma a essas análises, permitindo identificar padrões temporais, disparidades e agrupamentos com rapidez. Neste curso, você aprenderá a dominar a gramática dos gráficos com o R e o pacote `ggplot2`, produzindo visualizações com rigor técnico e padrão editorial de excelência.
 
 ### Perguntas que o curso responde:
-* Qual a melhor maneira de produzir visualizações de dados em saúde pública?
-* Qual tipo de gráfico utilizar para cada pergunta epidemiológica?
-* Existem gráficos específicos para informar a dinâmica de um agravo ou surto?
-* Como automatizar a geração de gráficos para nunca mais refazer tudo manualmente?
-
-Neste curso, você desenvolverá diversas visualizações de forma rápida com poucos comandos no R e o pacote `ggplot2`. Você aprenderá a utilizar paletas de cores acessíveis, escalas temporais e a escolher as geometrias corretas para as suas análises.
+* Qual o tipo de gráfico mais adequado para cada pergunta ou agravo de vigilância?
+* Como escolher paletas de cores corretas para destacar contrastes sem induzir o leitor a erro?
+* Como construir pirâmides etárias, gráficos de calor (*heatmaps*) e curvas epidêmicas completas?
+* Como exportar figuras em alta resolução prontas para impressão e relatórios oficiais?
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está organizado em **6 seções práticas**, cobrindo os principais tipos de gráficos utilizados na rotina dos serviços de saúde:
 
-* <i class="bi bi-check2-circle text-success"></i> **Gráficos de barras e colunas:** construir comparações entre grupos e categorias populacionais com ordenação e rótulos automáticos.
-* <i class="bi bi-check2-circle text-success"></i> **Gráficos de linhas e curvas epidêmicas:** representar tendências temporais, séries mensais e semanas epidemiológicas.
-* <i class="bi bi-check2-circle text-success"></i> **Histogramas e Boxplots:** avaliar a distribuição de variáveis contínuas (idade, tempo de internação, dias até o óbito) identificando assimetrias e dispersão.
-* <i class="bi bi-check2-circle text-success"></i> **Pirâmides etárias:** estruturar visualmente a distribuição de agravos e eventos vitais por faixa etária e sexo biológico.
-* <i class="bi bi-check2-circle text-success"></i> **Mapas de calor temporais (Calendar Heatmaps):** identificar padrões sazonais e concentrações diárias ou semanais de ocorrências.
-* <i class="bi bi-check2-circle text-success"></i> **Customização e exportação:** padronizar temas institucionais e exportar figuras em alta resolução (`.png`, `.pdf`) para publicações e boletins.
+* <i class="bi bi-check2-circle text-success"></i> **O uso de gráficos na vigilância em saúde (Seção 1):** preparar dados e compreender os princípios fundamentais de comunicação visual e percepção gráfica.
+* <i class="bi bi-check2-circle text-success"></i> **Teoria e escolha de cores (Seção 2):** utilizar paletas de cores perceptualmente uniformes, gradientes sequenciais, divergentes e esquemas acessíveis para pessoas com daltonismo.
+* <i class="bi bi-check2-circle text-success"></i> **Construção gráfica no R com `ggplot2` (Seção 3):** dominar o mapeamento estético (`aes`), camadas geométricas (`geom`), sistemas de coordenadas e escalas numéricas.
+* <i class="bi bi-check2-circle text-success"></i> **Gráficos clássicos de vigilância (Seção 4):** construir gráficos de barras simples e sobrepostas, gráficos de linhas para curvas epidêmicas, gráficos de dispersão e histogramas para análise de distribuições de frequência.
+* <i class="bi bi-check2-circle text-success"></i> **Visualizações avançadas em saúde pública (Seção 5):** programar gráficos para séries temporais irregulares, mapas de calor (*heatmaps*), curvas de média móvel para suavização de oscilações, pirâmides etárias bi-dimensionais e gráficos interativos com estratificação por variáveis de interesse.
+* <i class="bi bi-check2-circle text-success"></i> **Exportação em qualidade gráfica (Seção 6):** salvar visualizações nos formatos `.png`, `.pdf` e `.svg` com controle preciso de dimensões (`dpi`) para inclusão direta em boletins institucionais e publicações científicas.
 
 ---
 

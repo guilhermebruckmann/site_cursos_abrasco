@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-367144600cb87a4f834aebb6c24f9961.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8fcfd4ac148e2f4f35ade445c8f3b709.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -257,30 +257,29 @@ Acesso gratuito a todas as videoaulas, scripts em R e certificação pela UFSC.
 </div>
 <section id="apresentação-do-curso" class="level2">
 <h2 class="anchored" data-anchor-id="apresentação-do-curso">Apresentação do Curso</h2>
-<p>Fazer uma boa apresentação que valorize sua análise de dados e a torne simples e compreensível para seu interlocutor pode ser desafiador, não é mesmo?! Na vigilância em saúde, comunicar análises é uma etapa indispensável do trabalho técnico, e para isso podemos utilizar diversas estratégias de visualização.</p>
-<p>O profissional de vigilância em saúde produz slides, tabelas, boletins, informes e relatórios diariamente. Estes materiais organizam dados e revelam informações valiosas que apoiam a tomada de decisão de profissionais de saúde e gestores do SUS. Neste contexto, a comunicação visual é a chave para informar, e os gráficos dão forma às análises da vigilância.</p>
+<p>Fazer uma boa apresentação que valorize sua análise de dados e a torne clara para o gestor ou para a população é um desafio constante. Na vigilância em saúde, comunicar evidências de forma visualmente eficaz é tão importante quanto calculá-las com precisão técnica.</p>
+<p>O profissional do SUS elabora boletins, informes epidemiológicos, apresentações para comitês e painéis de situação. Os gráficos dão forma a essas análises, permitindo identificar padrões temporais, disparidades e agrupamentos com rapidez. Neste curso, você aprenderá a dominar a gramática dos gráficos com o R e o pacote <code>ggplot2</code>, produzindo visualizações com rigor técnico e padrão editorial de excelência.</p>
 <section id="perguntas-que-o-curso-responde" class="level3">
 <h3 class="anchored" data-anchor-id="perguntas-que-o-curso-responde">Perguntas que o curso responde:</h3>
 <ul>
-<li>Qual a melhor maneira de produzir visualizações de dados em saúde pública?</li>
-<li>Qual tipo de gráfico utilizar para cada pergunta epidemiológica?</li>
-<li>Existem gráficos específicos para informar a dinâmica de um agravo ou surto?</li>
-<li>Como automatizar a geração de gráficos para nunca mais refazer tudo manualmente?</li>
+<li>Qual o tipo de gráfico mais adequado para cada pergunta ou agravo de vigilância?</li>
+<li>Como escolher paletas de cores corretas para destacar contrastes sem induzir o leitor a erro?</li>
+<li>Como construir pirâmides etárias, gráficos de calor (<em>heatmaps</em>) e curvas epidêmicas completas?</li>
+<li>Como exportar figuras em alta resolução prontas para impressão e relatórios oficiais?</li>
 </ul>
-<p>Neste curso, você desenvolverá diversas visualizações de forma rápida com poucos comandos no R e o pacote <code>ggplot2</code>. Você aprenderá a utilizar paletas de cores acessíveis, escalas temporais e a escolher as geometrias corretas para as suas análises.</p>
 <hr>
 </section>
 </section>
 <section id="o-que-você-vai-aprender" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-você-vai-aprender">O que você vai aprender</h2>
-<p>Ao final deste curso, você será capaz de:</p>
+<p>O curso está organizado em <strong>6 seções práticas</strong>, cobrindo os principais tipos de gráficos utilizados na rotina dos serviços de saúde:</p>
 <ul>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Gráficos de barras e colunas:</strong> construir comparações entre grupos e categorias populacionais com ordenação e rótulos automáticos.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Gráficos de linhas e curvas epidêmicas:</strong> representar tendências temporais, séries mensais e semanas epidemiológicas.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Histogramas e Boxplots:</strong> avaliar a distribuição de variáveis contínuas (idade, tempo de internação, dias até o óbito) identificando assimetrias e dispersão.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Pirâmides etárias:</strong> estruturar visualmente a distribuição de agravos e eventos vitais por faixa etária e sexo biológico.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Mapas de calor temporais (Calendar Heatmaps):</strong> identificar padrões sazonais e concentrações diárias ou semanais de ocorrências.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Customização e exportação:</strong> padronizar temas institucionais e exportar figuras em alta resolução (<code>.png</code>, <code>.pdf</code>) para publicações e boletins.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>O uso de gráficos na vigilância em saúde (Seção 1):</strong> preparar dados e compreender os princípios fundamentais de comunicação visual e percepção gráfica.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Teoria e escolha de cores (Seção 2):</strong> utilizar paletas de cores perceptualmente uniformes, gradientes sequenciais, divergentes e esquemas acessíveis para pessoas com daltonismo.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Construção gráfica no R com <code>ggplot2</code> (Seção 3):</strong> dominar o mapeamento estético (<code>aes</code>), camadas geométricas (<code>geom</code>), sistemas de coordenadas e escalas numéricas.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Gráficos clássicos de vigilância (Seção 4):</strong> construir gráficos de barras simples e sobrepostas, gráficos de linhas para curvas epidêmicas, gráficos de dispersão e histogramas para análise de distribuições de frequência.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Visualizações avançadas em saúde pública (Seção 5):</strong> programar gráficos para séries temporais irregulares, mapas de calor (<em>heatmaps</em>), curvas de média móvel para suavização de oscilações, pirâmides etárias bi-dimensionais e gráficos interativos com estratificação por variáveis de interesse.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Exportação em qualidade gráfica (Seção 6):</strong> salvar visualizações nos formatos <code>.png</code>, <code>.pdf</code> e <code>.svg</code> com controle preciso de dimensões (<code>dpi</code>) para inclusão direta em boletins institucionais e publicações científicas.</li>
 </ul>
 <hr>
 <div class="callout callout-style-simple callout-note callout-titled">

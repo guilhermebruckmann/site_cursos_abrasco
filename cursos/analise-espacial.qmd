@@ -72,21 +72,20 @@ Certificação
 
 ## Apresentação do Curso
 
-Neste curso aprofundaremos as análises de bancos de dados de saúde construindo mapas de interesse epidemiológico. Na Vigilância em Saúde utilizamos o geoprocessamento como uma ferramenta fundamental que permite a análise da distribuição espacial de determinadas doenças, eventos e agravos relacionados à saúde.
+O território é onde a vida acontece e onde os agravos à saúde se manifestam. Na vigilância em saúde, o geoprocessamento é uma ferramenta essencial que permite analisar a distribuição espacial de doenças, identificar disparidades geográficas de acesso e orientar intervenções com maior efetividade e equidade.
 
-Ao produzir mapas temáticos que colorem ou sombreiam um conjunto de áreas territoriais de acordo com seus valores, taxas ou coeficientes, estamos construindo um mapa epidemiológico. Com ele você poderá identificar, localizar, acompanhar e monitorar populações de maneira a direcionar as ações de Vigilância em Saúde para que sejam executadas com maior efetividade, equidade e assertividade!
+Ao produzir mapas temáticos que colorem áreas territoriais de acordo com taxas, coeficientes ou contagens de casos, transformamos tabelas frias em diagnósticos visuais imediatos. Neste curso, você aprenderá a reconhecer dados espaciais nos sistemas do SUS, manipular malhas geográficas no R e construir mapas epidemiológicos de alto impacto profissional, sem depender de softwares proprietários ou rotinas manuais demoradas.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está organizado em **4 módulos estruturados**, orientados à produção prática de cartografia em saúde:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceitos fundamentais de cartografia e geoprocessamento:** sistemas de coordenadas, projeções cartográficas e tipos de feições (pontos, linhas, polígonos).
-* <i class="bi bi-check2-circle text-success"></i> **Manipulação de dados espaciais no R:** utilizar pacotes modernos como `sf` (simple features) e `geobr` para download de malhas oficiais do IBGE.
-* <i class="bi bi-check2-circle text-success"></i> **Cruzamento de dados epidemiológicos com malhas territoriais:** associar bancos do DATASUS às geometrias municipais e de bairros por meio do código IBGE.
-* <i class="bi bi-check2-circle text-success"></i> **Mapas coropléticos:** configurar quebras de classe (quantis, intervalos iguais, desvios), paletas de cores perceptualmente uniformes e legendas informativas.
-* <i class="bi bi-check2-circle text-success"></i> **Mapas de pontos:** plotar casos georreferenciados ou estabelecimentos de saúde no território.
+* <i class="bi bi-check2-circle text-success"></i> **Geoprocessamento para a vigilância em saúde (Seção 1):** compreender a evolução e os princípios do geoprocessamento em saúde pública e a importância da visualização espacial na gestão de políticas sanitárias.
+* <i class="bi bi-check2-circle text-success"></i> **O dado espacial na vigilância (Seção 2):** reconhecer as fontes de dados espaciais da saúde (endereços, municípios de notificação e residência, setores censitários), seus níveis de agregação e a classificação de feições vetoriais (pontos, linhas e polígonos).
+* <i class="bi bi-check2-circle text-success"></i> **Composição cartográfica e importação no R (Seção 3):** dominar elementos básicos do mapa (título, legenda, escala e orientação), teoria das cores aplicadas à epidemiologia, transformação de sistemas de referência de coordenadas (CRS/SIRGAS 2000) e visualização com função base `plot()` e pacote `ggplot2`.
+* <i class="bi bi-check2-circle text-success"></i> **União de bases tabulares com bases geográficas (Seção 4):** cruzar tabelas de dados do DATASUS com malhas digitais do IBGE por meio de geocódigos municipais, gerando mapas coropléticos e mapas de pontos para boletins e apresentações institucionais.
 
 ---
 

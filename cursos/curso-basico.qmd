@@ -72,34 +72,28 @@ Certificação
 
 ## Apresentação do Curso
 
-Nos últimos anos, a sociedade vem acumulando importantes desafios em saúde que evidenciam e reforçam a importância da vigilância em saúde e de suas ações de investigação e nas medidas de prevenção e controle de doenças. As respostas sanitárias baseadas em informações qualificadas e oportunas são essenciais para o controle das doenças, para a comunicação transparente com a sociedade e para se obter melhores desfechos em saúde.
+Nos últimos anos, os serviços de saúde enfrentam desafios crescentes que reforçam a centralidade da vigilância em saúde na tomada de decisão rápida e qualificada. Respostas sanitárias baseadas em evidências dependem do processamento oportuno e confiável de dados, comunicando cenários reais para gestores e para a sociedade.
 
-Ao mesmo tempo, sabemos como é agitada a rotina de trabalho na vigilância e como é complexo o gerenciamento de todos os dados em saúde. Assim, pensando em ajudar na produção da informação em saúde de forma qualificada e ágil, este curso foi estruturado para você!
+Sabemos, porém, como é sobrecarregada a rotina de quem atua na ponta e como pode ser desgastante manipular manualmente planilhas extensas do SINAN, SIM, SINASC ou SIH. Este curso básico foi desenvolvido especificamente por epidemiologistas e profissionais do SUS para introduzir a linguagem R e o RStudio do absoluto zero, de forma aplicada e orientada aos problemas reais do serviço de saúde.
 
 ### Por que aprender R na Vigilância em Saúde?
 
-* **Rotinas com um clique:** já imaginou ter todas as suas rotinas de análise de vigilância em saúde prontas com apenas um clique?
-* **Acesso direto a dados públicos:** já se perguntou como pegar informações diretamente do DATASUS e transformá-las em gráficos, tabelas ou séries históricas de forma 100% automatizada?
-* **Informes ágeis:** já pensou em produzir relatórios epidemiológicos de todos os agravos de notificação compulsória em menos de 2 minutos?
-* **Análise reprodutível:** adeus ao retrabalho mensal de copiar e colar planilhas.
-
-Sim, você precisará dedicar um pouco de tempo para instalar o programa e aprender comandos básicos. Mas a recompensa a esse esforço será imensurável, poupando-lhe muitas horas de trabalho a partir de agora e habilitando-o a produzir análises de alto impacto na sua instituição.
+* **Rotinas com um clique:** automatize rotinas periódicas de conferência e análise de bancos de dados da vigilância.
+* **Acesso direto a bases oficiais:** domine a importação direta de arquivos `.csv`, planilhas Excel e arquivos `.dbf` extraídos dos sistemas do DATASUS.
+* **Informes ágeis:** substitua horas de cálculos manuais por scripts que geram taxas, razões e tabelas descritivas em segundos.
+* **Análise reprodutível e padronizada:** elimine erros de digitação e retrabalho mensal com fluxos de código auditáveis e reutilizáveis.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está estruturado em **5 módulos práticos**, cobrindo todo o caminho desde a instalação até o cálculo de indicadores epidemiológicos:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceituar a linguagem R:** entender sua filosofia, ecossistema e vantagens na epidemiologia.
-* <i class="bi bi-check2-circle text-success"></i> **Instalar e configurar:** preparar o R e a interface gráfica RStudio em seu computador de trabalho ou pessoal.
-* <i class="bi bi-check2-circle text-success"></i> **Executar comandos básicos:** dominar a sintaxe inicial, tipos de objetos (vetores, fatores, data frames).
-* <i class="bi bi-check2-circle text-success"></i> **Criar e salvar scripts:** adotar boas práticas de organização de pastas, projetos (`.Rproj`) e reprodutibilidade científica.
-* <i class="bi bi-check2-circle text-success"></i> **Gerenciar pacotes:** instalar e carregar bibliotecas do CRAN (`tidyverse`, etc.).
-* <i class="bi bi-check2-circle text-success"></i> **Importação de bases de dados:** carregar planilhas de Excel, arquivos `.csv` e bases de sistemas de informação do SUS (SINAN, SIM, SINASC).
-* <i class="bi bi-check2-circle text-success"></i> **Tratamento e transformação:** filtrar registros, selecionar variáveis, criar colunas calculadas e recodificar categorias com agilidade.
-* <i class="bi bi-check2-circle text-success"></i> **Cálculos epidemiológicos:** calcular frequências absolutas e relativas, taxas de incidência, prevalência, mortalidade e letalidade.
-* <i class="bi bi-check2-circle text-success"></i> **Tabelas de contingência:** construir tabelas 2x2 e tabelas descritivas para cruzamento de agravos de saúde com fatores sociodemográficos.
+* <i class="bi bi-check2-circle text-success"></i> **Instalação e ambiente de trabalho (Módulo 1):** instalar e configurar o R e o RStudio, conhecendo os painéis de console, scripts e boas práticas de projetos reprodutíveis.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentos e importação de bases (Módulo 2):** compreender objetos, vetores e *data frames*, importando bancos de dados nos formatos `.csv`, `.xlsx` e `.dbf` típicos dos sistemas do SUS.
+* <i class="bi bi-check2-circle text-success"></i> **Manipulação e consistência de dados (Módulo 3):** limpar e transformar variáveis com o pacote `dplyr`, filtrando registros, selecionando colunas, criando variáveis calculadas e tratando valores ausentes.
+* <i class="bi bi-check2-circle text-success"></i> **Estatística descritiva e medidas-resumo (Módulo 4):** calcular frequências absolutas e relativas, medidas de tendência central (média, mediana, quartis) e de dispersão (variância, desvio-padrão) para variáveis epidemiológicas.
+* <i class="bi bi-check2-circle text-success"></i> **Indicadores epidemiológicos de vigilância (Módulo 5):** calcular taxas de incidência, prevalência, letalidade e mortalidade bruta e específica por sexo e faixa etária a partir de dados reais de agravos.
 
 ---
 

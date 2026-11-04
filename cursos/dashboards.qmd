@@ -72,23 +72,21 @@ Certificação
 
 ## Apresentação do Curso
 
-Você já imaginou ter parte dos seus dados de vigilância em saúde visualizados de forma interativa em um painel online? Agora imagine acessá-lo remotamente em uma reunião técnica com a Atenção Primária à Saúde da sua região e realizar análises comparativas instantâneas com filtros na tela. Ou ainda apresentar essas análises sem se preocupar em salvar um PowerPoint estático ou imprimir pilhas de relatórios para leitura conjunta.
+Você já imaginou ter os dados da vigilância em saúde do seu município ou estado consolidados em um painel interativo acessível pelo navegador? Imagine participar de reuniões com a Atenção Primária, secretários de saúde ou comissões intergestores (CIB/CIR) e explorar indicadores, filtros territoriais e séries históricas em tempo real, sem depender de apresentações de slides estáticas ou pilhas de relatórios impressos.
 
-Seria perfeito, não é mesmo?! A área da saúde está se transformando digitalmente! Neste curso, você aprenderá a organizar suas análises e transformar seus relatórios personalizados em painéis interativos que podem ser utilizados entre a equipe da vigilância ou para a prestação de contas transparente à sociedade.
-
-Com o apoio da linguagem de programação R você colocará em prática um dos pilares mais importantes da Vigilância: fornecer acesso oportuno, intuitivo e com análises confiáveis para a tomada de decisão rápida.
+Os painéis de dados (*dashboards*) são fundamentais na era da saúde digital. Eles sintetizam grandes volumes de informação epidemiológica em telas organizadas, intuitivas e de fácil navegação. Neste curso, você aprenderá a estruturar, desenvolver e publicar painéis interativos completos em R utilizando o pacote `flexdashboard`, combinando gráficos dinâmicos com tabelas filtráveis e caixas de valor (*value boxes*) com foco direto na gestão do SUS.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso aborda desde os princípios de design de painéis até a publicação final em arquivo HTML autocontido:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceituar dashboards:** entender princípios de arquitetura de informação, usabilidade, *cards* de valor e hierarquia visual de indicadores de saúde.
-* <i class="bi bi-check2-circle text-success"></i> **Utilizar o pacote `flexdashboard`:** organizar páginas, linhas, colunas e abas estruturadas com facilidade usando sintaxe R Markdown.
-* <i class="bi bi-check2-circle text-success"></i> **Integrar gráficos interativos com `plotly`:** adicionar recursos de zoom, seleção de séries temporais e caixas de texto com informações ao passar o cursor (*tooltips*).
-* <i class="bi bi-check2-circle text-success"></i> **Tabelas dinâmicas com `DT` (DataTables):** permitir busca rápida, filtros por coluna e paginação de casos e estabelecimentos.
-* <i class="bi bi-check2-circle text-success"></i> **Publicação e compartilhamento:** gerar arquivos HTML autocontidos que funcionam offline no navegador ou podem ser hospedados em servidores institucionais gratuitos.
+* <i class="bi bi-check2-circle text-success"></i> **Conceituação e arquitetura de painéis em saúde (Seção 1):** entender o que são dashboards epidemiológicos, princípios de experiência do usuário (UX), hierarquia visual e boas práticas de escolha de indicadores para monitoramento em tempo real.
+* <i class="bi bi-check2-circle text-success"></i> **Estruturação com o pacote `flexdashboard` (Seção 2):** organizar o layout por meio de linhas, colunas, abas temáticas (*tabsets*) e painéis verticais com a facilidade da sintaxe Markdown no R.
+* <i class="bi bi-check2-circle text-success"></i> **Gráficos interativos com `plotly` (Seção 3):** converter visualizações do `ggplot2` em elementos interativos com recursos de zoom, destaque de séries, isolamento de traços e caixas informativas ao passar o cursor (*tooltips*).
+* <i class="bi bi-check2-circle text-success"></i> **Tabelas dinâmicas com `DT` (DataTables):** incorporar tabelas paginadas com busca textual instantânea, ordenação dinâmica por colunas e filtros avançados para acompanhamento de notificações e internações.
+* <i class="bi bi-check2-circle text-success"></i> **Compilação e distribuição no SUS:** gerar arquivos `.html` leves e autocontidos que funcionam offline em qualquer computador da secretaria de saúde ou podem ser hospedados em portais institucionais sem necessidade de servidores complexos.
 
 ---
 

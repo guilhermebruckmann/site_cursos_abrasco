@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-367144600cb87a4f834aebb6c24f9961.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8fcfd4ac148e2f4f35ade445c8f3b709.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -57,35 +57,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.scss">
 </head>
@@ -286,20 +257,18 @@ Aprenda a calcular limites superiores e inferiores para diferenciar variações 
 </div>
 <section id="apresentação-do-curso" class="level2">
 <h2 class="anchored" data-anchor-id="apresentação-do-curso">Apresentação do Curso</h2>
-<p>Neste curso aprofundaremos as análises para a vigilância em saúde construindo <strong>diagramas de controle</strong> (canais endêmicos). Em epidemiologia, este termo se refere ao conjunto de métodos quantitativos utilizados para estabelecer a faixa esperada de ocorrência de um determinado agravo ou doença, permitindo avaliar em tempo real se o comportamento observado é endêmico (esperado) ou se sinaliza uma epidemia.</p>
-<p>Em poucas palavras: construir um diagrama de controle é avaliar graficamente a faixa de oscilação estatística de casos e verificar se os valores notificados na última semana epidemiológica ultrapassaram o limiar de alarme. Essa ferramenta é crucial para doenças de padrão sazonal e epidêmico frequente, como dengue, chikungunya, zika, influenza, covid-19, meningites e diarreias.</p>
-<p>Com a linguagem R, você aprenderá a automatizar todo esse cálculo a partir dos dados do SINAN, sem depender de cálculos manuais propensos a erros.</p>
+<p>Neste curso aprofundaremos as análises epidemiológicas de detecção precoce construindo <strong>diagramas de controle</strong> (também conhecidos como canais endêmicos). Em epidemiologia, esse termo se refere ao conjunto de métodos quantitativos utilizados para estabelecer a faixa esperada de ocorrência de uma doença ao longo do ano, permitindo avaliar rapidamente se os casos notificados em um determinado período correspondem ao comportamento endêmico habitual ou se indicam a probabilidade de um surto ou epidemia.</p>
+<p>Monitorar agravos sazonais e de transmissão vetorial ou hídrica (como dengue e hepatite A) é um desafio semanal no SUS. Automatizar essa análise no R a partir de dados do SINAN permite que as equipes identifiquem aumentos atípicos com semanas de antecedência, acionando medidas de contenção antes do pico epidemiológico.</p>
 <hr>
 </section>
 <section id="o-que-você-vai-aprender" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-você-vai-aprender">O que você vai aprender</h2>
-<p>Ao final deste curso, você será capaz de:</p>
+<p>O curso está estruturado em <strong>3 etapas práticas e aplicadas</strong>, utilizando bases de dados reais de agravos de notificação compulsória:</p>
 <ul>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Fundamentação epidemiológica:</strong> compreender os conceitos de endemia, surto, epidemia, sazonalidade e ciclicidade.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Seleção de série histórica:</strong> identificar anos epidêmicos atípicos e aprender a tratá-los ou excluí-los do cálculo da faixa endêmica padrão.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Métodos de cálculo de limites:</strong> calcular média histórica, mediana, desvios-padrão (<span class="math inline">\(\mu \pm 1.96\sigma\)</span>), quartis e intervalos de confiança por semana epidemiológica.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Construção de gráficos de canal endêmico no R:</strong> plotar áreas sombreadas (faixa endêmica), linha média e a curva de casos do ano corrente em destaque com o pacote <code>ggplot2</code>.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Regras de decisão e gatilhos de alerta:</strong> interpretar quando um agravo aciona o alerta de investigação de campo e reforço das equipes da vigilância.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Fundamentação epidemiológica do diagrama de controle (Seção 1):</strong> compreender os conceitos de limiar epidêmico (limite superior), nível endêmico (média/mediana histórica) e a lógica de distribuição de frequências esperadas versus observadas.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Diagrama de controle para dengue (Seção 2):</strong> obter e higienizar séries históricas decenais, tratar anos com epidemias atípicas e programar no R os limites endêmicos por semana epidemiológica, destacando limiares de média e alta incidência com linhas de corte e curvas de casos do ano corrente.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Diagrama de controle para hepatite A (Seção 3):</strong> construir diagramas mensais para agravos com menor frequência numérica ou transmissão por fontes comuns, aplicando transformações logarítmicas ou intervalos de confiança adequados à distribuição dos dados.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Automação visual e regras de decisão epidemiológica:</strong> gerar gráficos comunicativos e prontos para publicação institucional, definindo critérios claros de alerta precoce para a gestão municipal e estadual.</li>
 </ul>
 <hr>
 <div class="callout callout-style-simple callout-note callout-titled">

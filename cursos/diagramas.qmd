@@ -72,23 +72,20 @@ Certificação
 
 ## Apresentação do Curso
 
-Neste curso aprofundaremos as análises para a vigilância em saúde construindo **diagramas de controle** (canais endêmicos). Em epidemiologia, este termo se refere ao conjunto de métodos quantitativos utilizados para estabelecer a faixa esperada de ocorrência de um determinado agravo ou doença, permitindo avaliar em tempo real se o comportamento observado é endêmico (esperado) ou se sinaliza uma epidemia.
+Neste curso aprofundaremos as análises epidemiológicas de detecção precoce construindo **diagramas de controle** (também conhecidos como canais endêmicos). Em epidemiologia, esse termo se refere ao conjunto de métodos quantitativos utilizados para estabelecer a faixa esperada de ocorrência de uma doença ao longo do ano, permitindo avaliar rapidamente se os casos notificados em um determinado período correspondem ao comportamento endêmico habitual ou se indicam a probabilidade de um surto ou epidemia.
 
-Em poucas palavras: construir um diagrama de controle é avaliar graficamente a faixa de oscilação estatística de casos e verificar se os valores notificados na última semana epidemiológica ultrapassaram o limiar de alarme. Essa ferramenta é crucial para doenças de padrão sazonal e epidêmico frequente, como dengue, chikungunya, zika, influenza, covid-19, meningites e diarreias.
-
-Com a linguagem R, você aprenderá a automatizar todo esse cálculo a partir dos dados do SINAN, sem depender de cálculos manuais propensos a erros.
+Monitorar agravos sazonais e de transmissão vetorial ou hídrica (como dengue e hepatite A) é um desafio semanal no SUS. Automatizar essa análise no R a partir de dados do SINAN permite que as equipes identifiquem aumentos atípicos com semanas de antecedência, acionando medidas de contenção antes do pico epidemiológico.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está estruturado em **3 etapas práticas e aplicadas**, utilizando bases de dados reais de agravos de notificação compulsória:
 
-* <i class="bi bi-check2-circle text-success"></i> **Fundamentação epidemiológica:** compreender os conceitos de endemia, surto, epidemia, sazonalidade e ciclicidade.
-* <i class="bi bi-check2-circle text-success"></i> **Seleção de série histórica:** identificar anos epidêmicos atípicos e aprender a tratá-los ou excluí-los do cálculo da faixa endêmica padrão.
-* <i class="bi bi-check2-circle text-success"></i> **Métodos de cálculo de limites:** calcular média histórica, mediana, desvios-padrão ($\mu \pm 1.96\sigma$), quartis e intervalos de confiança por semana epidemiológica.
-* <i class="bi bi-check2-circle text-success"></i> **Construção de gráficos de canal endêmico no R:** plotar áreas sombreadas (faixa endêmica), linha média e a curva de casos do ano corrente em destaque com o pacote `ggplot2`.
-* <i class="bi bi-check2-circle text-success"></i> **Regras de decisão e gatilhos de alerta:** interpretar quando um agravo aciona o alerta de investigação de campo e reforço das equipes da vigilância.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentação epidemiológica do diagrama de controle (Seção 1):** compreender os conceitos de limiar epidêmico (limite superior), nível endêmico (média/mediana histórica) e a lógica de distribuição de frequências esperadas versus observadas.
+* <i class="bi bi-check2-circle text-success"></i> **Diagrama de controle para dengue (Seção 2):** obter e higienizar séries históricas decenais, tratar anos com epidemias atípicas e programar no R os limites endêmicos por semana epidemiológica, destacando limiares de média e alta incidência com linhas de corte e curvas de casos do ano corrente.
+* <i class="bi bi-check2-circle text-success"></i> **Diagrama de controle para hepatite A (Seção 3):** construir diagramas mensais para agravos com menor frequência numérica ou transmissão por fontes comuns, aplicando transformações logarítmicas ou intervalos de confiança adequados à distribuição dos dados.
+* <i class="bi bi-check2-circle text-success"></i> **Automação visual e regras de decisão epidemiológica:** gerar gráficos comunicativos e prontos para publicação institucional, definindo critérios claros de alerta precoce para a gestão municipal e estadual.
 
 ---
 

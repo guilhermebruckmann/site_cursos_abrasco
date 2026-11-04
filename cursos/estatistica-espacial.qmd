@@ -72,22 +72,21 @@ Certificação
 
 ## Apresentação do Curso
 
-Mapas temáticos coropléticos simples são excelentes para comunicação visual, mas frequentemente sofrem de limitações estatísticas conhecidas na epidemiologia — especialmente a instabilidade de taxas brutas em municípios com pequenas populações (onde um único óbito eleva artificialmente a taxa a patamares alarmantes).
+Mapas temáticos coropléticos simples são excelentes para comunicação visual, mas frequentemente sofrem de limitações estatísticas severas na epidemiologia — em especial a instabilidade das taxas brutas em áreas com pequenas populações (onde um único caso ou óbito eleva artificialmente o indicador a patamares alarmantes).
 
-O curso avançado **Estatística Espacial aplicada à Vigilância em Saúde** leva o profissional do SUS para o próximo nível analítico. Você aprenderá a formular hipóteses sobre dependência espacial, corrigir flutuações amostrais usando suavização bayesiana empírica, quantificar a autocorrelação espacial global e local (identificando áreas de alta transmissão rodeadas por áreas de alta transmissão - *hotspots*) e modelar fatores de risco territoriais com apoio do ecossistema R.
+O curso **Estatística Espacial aplicada à Vigilância em Saúde** aprofunda os métodos quantitativos para além da simples confecção de mapas descritivos. Você aprenderá a modelar a dependência espacial de agravos no R, aplicar métodos de padrões pontuais e de dados de área, suavizar flutuações amostrais com estimadores bayesianos e identificar conglomerados espaciais (*clusters*) para direcionar com precisão as ações e os recursos de saúde pública no SUS.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está organizado em **5 módulos densos e práticos**, abordando as três grandes vertentes da análise espacial em saúde (padrões pontuais, dados de área e geoestatística):
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceitos de dependência espacial:** compreensão da Primeira Lei da Geografia de Tobler e seus desdobramentos na dinâmica de transmissão de doenças.
-* <i class="bi bi-check2-circle text-success"></i> **Matrizes de vizinhança espacial:** construir matrizes de contiguidade (critério rainha e torre) e matrizes baseadas em distância e k-vizinhos mais próximos com o pacote `spdep`.
-* <i class="bi bi-check2-circle text-success"></i> **Índice Global de Moran ($I$):** testar a hipótese de aleatoriedade espacial versus agregação em todo o território.
-* <i class="bi bi-check2-circle text-success"></i> **Indicadores Locais de Associação Espacial (LISA):** gerar mapas de clusters espaciais (Alto-Alto, Baixo-Baixo, Alto-Baixo e Baixo-Alto) para priorização territorial de intervenções.
-* <i class="bi bi-check2-circle text-success"></i> **Suavização Bayesiana Empírica (Local e Global):** corrigir a instabilidade de taxas em pequenas áreas por meio do encolhimento bayesiano (*shrinkage*).
-* <i class="bi bi-check2-circle text-success"></i> **Detecção de aglomerados pontuais (*Point Pattern Analysis*):** estimação de densidade de Kernel (*Kernel Density Estimation*) e detecção de conglomerados com estatística scan.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentos da estatística espacial em saúde (Módulo 1):** compreender a origem e a evolução histórica da análise espacial, as hipóteses de dependência territorial (Primeira Lei da Geografia de Tobler) e os critérios para escolha do método adequado a cada pergunta epidemiológica.
+* <i class="bi bi-check2-circle text-success"></i> **Análise de padrões pontuais (Módulo 2):** investigar a distribuição de eventos pontuais no território, testando aleatoriedade espacial completa (CSR), estimando densidades com funções de Kernel com diferentes raios de busca (*bandwidth*) e identificando fontes de contaminação e fatores de exposição.
+* <i class="bi bi-check2-circle text-success"></i> **Dados de área e autocorrelação espacial (Módulo 3):** construir matrizes de vizinhança espacial (critérios de contiguidade torre, rainha e k-vizinhos), calcular o Índice Global de Moran ($I$), mapear agrupamentos locais com os Indicadores LISA e aplicar suavização bayesiana empírica para estabilização de taxas em pequenas áreas.
+* <i class="bi bi-check2-circle text-success"></i> **Geoestatística e superfícies contínuas (Módulo 4):** modelar variáveis regionalizadas contínuas (como fatores ambientais, climáticos e de poluição), modelando semivariogramas experimentais e teóricos e interpolando superfícies preditivas por krigagem.
+* <i class="bi bi-check2-circle text-success"></i> **Dados espaço-temporais na vigilância (Módulo 5):** integrar as dimensões espacial e temporal em análises conjuntas, identificando trajetórias de expansão territorial e persistência de focos de transmissão ao longo das semanas epidemiológicas.
 
 ---
 

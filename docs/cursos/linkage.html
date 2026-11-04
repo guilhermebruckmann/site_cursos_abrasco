@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-367144600cb87a4f834aebb6c24f9961.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8fcfd4ac148e2f4f35ade445c8f3b709.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -257,25 +257,24 @@ Aprenda a aplicar relacionamento de bancos de dados com rotinas reprodutíveis e
 </div>
 <section id="apresentação-do-curso" class="level2">
 <h2 class="anchored" data-anchor-id="apresentação-do-curso">Apresentação do Curso</h2>
-<p>Você já se deparou com situações como estas?</p>
+<p>Você já se deparou com situações como estas no seu serviço de saúde?</p>
 <ul>
-<li>Durante uma investigação de óbito, precisou acessar vários sistemas distintos para consultar informações complementares do paciente?</li>
-<li>Para avaliar fatores de risco em um surto, precisou juntar prontuários, planilhas de Excel e fichas de notificação caso a caso?</li>
-<li>Precisou verificar se óbitos ocorridos por determinada doença estavam notificados no SINAN ou cadastrados em sistemas vacinais como o SI-PNI?</li>
+<li>Durante a investigação de um óbito materno ou infantil, precisou abrir múltiplos sistemas para cruzar dados clínicos da gestação, do parto e da causa básica da morte?</li>
+<li>Em uma investigação de surto, teve que conferir planilhas de Excel e fichas de notificação caso a caso para verificar se o mesmo paciente foi hospitalizado?</li>
+<li>Precisou verificar se óbitos por determinado agravo estavam notificados no SINAN ou se os pacientes haviam recebido doses de imunobiológicos no SI-PNI?</li>
 </ul>
-<p>Essas situações são parte da realidade da vigilância em saúde no Brasil. O SUS conta com sistemas consagrados internacionalmente — como SINAN (notificação compulsória), SIM (mortalidade), SINASC (nascidos vivos) e SIH (internações hospitalares). Contudo, esses sistemas muitas vezes operam de forma isolada, sem um identificador unívoco nacional perfeitamente padronizado.</p>
-<p>É neste cenário que o <strong>record linkage</strong> (relacionamento de registros) se torna uma habilidade essencial para epidemiologistas e técnicos da saúde. Com o apoio de rotinas programadas no R, você aprenderá a vincular bases de dados com alto rigor metodológico e conformidade com as normas de proteção de dados.</p>
+<p>Essas tarefas manuais consomem dias de trabalho das equipes técnicas. Embora o SUS conte com grandes bases como SINAN (notificações), SIM (mortalidade), SINASC (nascidos vivos) e SIH (internações), esses sistemas foram desenvolvidos historicamente de forma fragmentada, sem uma chave única de identificação universal.</p>
+<p>O <strong>linkage de bases de dados</strong> (relacionamento de registros) resolve esse gargalo histórico. Neste curso prático no R, você aprenderá técnicas de integração determinística e probabilística, limpando bases, utilizando algoritmos fonéticos, criando estratégias de blocagem e avaliando a acurácia do pareamento com total respeito à Lei Geral de Proteção de Dados (LGPD).</p>
 <hr>
 </section>
 <section id="o-que-você-vai-aprender" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-você-vai-aprender">O que você vai aprender</h2>
-<p>Ao final deste curso, você será capaz de:</p>
+<p>O curso está estruturado em <strong>4 blocos práticos e metodológicos</strong>, com foco direto nas bases de dados da saúde:</p>
 <ul>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Conceituar record linkage:</strong> diferenciar relacionamento exato (determinístico) e relacionamento probabilístico baseado em escores de semelhança.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Padronização e higienização de chaves:</strong> limpar nomes próprios (remoção de acentos, pontuações, títulos e padronização fonética com Soundex/Metaphone), datas de nascimento e códigos de município.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Estratégias de blocagem (<em>blocking</em>):</strong> otimizar o processamento computacional reduzindo pares improváveis em grandes bancos de dados.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Avaliação de acurácia:</strong> identificar verdadeiros positivos, falsos positivos e falsos negativos, calculando sensibilidade e especificidade do pareamento.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Anonimização e LGPD:</strong> aplicar funções de hashing (como SHA-256) e pseudoanonimização para garantir o cumprimento da Lei Geral de Proteção de Dados e diretrizes de comitês de ética em pesquisa (CEP/CONEP).</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Conceitos básicos e métricas de acurácia (Seção 1):</strong> compreender a teoria do <em>record linkage</em>, estimando requisitos computacionais e calculando a sensibilidade e a especificidade do pareamento para minimizar falsos positivos e falsos negativos.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Recursos preparatórios e padronização de chaves (Seção 2):</strong> higienizar nomes próprios (remoção de pontuação, preposições e títulos) e aplicar algoritmos de codificação fonética (Soundex/Metaphone) adaptados ao idioma português para superar erros de digitação e grafia.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Métodos de linkage determinístico, probabilístico e híbrido (Seção 3):</strong> dominar as regras de relacionamento exato por regras compostas, o cálculo de probabilidades condicionais e pesos de concordância/discordância de Fellegi-Sunter e a combinação híbrida de estratégias.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Deduplicação, blocagem e aplicação prática em bases do SUS (Seção 4):</strong> deduplicar bancos de dados extensos, aplicar estratégias de blocagem (<em>blocking</em>) para viabilizar o pareamento computacional de milhares de registros e anonimizar dados confidenciais em estrito cumprimento da LGPD.</li>
 </ul>
 <hr>
 <div class="callout callout-style-simple callout-note callout-titled">

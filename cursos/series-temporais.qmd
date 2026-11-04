@@ -72,22 +72,24 @@ Certificação
 
 ## Apresentação do Curso
 
-A dimensão temporal é o coração da vigilância epidemiológica. Todos os dias, profissionais de saúde lidam com contagens semanais e mensais de casos e óbitos, perguntando-se: *a doença está subindo ou caindo? Essa alta faz parte do comportamento sazonal esperado ou indica uma emergência sanitária? Quais intervenções surtiram efeito na queda das internações?*
+A dimensão temporal é o coração da vigilância epidemiológica. Na rotina dos serviços de saúde pública, compreender como doenças, internações e óbitos se distribuem ao longo do tempo é indispensável para detectar padrões sazonais (como o aumento de doenças respiratórias no inverno e de arboviroses no verão), identificar desvios precoces na transmissão e orientar planos de contingência de leitos e insumos.
 
-O curso **Análises de Séries Temporais aplicadas à Vigilância em Saúde** oferece uma formação aprofundada em métodos estatísticos modernos para o estudo de dados longitudinais agregados no tempo. Você aprenderá a modelar séries epidemiológicas no software R, indo desde a decomposição clássica até métodos avançados de previsão (*forecasting*) e modelos de séries temporais interrompidas para avaliação de políticas de saúde.
+O curso **Análises de Séries Temporais aplicadas à Vigilância em Saúde** oferece uma capacitação densa e prática no software R. Você aprenderá desde os fundamentos de dados longitudinais e decomposição de componentes até métodos de suavização, diagnóstico de estacionariedade, modelos de regressão avançados (como Modelos Aditivos Generalizados — GAM) e projeção de cenários futuros para o SUS.
 
 ---
 
 ## O que você vai aprender
 
-Ao final deste curso, você será capaz de:
+O curso está organizado em **8 módulos progressivos**, combinando teoria estatística e aplicação direta com dados epidemiológicos reais:
 
-* <i class="bi bi-check2-circle text-success"></i> **Estruturação de objetos temporais no R:** manipular séries diárias, semanais (semanas epidemiológicas padrão SINAN) e mensais com pacotes como `tsibble`, `zoo` e `lubridate`.
-* <i class="bi bi-check2-circle text-success"></i> **Decomposição clássica e moderna:** separar uma série em componente de tendência, componente sazonal e resíduo aleatório (STL - *Seasonal and Trend decomposition using Loess*).
-* <i class="bi bi-check2-circle text-success"></i> **Avaliação de autocorrelação:** calcular e interpretar a Função de Autocorrelação (FAC/ACF) e Função de Autocorrelação Parcial (FACP/PACF) para identificar dependência temporal.
-* <i class="bi bi-check2-circle text-success"></i> **Modelos ARIMA e SARIMA:** ajustar modelos autorregressivos integrados de médias móveis com componentes sazonais para previsão de incidência.
-* <i class="bi bi-check2-circle text-success"></i> **Séries Temporais Interrompidas (ITS):** avaliar o impacto pontual de campanhas de vacinação, mudanças em protocolos clínicos ou medidas restritivas na trajetória de indicadores de saúde.
-* <i class="bi bi-check2-circle text-success"></i> **Visualização e relatórios de previsão:** gerar gráficos com intervalos de predição a 80% e 95% para embasar planos de contingência de leitos e insumos.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentos e objetivos de séries temporais (Módulo 1):** compreender definições, objetivos e as particularidades de variáveis temporais em saúde pública (frequências diárias, semanas epidemiológicas e mensais).
+* <i class="bi bi-check2-circle text-success"></i> **Conceitos fundamentais da análise temporal (Módulo 2):** identificar e caracterizar os quatro componentes clássicos de uma série: tendência de longo prazo, sazonalidade, ciclicidade e variações aleatórias.
+* <i class="bi bi-check2-circle text-success"></i> **Estruturação e manipulação prática no R (Módulo 3):** manipular objetos temporais, criar gráficos de linhas de alta qualidade, ajustar escalas de datas e explorar funções básicas de visualização.
+* <i class="bi bi-check2-circle text-success"></i> **Transformações e suavizações de dados (Módulo 4):** aplicar técnicas de transformação para estabilização de variância e métodos de suavização (médias móveis e splines) para atenuação de ruídos em séries ruidosas.
+* <i class="bi bi-check2-circle text-success"></i> **Introdução à modelagem estatística temporal (Módulo 5):** formular modelos de regressão com variáveis de tempo para estimação de tendências lineares e componentes sazonais em taxas de incidência.
+* <i class="bi bi-check2-circle text-success"></i> **Diagnóstico do modelo e qualidade de ajuste (Módulo 6):** avaliar resíduos, identificar autocorrelação residual e utilizar métricas de ajuste para seleção de modelos epidemiológicos parcimoniosos.
+* <i class="bi bi-check2-circle text-success"></i> **Modelagem flexível com GAM (Módulo 7):** ajustar Modelos Aditivos Generalizados com o pacote `mgcv`, incorporando funções de suavização não lineares para capturar comportamentos complexos da dinâmica de doenças.
+* <i class="bi bi-check2-circle text-success"></i> **Previsão e cenários futuros para a vigilância (Módulo 8):** gerar conjuntos de dados futuros e projetar predições com intervalos de confiança para antecipar demandas sanitárias no SUS.
 
 ---
 

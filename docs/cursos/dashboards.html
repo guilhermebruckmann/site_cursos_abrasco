@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-367144600cb87a4f834aebb6c24f9961.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8fcfd4ac148e2f4f35ade445c8f3b709.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -257,20 +257,19 @@ Construa painéis interativos para reuniões com a Atenção Primária e sala de
 </div>
 <section id="apresentação-do-curso" class="level2">
 <h2 class="anchored" data-anchor-id="apresentação-do-curso">Apresentação do Curso</h2>
-<p>Você já imaginou ter parte dos seus dados de vigilância em saúde visualizados de forma interativa em um painel online? Agora imagine acessá-lo remotamente em uma reunião técnica com a Atenção Primária à Saúde da sua região e realizar análises comparativas instantâneas com filtros na tela. Ou ainda apresentar essas análises sem se preocupar em salvar um PowerPoint estático ou imprimir pilhas de relatórios para leitura conjunta.</p>
-<p>Seria perfeito, não é mesmo?! A área da saúde está se transformando digitalmente! Neste curso, você aprenderá a organizar suas análises e transformar seus relatórios personalizados em painéis interativos que podem ser utilizados entre a equipe da vigilância ou para a prestação de contas transparente à sociedade.</p>
-<p>Com o apoio da linguagem de programação R você colocará em prática um dos pilares mais importantes da Vigilância: fornecer acesso oportuno, intuitivo e com análises confiáveis para a tomada de decisão rápida.</p>
+<p>Você já imaginou ter os dados da vigilância em saúde do seu município ou estado consolidados em um painel interativo acessível pelo navegador? Imagine participar de reuniões com a Atenção Primária, secretários de saúde ou comissões intergestores (CIB/CIR) e explorar indicadores, filtros territoriais e séries históricas em tempo real, sem depender de apresentações de slides estáticas ou pilhas de relatórios impressos.</p>
+<p>Os painéis de dados (<em>dashboards</em>) são fundamentais na era da saúde digital. Eles sintetizam grandes volumes de informação epidemiológica em telas organizadas, intuitivas e de fácil navegação. Neste curso, você aprenderá a estruturar, desenvolver e publicar painéis interativos completos em R utilizando o pacote <code>flexdashboard</code>, combinando gráficos dinâmicos com tabelas filtráveis e caixas de valor (<em>value boxes</em>) com foco direto na gestão do SUS.</p>
 <hr>
 </section>
 <section id="o-que-você-vai-aprender" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-você-vai-aprender">O que você vai aprender</h2>
-<p>Ao final deste curso, você será capaz de:</p>
+<p>O curso aborda desde os princípios de design de painéis até a publicação final em arquivo HTML autocontido:</p>
 <ul>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Conceituar dashboards:</strong> entender princípios de arquitetura de informação, usabilidade, <em>cards</em> de valor e hierarquia visual de indicadores de saúde.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Utilizar o pacote <code>flexdashboard</code>:</strong> organizar páginas, linhas, colunas e abas estruturadas com facilidade usando sintaxe R Markdown.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Integrar gráficos interativos com <code>plotly</code>:</strong> adicionar recursos de zoom, seleção de séries temporais e caixas de texto com informações ao passar o cursor (<em>tooltips</em>).</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Tabelas dinâmicas com <code>DT</code> (DataTables):</strong> permitir busca rápida, filtros por coluna e paginação de casos e estabelecimentos.</li>
-<li><i class="bi bi-check2-circle text-success"></i> <strong>Publicação e compartilhamento:</strong> gerar arquivos HTML autocontidos que funcionam offline no navegador ou podem ser hospedados em servidores institucionais gratuitos.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Conceituação e arquitetura de painéis em saúde (Seção 1):</strong> entender o que são dashboards epidemiológicos, princípios de experiência do usuário (UX), hierarquia visual e boas práticas de escolha de indicadores para monitoramento em tempo real.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Estruturação com o pacote <code>flexdashboard</code> (Seção 2):</strong> organizar o layout por meio de linhas, colunas, abas temáticas (<em>tabsets</em>) e painéis verticais com a facilidade da sintaxe Markdown no R.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Gráficos interativos com <code>plotly</code> (Seção 3):</strong> converter visualizações do <code>ggplot2</code> em elementos interativos com recursos de zoom, destaque de séries, isolamento de traços e caixas informativas ao passar o cursor (<em>tooltips</em>).</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Tabelas dinâmicas com <code>DT</code> (DataTables):</strong> incorporar tabelas paginadas com busca textual instantânea, ordenação dinâmica por colunas e filtros avançados para acompanhamento de notificações e internações.</li>
+<li><i class="bi bi-check2-circle text-success"></i> <strong>Compilação e distribuição no SUS:</strong> gerar arquivos <code>.html</code> leves e autocontidos que funcionam offline em qualquer computador da secretaria de saúde ou podem ser hospedados em portais institucionais sem necessidade de servidores complexos.</li>
 </ul>
 <hr>
 <div class="callout callout-style-simple callout-note callout-titled">
