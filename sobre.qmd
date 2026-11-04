@@ -75,12 +75,12 @@ Dados consolidados do relatório de acompanhamento e monitoramento acadêmico da
 
 A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da articulação de grandes instituições de referência nacional:
 
-* **UFSC (Universidade Federal de Santa Catarina):** Coordenação pedagógica geral e emissão dos certificados oficiais de extensão universitária.
-* **ABRASCO (Associação Brasileira de Saúde Coletiva):** Articulação técnico-política, apoio institucional e disseminação nacional.
-* **ITpS (Instituto Todos pela Saúde):** Apoio técnico e fomento à inovação em vigilância genômica e epidemiológica.
-* **Fiocruz (Fundação Oswaldo Cruz):** Parceria em conteúdos de investigação de surtos e vigilância laboratorial.
-* **UFPel (Universidade Federal de Pelotas):** Colaboração em epidemiologia de campo e planos de contingência.
-* **UNA-SUS (Universidade Aberta do SUS):** Difusão de trilhas formativas na rede de educação permanente em saúde.
+* **UFSC (Universidade Federal de Santa Catarina):** coordenação pedagógica geral e emissão dos certificados oficiais de extensão universitária.
+* **ABRASCO (Associação Brasileira de Saúde Coletiva):** articulação técnico-política, apoio institucional e disseminação nacional.
+* **ITpS (Instituto Todos pela Saúde):** apoio técnico e fomento à inovação em vigilância genômica e epidemiológica.
+* **Fiocruz (Fundação Oswaldo Cruz):** parceria em conteúdos de investigação de surtos e vigilância laboratorial.
+* **UFPel (Universidade Federal de Pelotas):** colaboração em epidemiologia de campo e planos de contingência.
+* **UNA-SUS (Universidade Aberta do SUS):** difusão de trilhas formativas na rede de educação permanente em saúde.
 
 ---
 
@@ -88,11 +88,11 @@ A elaboração, oferta acadêmica e sustentabilidade dos cursos é fruto da arti
 
 Cada curso foi desenhado no formato **autoinstrucional**, respeitando o tempo de cada profissional. O ambiente virtual de aprendizagem (Moodle UFSC) conta com:
 
-1. **Aulas práticas em vídeo:** Demonstrações passo a passo na interface do RStudio.
-2. **Textos didáticos e roteiros em PDF:** Conteúdos densos, claros e em português, ricamente ilustrados.
-3. **Scripts e dados reais do SUS:** Bancos de dados anonimizados para replicar todas as etapas de análise do mundo real.
-4. **Tutoria e suporte comunitário:** Fóruns de dúvidas e suporte por inteligência artificial para apoio na escrita de código em R.
-5. **Avaliação formativa:** Questionários com questões práticas para consolidar os conhecimentos adquiridos.
+1. **Aulas práticas em vídeo:** demonstrações passo a passo na interface do RStudio.
+2. **Textos didáticos e roteiros em PDF:** conteúdos densos, claros e em português, ricamente ilustrados.
+3. **Scripts e dados reais do SUS:** bancos de dados anonimizados para replicar todas as etapas de análise do mundo real.
+4. **Tutoria e suporte comunitário:** fóruns de dúvidas e suporte por inteligência artificial para apoio na escrita de código em R.
+5. **Avaliação formativa:** questionários com questões práticas para consolidar os conhecimentos adquiridos.
 
 ::: {.callout-tip}
 ### Conheça também os Cursos Parceiros Abrasco

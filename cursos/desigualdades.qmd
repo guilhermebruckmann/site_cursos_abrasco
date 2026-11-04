@@ -82,12 +82,12 @@ O curso **Monitoramento das Desigualdades em Saúde na Vigilância** foi desenvo
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Fundamentos de determinantes sociais da saúde:** Compreender conceitos de igualdade, desigualdade e iniquidade em saúde.
-* <i class="bi bi-check2-circle text-success"></i> **Estratificadores de equidade no SUS:** Manipular variáveis sociodemográficas clássicas (raça/cor da pele, escolaridade, sexo, zona de residência, quintis de renda e vulnerabilidade territorial).
-* <i class="bi bi-check2-circle text-success"></i> **Medidas simples de desigualdade:** Calcular razões de taxas e diferenças absolutas de taxas entre grupos extremos.
-* <i class="bi bi-check2-circle text-success"></i> **Medidas complexas de gradiente social:** Compreender e calcular índices de gradiente, tais como o Índice de Declive de Desigualdade (*Slope Index of Inequality* - SII) e o Índice Relativo de Desigualdade (*Relative Index of Inequality* - RII).
-* <i class="bi bi-check2-circle text-success"></i> **Visualização de desigualdades:** Construir gráficos de equidade (gráficos equiplot, curvas de Lorenz, gradientes de concentração) no R com o `ggplot2`.
-* <i class="bi bi-check2-circle text-success"></i> **Elaboração de recomendações para a gestão:** Traduzir achados de disparidade em propostas de intervenção e priorização de recursos para a Atenção Primária e Vigilância.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentos de determinantes sociais da saúde:** compreender conceitos de igualdade, desigualdade e iniquidade em saúde.
+* <i class="bi bi-check2-circle text-success"></i> **Estratificadores de equidade no SUS:** manipular variáveis sociodemográficas clássicas (raça/cor da pele, escolaridade, sexo, zona de residência, quintis de renda e vulnerabilidade territorial).
+* <i class="bi bi-check2-circle text-success"></i> **Medidas simples de desigualdade:** calcular razões de taxas e diferenças absolutas de taxas entre grupos extremos.
+* <i class="bi bi-check2-circle text-success"></i> **Medidas complexas de gradiente social:** compreender e calcular índices de gradiente, tais como o Índice de Declive de Desigualdade (*Slope Index of Inequality* - SII) e o Índice Relativo de Desigualdade (*Relative Index of Inequality* - RII).
+* <i class="bi bi-check2-circle text-success"></i> **Visualização de desigualdades:** construir gráficos de equidade (gráficos equiplot, curvas de Lorenz, gradientes de concentração) no R com o `ggplot2`.
+* <i class="bi bi-check2-circle text-success"></i> **Elaboração de recomendações para a gestão:** traduzir achados de disparidade em propostas de intervenção e priorização de recursos para a Atenção Primária e Vigilância.
 
 ---
 

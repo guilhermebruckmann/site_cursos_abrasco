@@ -78,10 +78,10 @@ Ao mesmo tempo, sabemos como é agitada a rotina de trabalho na vigilância e co
 
 ### Por que aprender R na Vigilância em Saúde?
 
-* **Rotinas com um clique:** Já imaginou ter todas as suas rotinas de análise de vigilância em saúde prontas com apenas um clique?
-* **Acesso direto a dados públicos:** Já se perguntou como pegar informações diretamente do DATASUS e transformá-las em gráficos, tabelas ou séries históricas de forma 100% automatizada?
-* **Informes ágeis:** Já pensou em produzir relatórios epidemiológicos de todos os agravos de notificação compulsória em menos de 2 minutos?
-* **Análise reprodutível:** Adeus ao retrabalho mensal de copiar e colar planilhas.
+* **Rotinas com um clique:** já imaginou ter todas as suas rotinas de análise de vigilância em saúde prontas com apenas um clique?
+* **Acesso direto a dados públicos:** já se perguntou como pegar informações diretamente do DATASUS e transformá-las em gráficos, tabelas ou séries históricas de forma 100% automatizada?
+* **Informes ágeis:** já pensou em produzir relatórios epidemiológicos de todos os agravos de notificação compulsória em menos de 2 minutos?
+* **Análise reprodutível:** adeus ao retrabalho mensal de copiar e colar planilhas.
 
 Sim, você precisará dedicar um pouco de tempo para instalar o programa e aprender comandos básicos. Mas a recompensa a esse esforço será imensurável, poupando-lhe muitas horas de trabalho a partir de agora e habilitando-o a produzir análises de alto impacto na sua instituição.
 
@@ -91,15 +91,15 @@ Sim, você precisará dedicar um pouco de tempo para instalar o programa e apren
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceituar a linguagem R:** Entender sua filosofia, ecossistema e vantagens na epidemiologia.
-* <i class="bi bi-check2-circle text-success"></i> **Instalar e configurar:** Preparar o R e a interface gráfica RStudio em seu computador de trabalho ou pessoal.
-* <i class="bi bi-check2-circle text-success"></i> **Executar comandos básicos:** Dominar a sintaxe inicial, tipos de objetos (vetores, fatores, data frames).
-* <i class="bi bi-check2-circle text-success"></i> **Criar e salvar scripts:** Adotar boas práticas de organização de pastas, projetos (`.Rproj`) e reprodutibilidade científica.
-* <i class="bi bi-check2-circle text-success"></i> **Gerenciar pacotes:** Instalar e carregar bibliotecas do CRAN (`tidyverse`, etc.).
-* <i class="bi bi-check2-circle text-success"></i> **Importação de bases de dados:** Carregar planilhas de Excel, arquivos `.csv` e bases de sistemas de informação do SUS (SINAN, SIM, SINASC).
-* <i class="bi bi-check2-circle text-success"></i> **Tratamento e transformação:** Filtrar registros, selecionar variáveis, criar colunas calculadas e recodificar categorias com agilidade.
-* <i class="bi bi-check2-circle text-success"></i> **Cálculos epidemiológicos:** Calcular frequências absolutas e relativas, taxas de incidência, prevalência, mortalidade e letalidade.
-* <i class="bi bi-check2-circle text-success"></i> **Tabelas de contingência:** Construir tabelas 2x2 e tabelas descritivas para cruzamento de agravos de saúde com fatores sociodemográficos.
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar a linguagem R:** entender sua filosofia, ecossistema e vantagens na epidemiologia.
+* <i class="bi bi-check2-circle text-success"></i> **Instalar e configurar:** preparar o R e a interface gráfica RStudio em seu computador de trabalho ou pessoal.
+* <i class="bi bi-check2-circle text-success"></i> **Executar comandos básicos:** dominar a sintaxe inicial, tipos de objetos (vetores, fatores, data frames).
+* <i class="bi bi-check2-circle text-success"></i> **Criar e salvar scripts:** adotar boas práticas de organização de pastas, projetos (`.Rproj`) e reprodutibilidade científica.
+* <i class="bi bi-check2-circle text-success"></i> **Gerenciar pacotes:** instalar e carregar bibliotecas do CRAN (`tidyverse`, etc.).
+* <i class="bi bi-check2-circle text-success"></i> **Importação de bases de dados:** carregar planilhas de Excel, arquivos `.csv` e bases de sistemas de informação do SUS (SINAN, SIM, SINASC).
+* <i class="bi bi-check2-circle text-success"></i> **Tratamento e transformação:** filtrar registros, selecionar variáveis, criar colunas calculadas e recodificar categorias com agilidade.
+* <i class="bi bi-check2-circle text-success"></i> **Cálculos epidemiológicos:** calcular frequências absolutas e relativas, taxas de incidência, prevalência, mortalidade e letalidade.
+* <i class="bi bi-check2-circle text-success"></i> **Tabelas de contingência:** construir tabelas 2x2 e tabelas descritivas para cruzamento de agravos de saúde com fatores sociodemográficos.
 
 ---
 
@@ -107,10 +107,10 @@ Ao final deste curso, você será capaz de:
 
 ## Estrutura e Metodologia
 
-* **Modalidade:** Educação a Distância (EaD), 100% online e autoinstrucional.
-* **Flexibilidade:** Faça no horário mais conveniente para a sua rotina no serviço de saúde.
-* **Recursos Didáticos:** Videoaulas práticas gravadas, material didático em PDF, scripts comentados passo a passo, bases de dados de exemplo higienizadas e exercícios avaliativos com feedback imediato.
-* **Avaliação e Certificado:** Obtenha aproveitamento mínimo nas atividades para emissão imediata e gratuita do certificado de extensão universitária pela Universidade Federal de Santa Catarina (UFSC).
+* **Modalidade:** educação a Distância (EaD), 100% online e autoinstrucional.
+* **Flexibilidade:** estude no horário mais conveniente para a sua rotina no serviço de saúde.
+* **Recursos didáticos:** videoaulas práticas gravadas, material didático em PDF, scripts comentados passo a passo, bases de dados de exemplo higienizadas e exercícios avaliativos com feedback imediato.
+* **Avaliação e certificado:** obtenha aproveitamento mínimo nas atividades para emissão imediata e gratuita do certificado de extensão universitária pela Universidade Federal de Santa Catarina (UFSC).
 
 ::: {.callout-note appearance="simple"}
 ### Preparação Recomendada

@@ -88,11 +88,11 @@ Essas situações são parte da realidade da vigilância em saúde no Brasil. O 
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceituar record linkage:** Diferenciar relacionamento exato (determinístico) e relacionamento probabilístico baseado em escores de semelhança.
-* <i class="bi bi-check2-circle text-success"></i> **Padronização e higienização de chaves:** Limpar nomes próprios (remoção de acentos, pontuações, títulos e padronização fonética com Soundex/Metaphone), datas de nascimento e códigos de município.
-* <i class="bi bi-check2-circle text-success"></i> **Estratégias de blocagem (*blocking*):** Otimizar o processamento computacional reduzindo pares improváveis em grandes bancos de dados.
-* <i class="bi bi-check2-circle text-success"></i> **Avaliação de acurácia:** Identificar verdadeiros positivos, falsos positivos e falsos negativos, calculando sensibilidade e especificidade do pareamento.
-* <i class="bi bi-check2-circle text-success"></i> **Anonimização e LGPD:** Aplicar funções de hashing (como SHA-256) e pseudoanonimização para garantir o cumprimento da Lei Geral de Proteção de Dados e diretrizes de comitês de ética em pesquisa (CEP/CONEP).
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar record linkage:** diferenciar relacionamento exato (determinístico) e relacionamento probabilístico baseado em escores de semelhança.
+* <i class="bi bi-check2-circle text-success"></i> **Padronização e higienização de chaves:** limpar nomes próprios (remoção de acentos, pontuações, títulos e padronização fonética com Soundex/Metaphone), datas de nascimento e códigos de município.
+* <i class="bi bi-check2-circle text-success"></i> **Estratégias de blocagem (*blocking*):** otimizar o processamento computacional reduzindo pares improváveis em grandes bancos de dados.
+* <i class="bi bi-check2-circle text-success"></i> **Avaliação de acurácia:** identificar verdadeiros positivos, falsos positivos e falsos negativos, calculando sensibilidade e especificidade do pareamento.
+* <i class="bi bi-check2-circle text-success"></i> **Anonimização e LGPD:** aplicar funções de hashing (como SHA-256) e pseudoanonimização para garantir o cumprimento da Lei Geral de Proteção de Dados e diretrizes de comitês de ética em pesquisa (CEP/CONEP).
 
 ---
 

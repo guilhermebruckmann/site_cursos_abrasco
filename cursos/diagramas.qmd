@@ -84,11 +84,11 @@ Com a linguagem R, você aprenderá a automatizar todo esse cálculo a partir do
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Fundamentação epidemiológica:** Compreender os conceitos de endemia, surto, epidemia, sazonalidade e ciclicidade.
-* <i class="bi bi-check2-circle text-success"></i> **Seleção de série histórica:** Identificar anos epidêmicos atípicos e aprender a tratá-los ou excluí-los do cálculo da faixa endêmica padrão.
-* <i class="bi bi-check2-circle text-success"></i> **Métodos de cálculo de limites:** Calcular média histórica, mediana, desvios-padrão ($\mu \pm 1.96\sigma$), quartis e intervalos de confiança por semana epidemiológica.
-* <i class="bi bi-check2-circle text-success"></i> **Construção de gráficos de canal endêmico no R:** Plotar áreas sombreadas (faixa endêmica), linha média e a curva de casos do ano corrente em destaque com o pacote `ggplot2`.
-* <i class="bi bi-check2-circle text-success"></i> **Regras de decisão e gatilhos de alerta:** Interpretar quando um agravo aciona o alerta de investigação de campo e reforço das equipes da vigilância.
+* <i class="bi bi-check2-circle text-success"></i> **Fundamentação epidemiológica:** compreender os conceitos de endemia, surto, epidemia, sazonalidade e ciclicidade.
+* <i class="bi bi-check2-circle text-success"></i> **Seleção de série histórica:** identificar anos epidêmicos atípicos e aprender a tratá-los ou excluí-los do cálculo da faixa endêmica padrão.
+* <i class="bi bi-check2-circle text-success"></i> **Métodos de cálculo de limites:** calcular média histórica, mediana, desvios-padrão ($\mu \pm 1.96\sigma$), quartis e intervalos de confiança por semana epidemiológica.
+* <i class="bi bi-check2-circle text-success"></i> **Construção de gráficos de canal endêmico no R:** plotar áreas sombreadas (faixa endêmica), linha média e a curva de casos do ano corrente em destaque com o pacote `ggplot2`.
+* <i class="bi bi-check2-circle text-success"></i> **Regras de decisão e gatilhos de alerta:** interpretar quando um agravo aciona o alerta de investigação de campo e reforço das equipes da vigilância.
 
 ---
 

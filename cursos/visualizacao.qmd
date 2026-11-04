@@ -90,12 +90,12 @@ Neste curso, você desenvolverá diversas visualizações de forma rápida com p
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Gráficos de barras e colunas:** Construir comparações entre grupos e categorias populacionais com ordenação e rótulos automáticos.
-* <i class="bi bi-check2-circle text-success"></i> **Gráficos de linhas e curvas epidêmicas:** Representar tendências temporais, séries mensais e semanas epidemiológicas.
-* <i class="bi bi-check2-circle text-success"></i> **Histogramas e Boxplots:** Avaliar a distribuição de variáveis contínuas (idade, tempo de internação, dias até o óbito) identificando assimetrias e dispersão.
-* <i class="bi bi-check2-circle text-success"></i> **Pirâmides etárias:** Estruturar visualmente a distribuição de agravos e eventos vitais por faixa etária e sexo biológico.
-* <i class="bi bi-check2-circle text-success"></i> **Mapas de calor temporais (Calendar Heatmaps):** Identificar padrões sazonais e concentrações diárias ou semanais de ocorrências.
-* <i class="bi bi-check2-circle text-success"></i> **Customização e Exportação:** Padronizar temas institucionais e exportar figuras em alta resolução (`.png`, `.pdf`) para publicações e boletins.
+* <i class="bi bi-check2-circle text-success"></i> **Gráficos de barras e colunas:** construir comparações entre grupos e categorias populacionais com ordenação e rótulos automáticos.
+* <i class="bi bi-check2-circle text-success"></i> **Gráficos de linhas e curvas epidêmicas:** representar tendências temporais, séries mensais e semanas epidemiológicas.
+* <i class="bi bi-check2-circle text-success"></i> **Histogramas e Boxplots:** avaliar a distribuição de variáveis contínuas (idade, tempo de internação, dias até o óbito) identificando assimetrias e dispersão.
+* <i class="bi bi-check2-circle text-success"></i> **Pirâmides etárias:** estruturar visualmente a distribuição de agravos e eventos vitais por faixa etária e sexo biológico.
+* <i class="bi bi-check2-circle text-success"></i> **Mapas de calor temporais (Calendar Heatmaps):** identificar padrões sazonais e concentrações diárias ou semanais de ocorrências.
+* <i class="bi bi-check2-circle text-success"></i> **Customização e exportação:** padronizar temas institucionais e exportar figuras em alta resolução (`.png`, `.pdf`) para publicações e boletins.
 
 ---
 

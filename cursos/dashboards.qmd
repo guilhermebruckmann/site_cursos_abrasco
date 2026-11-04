@@ -84,11 +84,11 @@ Com o apoio da linguagem de programação R você colocará em prática um dos p
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceituar dashboards:** Entender princípios de arquitetura de informação, usabilidade, *cards* de valor e hierarquia visual de indicadores de saúde.
-* <i class="bi bi-check2-circle text-success"></i> **Utilizar o pacote `flexdashboard`:** Organizar páginas, linhas, colunas e abas estruturadas com facilidade usando sintaxe R Markdown.
-* <i class="bi bi-check2-circle text-success"></i> **Integrar gráficos interativos com `plotly`:** Adicionar recursos de zoom, seleção de séries temporais e caixas de texto com informações ao passar o cursor (*tooltips*).
-* <i class="bi bi-check2-circle text-success"></i> **Tabelas dinâmicas com `DT` (DataTables):** Permitir busca rápida, filtros por coluna e paginação de casos e estabelecimentos.
-* <i class="bi bi-check2-circle text-success"></i> **Publicação e Compartilhamento:** Gerar arquivos HTML autocontidos que funcionam offline no navegador ou podem ser hospedados em servidores institucionais gratuitos.
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar dashboards:** entender princípios de arquitetura de informação, usabilidade, *cards* de valor e hierarquia visual de indicadores de saúde.
+* <i class="bi bi-check2-circle text-success"></i> **Utilizar o pacote `flexdashboard`:** organizar páginas, linhas, colunas e abas estruturadas com facilidade usando sintaxe R Markdown.
+* <i class="bi bi-check2-circle text-success"></i> **Integrar gráficos interativos com `plotly`:** adicionar recursos de zoom, seleção de séries temporais e caixas de texto com informações ao passar o cursor (*tooltips*).
+* <i class="bi bi-check2-circle text-success"></i> **Tabelas dinâmicas com `DT` (DataTables):** permitir busca rápida, filtros por coluna e paginação de casos e estabelecimentos.
+* <i class="bi bi-check2-circle text-success"></i> **Publicação e compartilhamento:** gerar arquivos HTML autocontidos que funcionam offline no navegador ou podem ser hospedados em servidores institucionais gratuitos.
 
 ---
 

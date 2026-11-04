@@ -82,12 +82,12 @@ O curso **Análises de Séries Temporais aplicadas à Vigilância em Saúde** of
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Estruturação de objetos temporais no R:** Manipular séries diárias, semanais (semanas epidemiológicas padrão SINAN) e mensais com pacotes como `tsibble`, `zoo` e `lubridate`.
-* <i class="bi bi-check2-circle text-success"></i> **Decomposição clássica e moderna:** Separar uma série em componente de tendência, componente sazonal e resíduo aleatório (STL - *Seasonal and Trend decomposition using Loess*).
-* <i class="bi bi-check2-circle text-success"></i> **Avaliação de autocorrelação:** Calcular e interpretar a Função de Autocorrelação (FAC/ACF) e Função de Autocorrelação Parcial (FACP/PACF) para identificar dependência temporal.
-* <i class="bi bi-check2-circle text-success"></i> **Modelos ARIMA e SARIMA:** Ajustar modelos autorregressivos integrados de médias móveis com componentes sazonais para previsão de incidência.
-* <i class="bi bi-check2-circle text-success"></i> **Séries Temporais Interrompidas (ITS):** Avaliar o impacto pontual de campanhas de vacinação, mudanças em protocolos clínicos ou medidas restritivas na trajetória de indicadores de saúde.
-* <i class="bi bi-check2-circle text-success"></i> **Visualização e relatórios de previsão:** Gerar gráficos com intervalos de predição a 80% e 95% para embasar planos de contingência de leitos e insumos.
+* <i class="bi bi-check2-circle text-success"></i> **Estruturação de objetos temporais no R:** manipular séries diárias, semanais (semanas epidemiológicas padrão SINAN) e mensais com pacotes como `tsibble`, `zoo` e `lubridate`.
+* <i class="bi bi-check2-circle text-success"></i> **Decomposição clássica e moderna:** separar uma série em componente de tendência, componente sazonal e resíduo aleatório (STL - *Seasonal and Trend decomposition using Loess*).
+* <i class="bi bi-check2-circle text-success"></i> **Avaliação de autocorrelação:** calcular e interpretar a Função de Autocorrelação (FAC/ACF) e Função de Autocorrelação Parcial (FACP/PACF) para identificar dependência temporal.
+* <i class="bi bi-check2-circle text-success"></i> **Modelos ARIMA e SARIMA:** ajustar modelos autorregressivos integrados de médias móveis com componentes sazonais para previsão de incidência.
+* <i class="bi bi-check2-circle text-success"></i> **Séries Temporais Interrompidas (ITS):** avaliar o impacto pontual de campanhas de vacinação, mudanças em protocolos clínicos ou medidas restritivas na trajetória de indicadores de saúde.
+* <i class="bi bi-check2-circle text-success"></i> **Visualização e relatórios de previsão:** gerar gráficos com intervalos de predição a 80% e 95% para embasar planos de contingência de leitos e insumos.
 
 ---
 

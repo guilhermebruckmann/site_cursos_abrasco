@@ -82,12 +82,12 @@ O curso avançado **Estatística Espacial aplicada à Vigilância em Saúde** le
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceitos de dependência espacial:** Primeira Lei da Geografia de Tobler e seus desdobramentos na dinâmica de transmissão de doenças.
-* <i class="bi bi-check2-circle text-success"></i> **Matrizes de vizinhança espacial:** Construir matrizes de contiguidade (critério rainha e torre) e matrizes baseadas em distância e k-vizinhos mais próximos com o pacote `spdep`.
-* <i class="bi bi-check2-circle text-success"></i> **Índice Global de Moran ($I$):** Testar a hipótese de aleatoriedade espacial versus agregação em todo o território.
-* <i class="bi bi-check2-circle text-success"></i> **Indicadores Locais de Associação Espacial (LISA):** Gerar mapas de clusters espaciais (Alto-Alto, Baixo-Baixo, Alto-Baixo e Baixo-Alto) para priorização territorial de intervenções.
-* <i class="bi bi-check2-circle text-success"></i> **Suavização Bayesiana Empírica (Local e Global):** Corrigir a instabilidade de taxas em pequenas áreas através do encolhimento bayesiano (*shrinkage*).
-* <i class="bi bi-check2-circle text-success"></i> **Detecção de aglomerados pontuais (*Point Pattern Analysis*):** Estimação de densidade de Kernel (*Kernel Density Estimation*) e detecção de conglomerados com estatística scan.
+* <i class="bi bi-check2-circle text-success"></i> **Conceitos de dependência espacial:** compreensão da Primeira Lei da Geografia de Tobler e seus desdobramentos na dinâmica de transmissão de doenças.
+* <i class="bi bi-check2-circle text-success"></i> **Matrizes de vizinhança espacial:** construir matrizes de contiguidade (critério rainha e torre) e matrizes baseadas em distância e k-vizinhos mais próximos com o pacote `spdep`.
+* <i class="bi bi-check2-circle text-success"></i> **Índice Global de Moran ($I$):** testar a hipótese de aleatoriedade espacial versus agregação em todo o território.
+* <i class="bi bi-check2-circle text-success"></i> **Indicadores Locais de Associação Espacial (LISA):** gerar mapas de clusters espaciais (Alto-Alto, Baixo-Baixo, Alto-Baixo e Baixo-Alto) para priorização territorial de intervenções.
+* <i class="bi bi-check2-circle text-success"></i> **Suavização Bayesiana Empírica (Local e Global):** corrigir a instabilidade de taxas em pequenas áreas por meio do encolhimento bayesiano (*shrinkage*).
+* <i class="bi bi-check2-circle text-success"></i> **Detecção de aglomerados pontuais (*Point Pattern Analysis*):** estimação de densidade de Kernel (*Kernel Density Estimation*) e detecção de conglomerados com estatística scan.
 
 ---
 

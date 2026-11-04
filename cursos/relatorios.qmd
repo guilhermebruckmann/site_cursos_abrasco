@@ -84,11 +84,11 @@ Utilizando a linguagem de programação R e o ecossistema R Markdown / Quarto, v
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceituar documentos dinâmicos e computação reprodutível:** Compreender como funcionam blocos de código (*code chunks*), sintaxe Markdown e cabeçalho YAML.
-* <i class="bi bi-check2-circle text-success"></i> **Automatizar a produção de boletins epidemiológicos:** Inserir métricas calculadas em linha (*inline code*) que se atualizam sozinhas.
-* <i class="bi bi-check2-circle text-success"></i> **Inserir tabelas formatadas para publicação:** Usar pacotes como `knitr::kable`, `kableExtra` ou `gt` com estilos profissionais.
-* <i class="bi bi-check2-circle text-success"></i> **Exportar para múltiplos formatos:** Gerar documentos prontos em `.html` interativo, `.pdf` para impressão ou `.docx` para edição corporativa.
-* <i class="bi bi-check2-circle text-success"></i> **Parametrização de relatórios:** Gerar relatórios específicos por município, distrito sanitário ou agravo com um único script.
+* <i class="bi bi-check2-circle text-success"></i> **Conceituar documentos dinâmicos e computação reprodutível:** compreender como funcionam blocos de código (*code chunks*), sintaxe Markdown e cabeçalho YAML.
+* <i class="bi bi-check2-circle text-success"></i> **Automatizar a produção de boletins epidemiológicos:** inserir métricas calculadas em linha (*inline code*) que se atualizam sozinhas.
+* <i class="bi bi-check2-circle text-success"></i> **Inserir tabelas formatadas para publicação:** usar pacotes como `knitr::kable`, `kableExtra` ou `gt` com estilos profissionais.
+* <i class="bi bi-check2-circle text-success"></i> **Exportar para múltiplos formatos:** gerar documentos prontos em `.html` interativo, `.pdf` para impressão ou `.docx` para edição corporativa.
+* <i class="bi bi-check2-circle text-success"></i> **Parametrização de relatórios:** gerar relatórios específicos por município, distrito sanitário ou agravo com um único script.
 
 ---
 

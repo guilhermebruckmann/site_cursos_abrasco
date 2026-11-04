@@ -82,11 +82,11 @@ Ao produzir mapas temáticos que colorem ou sombreiam um conjunto de áreas terr
 
 Ao final deste curso, você será capaz de:
 
-* <i class="bi bi-check2-circle text-success"></i> **Conceitos fundamentais de cartografia e geoprocessamento:** Sistemas de coordenadas, projeções cartográficas e tipos de feições (pontos, linhas, polígonos).
-* <i class="bi bi-check2-circle text-success"></i> **Manipulação de dados espaciais no R:** Utilizar pacotes modernos como `sf` (simple features) e `geobr` para download de malhas oficiais do IBGE.
-* <i class="bi bi-check2-circle text-success"></i> **Cruzamento de dados epidemiológicos com malhas territoriais:** Associar bancos do DATASUS às geometrias municipais e de bairros por meio do código IBGE.
-* <i class="bi bi-check2-circle text-success"></i> **Mapas coropléticos:** Configurar quebras de classe (quantis, intervalos iguais, desvios), paletas de cores perceptualmente uniformes e legendas informativas.
-* <i class="bi bi-check2-circle text-success"></i> **Mapas de pontos:** Plotar casos georreferenciados ou estabelecimentos de saúde no território.
+* <i class="bi bi-check2-circle text-success"></i> **Conceitos fundamentais de cartografia e geoprocessamento:** sistemas de coordenadas, projeções cartográficas e tipos de feições (pontos, linhas, polígonos).
+* <i class="bi bi-check2-circle text-success"></i> **Manipulação de dados espaciais no R:** utilizar pacotes modernos como `sf` (simple features) e `geobr` para download de malhas oficiais do IBGE.
+* <i class="bi bi-check2-circle text-success"></i> **Cruzamento de dados epidemiológicos com malhas territoriais:** associar bancos do DATASUS às geometrias municipais e de bairros por meio do código IBGE.
+* <i class="bi bi-check2-circle text-success"></i> **Mapas coropléticos:** configurar quebras de classe (quantis, intervalos iguais, desvios), paletas de cores perceptualmente uniformes e legendas informativas.
+* <i class="bi bi-check2-circle text-success"></i> **Mapas de pontos:** plotar casos georreferenciados ou estabelecimentos de saúde no território.
 
 ---
 
