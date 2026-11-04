@@ -25,38 +25,11 @@ body {
    Two-Tier Stacked Header (Title on Top, Navigation Below)
    ========================================================== */
 .navbar-brand-logo,
-a.navbar-brand.navbar-brand-logo {
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  width: 44px !important;
-  height: 44px !important;
-  max-width: 44px !important;
-  max-height: 44px !important;
-  flex: 0 0 44px !important;
-  margin: 0 0.85rem 0 0 !important;
-  padding: 0 !important;
-}
-
+a.navbar-brand.navbar-brand-logo,
 .navbar-logo,
 img.navbar-logo,
 .navbar-brand-logo img {
-  display: inline-block !important;
-  width: 44px !important;
-  height: 44px !important;
-  max-width: 44px !important;
-  max-height: 44px !important;
-  min-width: 44px !important;
-  min-height: 44px !important;
-  object-fit: contain !important;
-  flex-shrink: 0 !important;
-  filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35));
-  transition: transform 0.2s ease;
-}
-
-.navbar-brand-logo:hover img,
-.navbar-brand:hover .navbar-logo {
-  transform: scale(1.06);
+  display: none !important;
 }
 
 .navbar {
@@ -78,7 +51,9 @@ img.navbar-logo,
   .navbar-brand-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0 !important;
+    width: 100%;
     
     @media (min-width: 992px) {
       width: 100%;
@@ -89,30 +64,19 @@ img.navbar-logo,
 
     @media (max-width: 991.98px) {
       padding: 0.85rem 0;
+      justify-content: center;
       flex-grow: 1;
     }
 
     .navbar-brand {
       color: #ffffff !important;
       display: inline-flex;
+      flex-direction: column;
       align-items: center;
-      gap: 0.9rem;
-      margin: 0;
+      justify-content: center;
+      margin: 0 auto;
       text-decoration: none;
-
-      .navbar-logo {
-        width: 44px;
-        height: 44px;
-        max-height: 44px;
-        max-width: 44px;
-        object-fit: contain;
-        filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35));
-        transition: transform 0.2s ease;
-      }
-
-      &:hover .navbar-logo {
-        transform: scale(1.04);
-      }
+      text-align: center;
 
       .navbar-title {
         color: #ffffff;
