@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-46f66b053e56abd73bb6e954d61a315b.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d8ad03f6b9ca1c3aaea405d125142ee7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b8535b986f3d628ab45c1a5bb84f0293.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Nenhum resultado",
@@ -198,13 +198,13 @@ ul.task-list li input[type="checkbox"] {
 
   <details class="faq-item" open="">
     <summary class="faq-question">
-      <span>Qual a diferença entre "Inscrever-se com Certificado" e "Acessar Moodle Livre"?</span>
+      <span>Qual a diferença entre "Inscrever-se com Certificado" e "Acessar Ambiente Virtual"?</span>
       <i class="bi bi-chevron-down faq-icon"></i>
     </summary>
     <div class="faq-answer">
       <p><strong>Inscrição no Sistema da UFSC (<code>inscricoes.ufsc.br</code>):</strong> é o cadastro formal de extensão universitária. Ao se inscrever por esta via e atingir o aproveitamento mínimo exigido nas avaliações do curso (nota igual ou superior a 7,0), você terá direito ao <strong>certificado oficial emitido pela Universidade Federal de Santa Catarina (UFSC)</strong>, com código de autenticação digital e carga horária válida para progressão funcional, concursos e currículo Lattes.</p>
 
-      <p><strong>Acesso Livre ao Moodle (<code>grupos.moodle.ufsc.br</code>):</strong> permite navegar imediatamente por todas as videoaulas, textos e scripts do curso como ouvinte, sem a necessidade de formalização prévia de inscrição no portal institucional. Esta modalidade <em>não</em> emite certificado de extensão.</p>
+      <p><strong>Acesso Livre ao Ambiente Virtual (<code>grupos.moodle.ufsc.br</code>):</strong> permite navegar imediatamente por todas as videoaulas, textos e scripts do curso como ouvinte, sem a necessidade de formalização prévia de inscrição no portal institucional. Esta modalidade <em>não</em> emite certificado de extensão.</p>
     </div>
   </details>
 
@@ -324,9 +324,8 @@ ul.task-list li input[type="checkbox"] {
       var titleSpan = document.querySelector(".navbar-title");
       if (titleSpan && !titleSpan.getAttribute("data-refined")) {
         titleSpan.setAttribute("data-refined", "true");
-        titleSpan.innerHTML = '<span class="brand-top">Cursos Integrados</span>' +
-                              '<span class="brand-mid">de</span>' +
-                              '<span class="brand-bottom">Vigilância em Saúde</span>';
+        titleSpan.innerHTML = '<span class="brand-title-main">Cursos Integrados de Vigilância em Saúde</span>' +
+                              '<span class="brand-subtitle">Formação em análise de dados para a vigilância</span>';
       }
     }
     refineNavbarLogo();

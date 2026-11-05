@@ -33,6 +33,7 @@ Dedicação Sugerida
 :::
 ::: {.meta-item-val}
 <i class="bi bi-calendar3 text-primary"></i> 6 semanas
+<span class="meta-item-subtext">(o aluno pode definir seu tempo de curso, mais rápido ou mais longo que o sugerido)</span>
 :::
 :::
 
@@ -65,7 +66,7 @@ Certificação
     <i class="bi bi-award-fill"></i> Inscrição com Certificado (UFSC)
   </a>
   <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4714" target="_blank" class="btn btn-action-moodle">
-    <i class="bi bi-unlock-fill"></i> Acessar Moodle Livre
+    <i class="bi bi-unlock-fill"></i> Acessar Ambiente Virtual
   </a>
 </div>
 :::
@@ -94,7 +95,7 @@ O curso está organizado em **5 módulos densos e práticos**, abordando as trê
 
 ::: {.callout-note appearance="simple"}
 ### Preparação Recomendada
-Para seguir com este curso você deve conhecer as ferramentas básicas para uso da linguagem R e do RStudio, além de possuir conhecimentos básicos de rotinas de análises de dados. Caso você ainda não tenha contato prévio com o R, recomendamos iniciar pelo [Análise de Dados para a Vigilância em Saúde – Curso Básico](curso-basico.qmd), que é 100% gratuito e apresenta todo o passo a passo inicial.
+Não há pré-requisitos para você se inscrever nesse curso. No entanto, é importante você conhecer previamente as ferramentas básicas para uso da linguagem R e do RStudio, além de possuir conhecimentos básicos de rotinas de análises de dados. Caso você ainda não tenha contato prévio com o R, recomendamos iniciar pelo [Análise de Dados para a Vigilância em Saúde – Curso Básico](curso-basico.qmd), que é 100% gratuito e apresenta todo o passo a passo inicial.
 :::
 
 ::: {.d-flex .justify-content-center .gap-3 .mt-4 .mb-5 .flex-wrap}
@@ -102,6 +103,6 @@ Para seguir com este curso você deve conhecer as ferramentas básicas para uso 
   <i class="bi bi-award-fill"></i> Inscreva-se com Certificado UFSC
 </a>
 <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4714" target="_blank" class="btn btn-action-moodle px-4 py-2">
-  <i class="bi bi-unlock-fill"></i> Entrar no Moodle Livre
+  <i class="bi bi-unlock-fill"></i> Entrar no Ambiente Virtual
 </a>
 :::

@@ -10,16 +10,8 @@ page-layout: full
     <div class="hero-top-row">
       <div class="hero-title-group">
         <p class="hero-subtitle">
-          Qualificação profissional em análise de dados com R para o SUS. 100% gratuito, autoinstrucional e com certificação universitária oficial da UFSC.
+          Qualificação profissional em análise de dados com R para o SUS. 100% gratuito e com certificação universitária oficial da UFSC.
         </p>
-      </div>
-      <div class="hero-actions-compact">
-        <a href="#catalogo" class="btn btn-primary-hero">
-          <i class="bi bi-grid-3x3-gap-fill"></i> Ver os 10 Cursos
-        </a>
-        <a href="sobre.html" class="btn btn-secondary-hero">
-          <i class="bi bi-info-circle"></i> Sobre o Projeto
-        </a>
       </div>
     </div>
 
@@ -84,7 +76,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3900" target="_blank" title="Acesso livre como visitante com login GOV.br">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -121,7 +113,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4350" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -158,7 +150,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4714" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -195,7 +187,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=4877" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -205,7 +197,7 @@ page-layout: full
     <!-- CURSO 5: Visualização de Dados -->
     <div class="course-card-udemy">
       <div class="course-card-thumb">
-        <span class="badge-udemy badge-core">Trilha Fundamental</span>
+        <span class="badge-udemy badge-theme">TRILHA TEMÁTICA</span>
         <span class="badge-hours-pill"><i class="bi bi-clock"></i> 15h</span>
         <a href="cursos/visualizacao.html">
           <img src="assets/images/courses/visualizacao.jpg" alt="Visualização de Dados de Interesse para a Vigilância em Saúde">
@@ -232,7 +224,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3901" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -242,7 +234,7 @@ page-layout: full
     <!-- CURSO 6: Relatórios Automatizados -->
     <div class="course-card-udemy">
       <div class="course-card-thumb">
-        <span class="badge-udemy badge-core">Trilha Fundamental</span>
+        <span class="badge-udemy badge-theme">TRILHA TEMÁTICA</span>
         <span class="badge-hours-pill"><i class="bi bi-clock"></i> 15h</span>
         <a href="cursos/relatorios.html">
           <img src="assets/images/courses/relatorios.jpg" alt="Produção Automatizada de Relatórios na Vigilância em Saúde">
@@ -269,7 +261,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3902" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -279,7 +271,7 @@ page-layout: full
     <!-- CURSO 7: Análise Espacial Básica -->
     <div class="course-card-udemy">
       <div class="course-card-thumb">
-        <span class="badge-udemy badge-special">Especialização</span>
+        <span class="badge-udemy badge-theme">TRILHA TEMÁTICA</span>
         <span class="badge-hours-pill"><i class="bi bi-clock"></i> 15h</span>
         <a href="cursos/analise-espacial.html">
           <img src="assets/images/courses/analise-espacial.jpg" alt="Análise Espacial de Dados para a Vigilância em Saúde">
@@ -306,7 +298,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3905" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -316,7 +308,7 @@ page-layout: full
     <!-- CURSO 8: Dashboards -->
     <div class="course-card-udemy">
       <div class="course-card-thumb">
-        <span class="badge-udemy badge-special">Especialização</span>
+        <span class="badge-udemy badge-theme">TRILHA TEMÁTICA</span>
         <span class="badge-hours-pill"><i class="bi bi-clock"></i> 15h</span>
         <a href="cursos/dashboards.html">
           <img src="assets/images/courses/dashboards.jpg" alt="Construção de Painéis (Dashboards) para Monitoramento de Indicadores de Saúde">
@@ -343,7 +335,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3906" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -353,7 +345,7 @@ page-layout: full
     <!-- CURSO 9: Linkage de Bases -->
     <div class="course-card-udemy">
       <div class="course-card-thumb">
-        <span class="badge-udemy badge-special">Especialização</span>
+        <span class="badge-udemy badge-theme">TRILHA TEMÁTICA</span>
         <span class="badge-hours-pill"><i class="bi bi-clock"></i> 15h</span>
         <a href="cursos/linkage.html">
           <img src="assets/images/courses/linkage.jpg" alt="Linkage de Bases de Dados de Saúde">
@@ -380,7 +372,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3904" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -390,7 +382,7 @@ page-layout: full
     <!-- CURSO 10: Diagramas de Controle -->
     <div class="course-card-udemy">
       <div class="course-card-thumb">
-        <span class="badge-udemy badge-special">Especialização</span>
+        <span class="badge-udemy badge-theme">TRILHA TEMÁTICA</span>
         <span class="badge-hours-pill"><i class="bi bi-clock"></i> 15h</span>
         <a href="cursos/diagramas.html">
           <img src="assets/images/courses/diagramas.jpg" alt="Construção de Diagramas de Controle na Vigilância em Saúde">
@@ -417,7 +409,7 @@ page-layout: full
               <i class="bi bi-award"></i> Certificado UFSC
             </a>
             <a href="https://grupos.moodle.ufsc.br/course/view.php?id=3903" target="_blank">
-              <i class="bi bi-unlock"></i> Moodle Livre
+              <i class="bi bi-unlock"></i> Ambiente Virtual
             </a>
           </div>
         </div>
@@ -432,7 +424,7 @@ page-layout: full
       <i class="bi bi-info-circle-fill"></i> Todos os cursos possuem dois modos de acesso:
     </div>
     <p class="callout-access-text">
-      Você pode escolher entre se inscrever no curso por meio do moodle da Universidade Federal de Santa Catarina para realizar as atividades avaliativas e emitir certificado de extensão universitária oficial ou acessar o Moodle como visitante utilizando o seu usuário e senha do GOV.br para ter acesso a todos os conteúdos de forma gratuita.
+      Você pode se inscrever pelo sistema da Universidade Federal de Santa Catarina para realizar as avaliações e emitir certificado oficial de extensão universitária. Alternativamente, é possível acessar o Ambiente Virtual diretamente como visitante utilizando sua conta GOV.br para consultar todos os conteúdos gratuitamente.
     </p>
   </div>
 
