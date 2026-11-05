@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bg5B" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2540" />
+      <stop offset="100%" stop-color="#006699" />
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.25)" />
+      <stop offset="100%" stop-color="rgba(56, 189, 248, 0.08)" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#bg5B)" />
+  <!-- Lupa sob o R -->
+  <circle cx="14" cy="13.5" r="8" fill="url(#lensGrad)" stroke="#38bdf8" stroke-width="2" />
+  <path d="M 19.8 19.3 L 26 25.5" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 20.2 19.8 L 24.8 24.4" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+  <!-- R em vetor puro 100% nítido -->
+  <path d="M 10.5 8.5 L 15.2 8.5 C 17.6 8.5 19.2 9.7 19.2 11.6 C 19.2 13.1 18.1 14.1 16.6 14.4 L 19.5 18.5 L 16.7 18.5 L 14.1 14.7 L 12.8 14.7 L 12.8 18.5 L 10.5 18.5 Z M 12.8 10.4 L 12.8 12.8 L 14.8 12.8 C 16 12.8 16.8 12.3 16.8 11.6 C 16.8 10.9 16 10.4 14.8 10.4 Z" fill="#ffffff" />
+  <!-- Ponto focal luminoso -->
+  <circle cx="21" cy="7" r="1.8" fill="#38bdf8" />
+</svg>

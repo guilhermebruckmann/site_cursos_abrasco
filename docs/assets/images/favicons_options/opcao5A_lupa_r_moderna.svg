@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="bg5A" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062238" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#bg5A)" />
+  <!-- Lente da lupa (sob o R) -->
+  <circle cx="14" cy="13.5" r="8" fill="rgba(56, 189, 248, 0.16)" stroke="#38bdf8" stroke-width="2" />
+  <!-- Brilho reflexo da lente -->
+  <path d="M 9.5 11 A 5.5 5.5 0 0 1 14 8" fill="none" stroke="rgba(255, 255, 255, 0.75)" stroke-width="1.3" stroke-linecap="round" />
+  <!-- Cabo da lupa -->
+  <path d="M 20 19.5 L 26 25.5" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" />
+  <path d="M 20.5 20 L 25 24.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" />
+  <!-- Letra R em destaque sobre a lente -->
+  <text x="14" y="18.5" font-family="'Inter', -apple-system, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="14" text-anchor="middle" fill="#ffffff" style="letter-spacing:-0.5px;">R</text>
+</svg>
